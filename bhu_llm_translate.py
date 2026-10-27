@@ -43,7 +43,7 @@ TEXT_KEYS = {
     "caption", "message", "hint", "note", "flavor", "lore", "entry",
     "body", "content", "line", "reply", "response", "instruction", "blurb",
     "highlights", "lines", "ask", "answer", "appearance", "offer",
-    "welcome", "nannyHello", "arrears", "paid", "evicted", "guidance", "clothes"
+    "welcome", "nannyHello", "arrears", "paid", "evicted", "guidance", "clothes", "Personality"
 }
 
 # 絕對不要翻的欄位
@@ -151,11 +151,23 @@ def _is_text_key(key: str) -> bool:
     return any(tk in k for tk in ("name", "title", "desc", "bio", "text", "def"))
 
 
+def _looks_like_id(s: str) -> bool:
+    """值看起來像識別字（小寫、連字號、無空格）就不翻。"""
+    t = s.strip()
+    if not t or " " in t:
+        return False
+    # 純小寫字母、數字、連字號、底線
+    return bool(re.fullmatch(r"[a-z0-9_\-]+", t))
+
+
 def _worth(s: str, force: bool = False) -> bool:
     t = s.strip()
     if len(t) < 2:
         return False
     if t.isdigit():
+        return False
+    # 即使是 TEXT_KEYS，值像 ID 也不翻（如 college: "engineering"）
+    if _looks_like_id(t):
         return False
     # TEXT_KEYS 明確列出的欄位，單字也要翻（如 answer: "Iscara"）
     if force:

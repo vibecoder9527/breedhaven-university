@@ -33,7 +33,7 @@
     {
       "code": "POL",
       "subject": "政府與公共行政",
-      "college": "政府與法律",
+      "college": "government-and-law",
       "general": false,
       "stats": [
         "charisma",
@@ -252,7 +252,7 @@
     {
       "code": "LAW",
       "subject": "法律",
-      "college": "政府與法律學院",
+      "college": "government-and-law",
       "general": false,
       "stats": [
         "charisma",
@@ -471,7 +471,7 @@
     {
       "code": "BUS",
       "subject": "商學",
-      "college": "商學院",
+      "college": "business",
       "general": false,
       "stats": [
         "intelligence"
@@ -693,7 +693,7 @@
     {
       "code": "CUL",
       "subject": "烹飪藝術與釀造",
-      "college": "商學",
+      "college": "business",
       "general": false,
       "stats": [
         "charisma",
@@ -922,7 +922,7 @@
     {
       "code": "BLM",
       "subject": "繁茂學",
-      "college": "繁茂研究與神學學院",
+      "college": "bloom-studies-and-divinity",
       "general": false,
       "stats": [
         "intelligence",
@@ -1150,7 +1150,7 @@
     {
       "code": "WTC",
       "subject": "巫術",
-      "college": "繁茂研究與神學學院",
+      "college": "bloom-studies-and-divinity",
       "general": false,
       "stats": [
         "intelligence",
@@ -1390,7 +1390,7 @@
     {
       "code": "MEN",
       "subject": "魔法工程學",
-      "college": "工程學",
+      "college": "engineering",
       "general": false,
       "stats": [
         "intelligence",
@@ -1727,7 +1727,7 @@
     {
       "code": "SGN",
       "subject": "種源遺傳學",
-      "college": "生命科學與農業",
+      "college": "life-sciences-and-agriculture",
       "general": false,
       "stats": [
         "intelligence"
@@ -1957,7 +1957,7 @@
     {
       "code": "KIN",
       "subject": "運動生理學與運動",
-      "college": "公共安全與體育",
+      "college": "public-safety-and-athletics",
       "general": false,
       "stats": [
         "strength",
@@ -2301,7 +2301,7 @@
     {
       "code": "PSF",
       "subject": "公共安全",
-      "college": "公共安全與體育",
+      "college": "public-safety-and-athletics",
       "general": false,
       "stats": [
         "wisdom"
@@ -2531,7 +2531,7 @@
     {
       "code": "WOM",
       "subject": "女性研究",
-      "college": "文學院",
+      "college": "arts-and-humanities",
       "general": false,
       "stats": [
         "wisdom",
@@ -2751,7 +2751,7 @@
     {
       "code": "EDU",
       "subject": "教育與育兒",
-      "college": "文學院",
+      "college": "arts-and-humanities",
       "general": true,
       "stats": [
         "wisdom",
@@ -2867,7 +2867,7 @@
     {
       "code": "COM",
       "subject": "媒體與傳播",
-      "college": "文學院",
+      "college": "arts-and-humanities",
       "general": false,
       "stats": [
         "charisma",
@@ -3092,7 +3092,7 @@
     {
       "code": "HHS",
       "subject": "家政學",
-      "college": "商學院",
+      "college": "business",
       "general": true,
       "stats": [
         "charisma",
@@ -3201,7 +3201,7 @@
     {
       "code": "BPS",
       "subject": "Bloom 心理學",
-      "college": "繁茂研究與神學學院",
+      "college": "bloom-studies-and-divinity",
       "general": true,
       "stats": [
         "wisdom",
@@ -3317,7 +3317,7 @@
     {
       "code": "CSC",
       "subject": "電腦科學",
-      "college": "工程學院",
+      "college": "engineering",
       "general": false,
       "stats": [
         "intelligence"
@@ -3528,7 +3528,7 @@
     {
       "code": "MTH",
       "subject": "微積分與統計學",
-      "college": "工程學院",
+      "college": "engineering",
       "general": true,
       "stats": [
         "intelligence"
@@ -3643,7 +3643,7 @@
     {
       "code": "PTH",
       "subject": "胎前奇術",
-      "college": "生命科學與農業學院",
+      "college": "life-sciences-and-agriculture",
       "general": true,
       "stats": [
         "intelligence",
@@ -3757,7 +3757,7 @@
     {
       "code": "RBI",
       "subject": "生殖生物學",
-      "college": "生命科學與農業學院",
+      "college": "life-sciences-and-agriculture",
       "general": true,
       "stats": [
         "intelligence",
@@ -3877,7 +3877,7 @@
     {
       "code": "ART",
       "subject": "工作室藝術",
-      "college": "文學院",
+      "college": "arts-and-humanities",
       "general": true,
       "stats": [
         "dexterity",
@@ -3999,7 +3999,7 @@
     {
       "code": "ENG",
       "subject": "英文",
-      "college": "文學院",
+      "college": "arts-and-humanities",
       "general": true,
       "stats": [
         "intelligence"
@@ -4114,7 +4114,7 @@
     {
       "code": "GEO",
       "subject": "播種平原的民族與政治",
-      "college": "文學院",
+      "college": "arts-and-humanities",
       "general": true,
       "stats": [
         "intelligence"
@@ -4233,7 +4233,7 @@
     {
       "code": "HIS",
       "subject": "繁茂之史",
-      "college": "文學院",
+      "college": "arts-and-humanities",
       "general": true,
       "stats": [
         "wisdom"
@@ -4348,7 +4348,7 @@
     {
       "code": "MUS",
       "subject": "音樂",
-      "college": "文學院",
+      "college": "arts-and-humanities",
       "general": true,
       "stats": [
         "charisma"
@@ -4463,7 +4463,7 @@
     {
       "code": "RHE",
       "subject": "修辭與辯論",
-      "college": "文學院",
+      "college": "arts-and-humanities",
       "general": true,
       "stats": [
         "charisma"

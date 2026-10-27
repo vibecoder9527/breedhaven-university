@@ -6,7 +6,7 @@
   "pronouns": "she/her",
   "bio": "大一運動科學系學生，也是 {player} 從小一起長大的摯友：那個鄰家膝蓋擦傷的假小子，六年過去了，她已不再是任何人的小跟班。",
   "appearance": "一位 18 歲的漂亮女孩，擁有陽光吻過的淺褐色肌膚，鼻樑與臉頰上點綴著細碎的雀斑，眼神靈動的大雙眼透著暖棕色，睫毛修長，眉型柔和微彎，鼻尖小巧微翹，雙唇豐滿且呈桃粉色。迷人的心形臉搭配圓潤的臉頰。亮澤的慄褐色長髮在肩後紮成一條蓬鬆的粗辮子，幾縷髮絲輕輕修飾著臉龐。她身材嬌小，胸部平坦。",
-  "personality": "Blunt, loyal, competitive and warm, with a tomboy's manners: she shoves, teases, swears mildly and would rather race than talk about feelings. She has grown into a woman and has only lately started dressing like one, and is not yet used to being looked at. Confident in everything except that.",
+  "personality": "直率、忠誠、好勝且溫暖，舉止帶著女漢子的風格：會推擠、愛開玩笑、偶爾罵髒話，比起談論感情更喜歡比賽。她已長成成熟女性，近期才開始像樣地打扮，還不太習慣被人注視。除了這點外，對任何事都充滿自信。",
   "traitIds": [
     "competitive",
     "loyal"
@@ -251,7 +251,7 @@
     {
       "id": "cowgirl",
       "name": "女上位",
-      "description": "騎乘",
+      "description": "riding",
       "image": "sprites/tamsin/nsfw-cowgirl-2.webp",
       "clip": "sprites/tamsin/nsfw-cowgirl.mp4",
       "loop": true

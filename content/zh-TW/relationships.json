@@ -92,19 +92,19 @@
     },
     {
       "id": "friendly",
-      "name": "友好",
+      "name": "friendly",
       "min": 15,
       "description": "你喜歡她，與她相處時感到自在。"
     },
     {
       "id": "close",
-      "name": "親近",
+      "name": "close",
       "min": 30,
       "description": "你信任她，會主動找她，你們之間有一種超越友誼的溫暖。"
     },
     {
       "id": "intimate",
-      "name": "親密",
+      "name": "intimate",
       "min": 60,
       "description": "你被她吸引，並對她展現出明顯的愛意。"
     }
