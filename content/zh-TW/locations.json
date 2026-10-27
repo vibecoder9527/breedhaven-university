@@ -1,0 +1,1060 @@
+[
+  {
+    "id": "great-court",
+    "name": "大庭院",
+    "icon": "columns",
+    "description": "位於大學核心地帶的階梯式庭院，所有的路徑在此交匯，每個人遲早都會經過這裡。古老的鐘聲依然為授課時間鳴響，總是比大家的智慧型手機快一步。社團在佈告欄貼滿傳單，並在此舉辦市集；學生在課間坐在階梯上用餐、聊天，觀察誰和誰一起走過。校園接駁車是一輛配備傳送陣的電動巴士，停在階梯底部。這裡白天熱鬧繁忙，入夜後則歸於寧靜：是一個展示自我、偶遇他人，以及在前往他處前會合的好地方。",
+    "appearance": "一座位於古老大學中心的寬闊階梯式庭院，由淡金色石材建成，寬闊的階梯在三層草坪與鋪石路之間蜿蜒而上。頂層露臺矗立著一座裝有青銅鐘的高大石製鐘樓，鐘樓基座上掛著一個巨大的發光數位公告板，其上方還疊著許多色彩繽紛的紙質傳單。兩側是帶有尖拱的石製拱廊，內部由漂浮的琥珀色守護燈照亮。階梯底部，一輛流線型的白色電動接駁巴士停在站點，車底閃爍著一圈藍色符文。石製植栽槽中種著古樹，鐵製燈柱頂端裝有發光水晶，旁邊還有腳踏車停放架。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/great-court/default-day.webp",
+          "night": "generated/backgrounds/great-court/default-night.webp"
+        }
+      },
+      {
+        "id": "first-frost",
+        "name": "初霜節",
+        "images": {
+          "day": "generated/backgrounds/great-court/first-frost-day.webp",
+          "night": "generated/backgrounds/great-court/first-frost-night.webp"
+        },
+        "description": "大庭院已為初霜節裝扮一新：拱廊掛著常綠花環與冬青，鐘塔上飾有花圈，階梯上空懸掛著霜藍色的護盾燈，中層階梯上的一棵高大常綠樹掛滿了玻璃裝飾品與小燈籠。草坪上覆蓋著薄霜。"
+      },
+      {
+        "id": "queen-steps-out",
+        "name": "女王步下階梯",
+        "images": {
+          "day": "generated/backgrounds/great-court/queen-steps-out.webp"
+        },
+        "description": "女王的座駕剛抵達階梯底部：一輛珍珠白色的長型豪華轎車，懸浮在鋪著紫色符文環的地面上，女王正從車中走下。"
+      },
+      {
+        "id": "societies-fair",
+        "name": "社團博覽會",
+        "images": {
+          "day": "generated/backgrounds/great-court/societies-fair.webp"
+        },
+        "description": "庭院正舉辦著社團博覽會：旗幟與彩帶下圍繞著一圈長桌，每個社團都有一張桌子，上面擺放著傳單、報名錶和贈品，繁茂主義與自由意志的桌子分別設在兩端。"
+      }
+    ],
+    "indoors": false,
+    "private": false,
+    "drills": [
+      {
+        "stat": "charisma",
+        "title": "在階梯上與人群攀談",
+        "description": "你在露臺階梯找個位子坐下，開始與坐在你附近的人攀談。"
+      }
+    ],
+    "iconImage": "sprites/icons/places-great-court-cutout.webp"
+  },
+  {
+    "id": "lecture-halls",
+    "name": "演講廳",
+    "icon": "cap",
+    "description": "學院授課之處：七百年歷史的石造大廳，內部佈滿線路，設有階梯式長椅、投影機，牆壁中還裝有實驗級護盾，以防實作課出意外。所有課程都在此進行，每小時一堂講課，實驗課則為三小時一節，從早上八點持續到下午六點。課間休息時，走廊會隨著鐘聲而人來人往。這裡的話題通常圍繞著剛結束的講課、教授、沒人讀過的課外讀物，以及誰坐在誰旁邊。學生在講課期間會低聲耳語，且被要求保持安靜。",
+    "appearance": "這是一間由淺色古老石材建成的講堂，擁有高聳的尖拱窗與高大的肋架天花板，並配備了現代化的裝置。弧形的深色木製階梯式長椅設有電源插座與小閱讀燈，一路向下延伸至講臺與長型演示臺。天花板上的投影機將明亮的魔法陣圖案投射在寬螢幕上，旁邊是一塊寫滿方程式與符文的黑板。牆壁與門框邊緣閃爍著細長的藍色防護符文。電纜整齊地沿著地板鋪設，講臺上放著一臺開啟中的筆記型電腦。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/lecture-halls/pavilion-day.webp",
+          "night": "generated/backgrounds/lecture-halls/pavilion-night.webp"
+        }
+      }
+    ],
+    "open": {
+      "fromHour": 7,
+      "toHour": 17
+    },
+    "indoors": true,
+    "private": false,
+    "drills": [
+      {
+        "stat": "intelligence",
+        "title": "旁聽公開講課",
+        "description": "你溜進一場不屬於你的講課教室後排，並照樣做筆記。"
+      }
+    ],
+    "iconImage": "sprites/icons/places-lecture-halls-cutout.webp"
+  },
+  {
+    "id": "library",
+    "name": "鎖鏈圖書館",
+    "icon": "book",
+    "description": "鎖鏈圖書館，布里德海文最古老的圖書館。珍貴的書籍仍鎖在書架上，目錄可在每個終端機上查閱。石造閱覽室配有書桌、燈具、插座和訊號不穩的 Wi-Fi，在考試季更是人人爭奪的熱點。這裡只能低聲交談，且由圖書館管理員嚴格執行。人們來此讀書、躲避、在限制書庫查閱資料，或是藉著讀書之名坐在某人身邊。這裡是蒐集情報的好地方。",
+    "appearance": "這是一間非常古老的圖書館內部，擁有高聳的拱形石製天花板，以及成排的高大深色橡木書架。厚重的皮革裝訂書被短鐵鍊固定在書架上。書架之間設有小型的石製閱讀隔間，每個隔間都有一張木製書桌，上面放著一盞綠色燈罩的黃銅燈、一個電源插座和一本翻開的書。每排盡頭的支架上，有一臺發著微光的纖薄觸控式目錄終端機。狹窄的彩色玻璃窗將彩色光芒投射在磨損的石板地板上，柔和的金光微粒在天花板附近飄浮。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/library/cell-day.webp",
+          "night": "generated/backgrounds/library/cell-night.webp"
+        },
+        "indoors": true
+      }
+    ],
+    "open": {
+      "fromHour": 8,
+      "toHour": 21
+    },
+    "indoors": true,
+    "private": false,
+    "drills": [
+      {
+        "stat": "intelligence",
+        "title": "在閱覽室讀書",
+        "description": "你佔據了一個石造閱覽室，拿著燈和一疊書，開始埋頭苦讀。"
+      },
+      {
+        "stat": "wisdom",
+        "title": "閱讀古代哲學家著作",
+        "description": "你取下被鎖住且艱澀的書籍，緩緩閱讀。"
+      }
+    ],
+    "iconImage": "sprites/icons/places-library-cutout.webp"
+  },
+  {
+    "id": "commons",
+    "name": "學生公用空間",
+    "icon": "cloche",
+    "description": "學生公用空間：大學的餐廳與休息室。這裡有長桌、冬季點燃的大壁爐、一日三餐供應的廉價熱食託盤、自動販賣機，以及在課後仍有人帶著筆電坐著的沙發。這裡吵鬧、溫暖且公開；每個人都會在這裡用餐，因此也是訊息傳播與社交聚集之地。社團在傍晚時分於角落聚會。隨意坐在別人的桌旁是很平常的事，不需要邀請。",
+    "appearance": "一間寬敞的大學餐廳與公共休息室，擁有高聳的木製屋頂與粉刷過的石牆。長木桌與長凳橫跨整個房間，桌上擺放著託盤、馬克杯和開啟中的筆電。房間的一端燃燒著巨大的石製壁爐，上方牆面螢幕顯示著今日選單。其中一面牆邊設有不鏽鋼自助餐檯，配備加熱燈與冒著熱氣的菜餚；旁邊是一排燈火通明的自動販賣機，以及一臺帶有發光藍色符文的飲料機。高窗旁的角落擺放著磨損的沙發與矮桌，橫樑間掛著一串串小型的守護燈。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/commons/view.webp"
+        }
+      },
+      {
+        "id": "first-frost",
+        "name": "初霜盛宴",
+        "images": {
+          "day": "generated/backgrounds/commons/first-frost-day.webp",
+          "night": "generated/backgrounds/commons/first-frost-night.webp"
+        },
+        "description": "公用空間已為初霜盛宴裝飾一新：橫樑上掛著常青藤與冬青，長桌鋪上白布並擺滿食物，頭頂懸掛著蠟燭與霜藍色的護盾燈，角落裡有一棵掛滿玻璃裝飾的高大樹木，大壁爐火光熊熊。"
+      }
+    ],
+    "open": {
+      "fromHour": 6,
+      "toHour": 23
+    },
+    "indoors": true,
+    "private": false,
+    "drills": [
+      {
+        "stat": "charisma",
+        "title": "在長桌旁大顯身手",
+        "description": "你坐在滿座的桌子中央，加入爭論之中。"
+      },
+      {
+        "stat": "endurance",
+        "title": "在熱食櫃臺像運動員一樣大吃一頓",
+        "description": "兩份託盤、三份配菜，還有獲得廚房經理認可的食量。"
+      }
+    ],
+    "iconImage": "sprites/icons/places-commons-cutout.webp"
+  },
+  {
+    "id": "chapel",
+    "name": "犁溝禮拜堂",
+    "icon": "chapel",
+    "description": "犁溝禮拜堂，隸屬於「初犁教團」的校園禮拜堂，該教團視「綻放」為神聖。無論是否信徒，任何需要安靜的學生都可以進入。儀式簡短且以歌唱形式進行；穿著綠衣的入教者負責照看蠟燭。「綻放諮商室」設在樓上：免費、保密，且由見多識廣的人員服務，專為那些受「綻放」吸引力困擾的人提供協助。這裡保持低聲細語。人們來到這裡沉思、哀悼、為孩子祈禱，或談論那些無法在別處傾訴的事。",
+    "appearance": "淺色石材建成的校園小教堂內部，寧靜而樸素。一排排簡約的木製長椅面向低矮的祭壇，祭壇上覆著綠布，上方有一塊雕刻著耕地與一顆發芽種子的石雕浮雕。高窄的綠金雙色花窗玻璃將柔和的彩色光影灑落在地板上。黃銅燭臺上的簇簇燭火、裝著新鮮野花的瓶飾，以及繫著絲帶的小麥束。角落處有一座螺旋石梯，通往一扇帶有微光小標誌的木門。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/chapel/view.webp"
+        }
+      }
+    ],
+    "open": {
+      "fromHour": 5,
+      "toHour": 22
+    },
+    "indoors": true,
+    "private": false,
+    "drills": [
+      {
+        "stat": "wisdom",
+        "title": "在禮拜堂靜坐",
+        "description": "你坐在後排的長椅上，讓靜謐發揮作用。"
+      }
+    ],
+    "iconImage": "sprites/icons/places-chapel-cutout.webp"
+  },
+  {
+    "id": "tiltyard",
+    "name": "競技場",
+    "icon": "sword",
+    "description": "大學的運動場，仍沿用舊稱。這裡有一個設有看臺的沙地圓環，可用於三種等級的對決（根據允許使用的魔法量分為：未強化、強化與開放組），還有跑道、看臺下的重量訓練室，以及校園安保學員在黎明時分操練的院落。學期末的競技場決賽就在此舉行。人們來此訓練、切磋、觀賽，並展現自己的專長。汗水、瘀青與直率的競爭是這裡的常態。是鍛鍊力量與耐力的好地方。",
+    "appearance": "一座由石牆圍繞的老舊大學運動場。中心是一個鋪著耙平淺色沙地的圓形競技場，四周環繞著低矮的木製圍欄，兩側設有空蕩蕩的階梯式木製觀眾席，上方覆蓋著綠金相間的帆布遮陽棚。外圍環繞著一圈紅色的塑膠跑道。四角矗立著高大的現代照明燈，旁邊設有電子計分板，競技場圍欄上閃爍著淡淡的藍色防護符文。觀眾席下方擺放著木製練習劍架、重量訓練凳和飲水機。旗桿上掛著印有紋章的旗幟。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/tiltyard/default-day-2.webp",
+          "night": "generated/backgrounds/tiltyard/default-night-2.webp"
+        }
+      }
+    ],
+    "open": {
+      "fromHour": 6,
+      "toHour": 20
+    },
+    "indoors": false,
+    "private": false,
+    "drills": [
+      {
+        "stat": "strength",
+        "title": "擂臺對練",
+        "description": "你穿上護具，踏上沙地。"
+      },
+      {
+        "stat": "dexterity",
+        "title": "靶前劍術操練",
+        "description": "一把練習劍、一排靶子，重複揮劍百次。"
+      },
+      {
+        "stat": "endurance",
+        "title": "跑道繞圈",
+        "description": "你以預定的配速開始繞著跑道奔跑。"
+      }
+    ],
+    "iconImage": "sprites/icons/places-tiltyard-cutout.webp"
+  },
+  {
+    "id": "physic-garden",
+    "name": "藥用植物園",
+    "icon": "leaf",
+    "description": "生命科學與農業學院的圍牆教學花園：種有香草、蔬菜與藥用植物的高架床，上方覆蓋著生長咒語，土壤中插著感測樁，還有溫室與盡頭的一池靜水。農業、釀造與藥劑學的學生在此照料田地；綠色魔法在戶外施展。這裡安靜、隱蔽，帶著泥土芬芳，池邊的長椅是眾所皆知的私密談話地點。黃昏與月光下格外迷人。是鑽研智慧的好去處。",
+    "appearance": "一座有圍牆的教學藥草園，古老的紅磚牆上爬滿了攀緣玫瑰與牆面修剪果樹。整齊的高架植床種滿了香草、蔬菜與開花藥用植物，在碎石小徑間呈網格狀排列，每座植床都標有小標籤，並插著一根頂端閃爍綠光的纖細感測器支柱。部分植床上方懸浮著淡淡閃爍的淡綠色魔法圓頂。高大的豆架、手推車、澆水壺、園藝工作臺。一座沿著牆邊延伸的白色鐵架維多利亞式玻璃溫室，以及池中睡蓮靜謐的池塘與石凳，則位於花園盡頭。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/physic-garden/beds-afternoon.webp",
+          "night": "generated/backgrounds/physic-garden/beds-night.webp"
+        }
+      },
+      {
+        "id": "lantern-festival",
+        "name": "燈節",
+        "images": {
+          "day": "generated/backgrounds/physic-garden/lantern-festival.webp",
+          "night": "generated/backgrounds/physic-garden/lantern-festival.webp"
+        }
+      }
+    ],
+    "indoors": false,
+    "private": false,
+    "drills": [
+      {
+        "stat": "wisdom",
+        "title": "照料花園苗床",
+        "description": "你拿到一把小鏟子和一床幼苗，並被叮囑要專心照料。"
+      },
+      {
+        "stat": "endurance",
+        "title": "挖掘並搬運堆肥",
+        "description": "一把鏟鋤、一輛手推車，以及一堆需要搬移的堆肥。"
+      }
+    ],
+    "iconImage": "sprites/icons/places-physic-garden-cutout.webp"
+  },
+  {
+    "id": "bathhouse",
+    "name": "澡堂",
+    "icon": "droplet",
+    "description": "校園澡堂：拱頂屋簷下有一座溫暖的瓷磚泳池，水源來自大學建立於其上的溫泉，配有現代化的更衣室與置物櫃。洗浴男女混浴且悠閒，依慣例穿著泳裝或裹著浴巾，且無人會盯著看。訓練後的傍晚時分最為熱鬧。水汽與溫水讓人放鬆談吐；這裡的對話比其他地方更緩慢且真誠，適度的注視是被允許的。泳池後方的壁龕更具隱私。",
+    "appearance": "宏偉澡堂的內部，擁有淡色石材的高拱頂天花板，牆面皆鋪滿藍白花紋瓷磚。中心是一個巨大的長方形池，池水呈青綠色且冒著熱氣，底部透出燈光，寬闊的瓷磚階梯通往池中，兩側矗立著石柱。水流從花形雕刻石製噴嘴中湧入池內。空氣中瀰漫著濃厚的蒸汽。木製長凳、疊好的白色毛巾、盆栽蕨類植物，以及壁龕中一排帶有發光鍵盤的現代置物櫃。圓形磨砂燈與天窗灑下柔和的光線。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/bathhouse/the-pool-morning.webp"
+        },
+        "indoors": true
+      }
+    ],
+    "open": {
+      "fromHour": 6,
+      "toHour": 23
+    },
+    "indoors": true,
+    "private": false,
+    "drills": [
+      {
+        "stat": "endurance",
+        "title": "游完來回",
+        "description": "你緩緩進入溫暖的水池，開始計算遊了幾趟。"
+      }
+    ],
+    "iconImage": "sprites/icons/places-bathhouse-cutout.webp"
+  },
+  {
+    "id": "foundry",
+    "name": "鑄造工坊",
+    "icon": "flask",
+    "description": "工程學院的魔法工程實驗室，也是校園內最新的建築：玻璃、鋼鐵，以及擺滿半成品裝置的工作檯；3D 列印機旁就是施法圓陣，還有一個受護盾保護的測試室，牆上掛著告示牌，記錄著距離上次疏散已過了多少天，而這個數字很少能達到兩位數。學生們在這裡製作結合電路與咒語的裝置，並為了為什麼裝置無法運作而爭論不休。安全護目鏡是強制配戴的，但通常都被無視。對於有專案的人來說，這裡開放到很晚。是鍛鍊智力與靈巧度的好地方。",
+    "appearance": "現代魔法工程實驗室的內部，是一座明亮的挑高大廳，由玻璃、鋼樑與拋光混凝土構成。長型工作臺上擠滿了半成品裝置、電路板、電線捲、焊接臺，以及被黃銅夾具固定住的發光晶體。一排 3D 列印機立於地板上繪製的粉筆施法圓陣旁，圓陣上的符文閃爍著橘光。後方有一個配備厚玻璃牆的測試室，四周環繞著脈動著藍光的防護符文。室內還有工具牆、機械手臂、顯示波形的螢幕、懸掛式電纜託盤中的電纜，以及牆上顯示著大數字的電子看板。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/foundry/default-day.webp",
+          "night": "generated/backgrounds/foundry/default-night.webp"
+        }
+      }
+    ],
+    "open": {
+      "fromHour": 8,
+      "toHour": 22
+    },
+    "indoors": true,
+    "private": false,
+    "drills": [
+      {
+        "stat": "intelligence",
+        "title": "除錯他人的專案",
+        "description": "一張工作檯、一個理應運作卻失效的裝置，以及一個用來找出原因的下午。"
+      },
+      {
+        "stat": "dexterity",
+        "title": "在工作檯進行精細焊接",
+        "description": "一個放大鏡、一雙穩定的手，以及一塊焊點如針尖般細小的電路板。"
+      }
+    ],
+    "iconImage": "sprites/icons/places-foundry-cutout.webp"
+  },
+  {
+    "id": "health-centre",
+    "name": "健康中心",
+    "icon": "cross",
+    "description": "生殖健康中心，一間明亮現代的診所。抑制劑（「阻斷劑」）與避孕藥品在櫃檯免費提供，無需詢問理由。提供生育諮詢、產前護理，以及一個受護盾保護、可在監督下受孕的「綻放室」。其實驗室負責執行大學的「種源檢測」。負責管理少數註冊種源的「種源關係辦公室」位於一樓，在一扇沒有招牌的門後。工作人員行事謹慎且俐落。候診室的人們不會互相詢問來此的目的。",
+    "appearance": "一間明亮現代的健康診所接待處，牆面潔白，搭配淺色木材與柔和的綠色裝飾。磨砂玻璃牆前設有一座彎曲的接待櫃檯，上面放著電腦和一盤裝有小盒處方藥的託盤。一排排舒適的候診椅、擺放著傳單的矮桌、盆栽，以及印有盛開花朵徽章的海報。一條通往一側的走廊，兩旁是編號的診室門，走廊盡頭是一扇圓形門，門框環繞著柔和發光的粉紅色符文。一座配有玻璃欄杆的樓梯通往上層。明亮的日光從大窗戶灑入。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/health-centre/default-day.webp",
+          "night": "generated/backgrounds/health-centre/default-night.webp"
+        }
+      },
+      {
+        "id": "maternity",
+        "name": "產後護理室",
+        "images": {},
+        "indoors": true,
+        "description": "這是樓上的產後護理室之一，就在綻放室旁邊：私密、受護盾保護且安靜，配有一張床、一張嬰兒床，以及一張供陪護者休息的椅子。",
+        "appearance": "一間明亮現代診所內的私人產婦病房：鋪著潔白床單、墊高枕頭的病床，旁邊有一個帶輪架子的透明護欄新生兒搖籃，一張扶手椅，一扇掛著淡綠色窗簾的窗戶，白色牆壁與淺色木材，門框周圍閃爍著淡粉色保護符文的光芒，床頭櫃上還有一瓶花。"
+      }
+    ],
+    "open": {
+      "fromHour": 8,
+      "toHour": 20
+    },
+    "indoors": true,
+    "private": false,
+    "drills": [
+      {
+        "stat": "wisdom",
+        "title": "旁聽諮詢講座",
+        "description": "在安靜的房間裡進行公開講座，主題是關於如何與「綻放」共處，以及如何與彼此共處。"
+      }
+    ],
+    "iconImage": "sprites/icons/places-health-centre-cutout.webp"
+  },
+  {
+    "id": "dormitories",
+    "name": "迴廊宿舍",
+    "icon": "bed",
+    "description": "修道院大廳是主要的宿舍區：圍繞著修道院的古老石造建築，內部重新裝修成簡約的現代房間，並分為供八到十二名學生共用廚房與休息室的套房。一、二年級生居住於此。房門需使用學生卡與防護咒開啟。種嗣翼樓是大學安置註冊種嗣的地方，擁有獨立入口與保全櫃檯，這點讓其他宿舍區的人頗有微詞。那裡非常私密：除了住戶或受邀者外，沒人能進入，且關上的房門是不容侵犯的。",
+    "appearance": "大學宿舍的一條走廊：這是一棟古老的石造建築，內部重新裝修成簡約的現代風格。平滑的白牆、淺色木地板，以及帶有連續暖色條狀燈帶的平整天花板。一排編號的臥室門，每扇門旁都有一個發光的小型讀卡機。走廊盡頭通往一間公共休息室，裡面有沙發、配有熱水壺和冰箱的廚房檯面，以及佈滿便條紙的佈告欄。透過高大的拱形窗戶，可以看到石造迴廊與一片綠意盎然的庭院。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/dormitories/default-day-2.webp",
+          "night": "generated/backgrounds/dormitories/default-night-2.webp"
+        },
+        "indoors": true
+      }
+    ],
+    "indoors": true,
+    "private": true,
+    "drills": [],
+    "iconImage": "sprites/icons/places-dormitories-cutout.webp"
+  },
+  {
+    "id": "lantern-row",
+    "name": "燈籠街",
+    "icon": "lantern",
+    "description": "大學門口外的街道，也是學生區的主街：商店上方是公寓，設有電車站，街道兩旁掛著由議會用咒語維持照明的燈籠串。商店多以成對的形式出現，展現出這個國家的特色。Byte & Bloom 販售手機，旁邊的 Arcana 則賣魔杖。Book Nook 提供教科書，隔壁的 Forbidden Shelf 則販售魔法書。花店 Petal & Thorn 與販售孕婦裝的 Cradle 共用牆壁與大部分客源。Velvet 提供剪髮服務，而 Glamour 則負責施加魅惑咒。Petal & Pill 是藥局。轉角處的便利商店 Seven Petals 從不打烊。高年級學生與教職員租住在樓上的公寓，這裡從早到晚都熱鬧非凡，直到酒吧打烊。",
+    "appearance": "大學石造校門外是一條熱鬧的主街，兩旁是狹窄的老舊排屋，一樓是店面，樓上則是公寓。一串串散發著魔法光芒的紙燈籠橫跨街道懸掛著。店面成對排列，掛著手繪招牌，櫥窗展示明亮奪目：手機店緊鄰魔杖店，書店旁是鎖鏈魔導書店，花店旁是孕婦精品店，美髮沙龍旁是閃爍著鏡光的魅力沙龍，轉角處則有一間便利商店，上方掛著發光的七瓣花招牌。一輛流線型的電車在嵌入鵝卵石路面的軌道站臺旁等候。還有腳踏車、咖啡桌和懸掛的花籃。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/lantern-row/default-day.webp",
+          "night": "generated/backgrounds/lantern-row/default-night.webp"
+        }
+      },
+      {
+        "id": "first-frost",
+        "name": "初霜節",
+        "images": {
+          "day": "generated/backgrounds/lantern-row/first-frost-day.webp",
+          "night": "generated/backgrounds/lantern-row/first-frost-night.webp"
+        },
+        "description": "燈籠街正為初霜節裝扮：紙燈籠之間掛著常綠植物與冬青，其間纏繞著霜藍色的防護咒光，每扇店門都掛著花環，人行道旁還有販售熱香蘋果酒與烤栗子的小攤位。"
+      }
+    ],
+    "indoors": false,
+    "private": false,
+    "drills": [
+      {
+        "stat": "charisma",
+        "title": "魅惑燈籠街的店主們",
+        "description": "你沿著街道逐一走訪，一個櫃檯接一個櫃檯，一場對話接一場對話。"
+      }
+    ],
+    "iconImage": "sprites/icons/places-lantern-row-cutout.webp"
+  },
+  {
+    "id": "honeyed-bee-inn",
+    "name": "蜜蜂酒館",
+    "icon": "glass",
+    "description": "蜜蜂酒館是燈籠街上的學生酒吧，建築比大多數學院還要古老。後方的桌子玩著紙牌遊戲，這裡有問答之夜、自家釀造的啤酒、可透過手機點歌的點唱機，樓上還有客房。這裡價格便宜、吵鬧且友善；週六晚上每個人最後都會來到這裡。人們喝酒、調情、小賭一把，並說出一些不經意的話。",
+    "appearance": "老舊學生酒吧的內部，天花板橫樑低矮且色澤深沉，牆麵灰泥凹凸不平，地板則是磨損的木質結構。長長的拋光吧檯配有黃銅啤酒龍頭，後方是透光的酒瓶架，牆上掛著列出艾爾啤酒種類的黑板，以及一塊刻有金色蜜蜂圖案的懸掛木牌。圓桌搭配著款式各異的椅子，其中一張桌上正擺著一副撲克牌，角落裡有一個帶觸控螢幕、閃爍著光芒的點唱機，還有一個掛著「問答之夜」橫幅的小舞臺，旁邊還放著一個飛鏢盤。吊燈與壁爐散發出溫暖的琥珀色光芒，橫樑上點綴著串串裝飾燈，一旁的木製樓梯通往樓上。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/honeyed-bee-inn/default-day.webp",
+          "night": "generated/backgrounds/honeyed-bee-inn/default-night.webp"
+        },
+        "indoors": true
+      }
+    ],
+    "open": {
+      "fromHour": 12,
+      "toHour": 2
+    },
+    "indoors": false,
+    "private": false,
+    "drills": [
+      {
+        "stat": "charisma",
+        "title": "在吧檯講故事",
+        "description": "你在吧檯找個高腳凳坐下，開始講述一個大聲到足以讓接下來三個人都聽到的故事。"
+      },
+      {
+        "stat": "dexterity",
+        "title": "在後桌玩牌",
+        "description": "你被拉進後桌的牌局，那裡的賭注不大，但手腳極快。"
+      }
+    ],
+    "iconImage": "sprites/icons/places-honeyed-bee-inn-cutout.webp"
+  },
+  {
+    "id": "market",
+    "name": "市集廣場",
+    "icon": "crate",
+    "description": "種子開花的舊露天市集，從南門步行即可抵達：遮陽棚如海般延伸，販售繁茂、食物、書籍、二手科技產品以及來源不明的咒語。這裡比商店便宜且更有趣。攤商們討價還價、閒聊八卦，學生們則來此採購物資、找零工或買禮物。週六最為繁忙，半數的大學師生都會聚集於此。這裡是買禮物、在人群中擠來擠去，以及打聽城中訊息的好去處。",
+    "appearance": "一座位於鋪著鵝卵石的老城廣場上的大型露天市集，色彩繽紛的條紋帆布遮陽棚下擠滿了攤位。攤位上堆滿了鮮花、水果、麵包、一疊疊的二手書，桌上擺著二手手機與筆電，還有裝著發光護身符、水晶和小瓶裝藥水的託盤。頭頂上方掛著手繪招牌、價目表、彩旗串和微小的漂浮燈。高聳的木架結構房屋環繞著廣場，一端矗立著一座帶有時鐘的石造拱門。四周散落著板箱、手推車，還有一個正冒著熱氣的食物攤位。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/market/default-day.webp",
+          "night": "generated/backgrounds/market/default-night.webp"
+        }
+      },
+      {
+        "id": "first-frost",
+        "name": "初霜節",
+        "images": {
+          "day": "generated/backgrounds/market/first-frost-day.webp",
+          "night": "generated/backgrounds/market/first-frost-night.webp"
+        },
+        "description": "市集廣場正舉辦著初霜節的霜降市集：攤位裝飾著常青樹與冬青，空氣中飄散著香料熱紅酒、烤栗子與熱騰騰派餅的香氣，櫃檯上點綴著閃爍的冰燈，掛著白與霜藍色的彩旗，廣場中央的鐵盆裡燃著營火。"
+      }
+    ],
+    "open": {
+      "fromHour": 7,
+      "toHour": 19
+    },
+    "indoors": false,
+    "private": false,
+    "drills": [
+      {
+        "stat": "charisma",
+        "title": "樂於討價還價",
+        "description": "你挑選了一個攤位，純粹為了好玩而開始殺價。"
+      },
+      {
+        "stat": "strength",
+        "title": "幫攤位搬運板箱",
+        "description": "早晨送達的貨物堆在路邊，總得有人來搬動它們。"
+      }
+    ],
+    "iconImage": "sprites/icons/places-market-cutout.webp"
+  },
+  {
+    "id": "bloom-and-co",
+    "name": "Bloom & Co.",
+    "icon": "bag",
+    "description": "Bloom & Co. 是位於電車終點站的大型商店，在全國各鎮都有分店：販售服飾、家居用品、雜貨，還有一整層母嬰用品區，以及後方的藥局櫃檯。門上的標語是「生活所需，一應俱全」。學生們常來這裡補買漏掉的行李，也是人們聚在一起購物的地方。這裡總是招募學生擔任收銀員。母嬰區很難在不被盯著看的情況下走過去。",
+    "appearance": "一間大型、明亮且現代化的百貨公司一樓。寬敞的白色拋光地板走道，兩旁是掛著衣物的衣架與模特兒展示架、家居用品架，以及設有新鮮農產品的食品區。一座扶梯通往樓上，上方懸掛著帶有粉紅色花朵標誌的招牌。後方設有販售嬰兒車與搖籃的母嬰用品區，以及一個帶有綠色十字標誌的藥局櫃檯。玻璃入口門附近有一排結帳櫃檯，上方懸掛著促銷橫幅，天花板的燈板散發著柔和均勻的光線。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/bloom-and-co/default-day-3.webp",
+          "night": "generated/backgrounds/bloom-and-co/default-night-2.webp"
+        }
+      }
+    ],
+    "open": {
+      "fromHour": 8,
+      "toHour": 22
+    },
+    "indoors": true,
+    "private": false,
+    "drills": [],
+    "iconImage": "sprites/icons/places-bloom-and-co-cutout.webp"
+  },
+  {
+    "id": "dawnbloom-house",
+    "name": "晨曦花屋",
+    "icon": "house",
+    "description": "位於領地東北角圍牆花園內的皇室白色大理石宅邸，受皇家家臣守護並設有防護咒語。大臣在此接待賓客，依慣例，王位繼承人在學期期間會入住此處：今年年輕的女王塞拉菲娜五世與她的隨從就住在這裡。未獲邀請或守衛點頭許可的人不得進入。內部氛圍正式、安靜且處處受人注視；僕人隨時出現又隨時退下，這裡說過的每一句話都被視為會傳到宮廷。",
+    "appearance": "一座優雅白色大理石豪宅的入口大廳。宏偉的雙向樓梯配有鍍金欄杆，在巨大的水晶吊燈下延伸，下方是鑲嵌著繁茂徽章的拋光白金大理石地板。高大的拱形窗戶可俯瞰圍牆花園，園內種滿了修剪整齊的樹籬與白玫瑰。室內點綴著鍍金畫框的肖像畫、大理石柱、裝滿鮮花的大花瓶，以及淡色絲綢窗簾。高大的雕花大門旁設有一個隱蔽的發光安全面板，門框上則佈滿了細長的金色防護符文。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/dawnbloom-house/default-day.webp",
+          "night": "generated/backgrounds/dawnbloom-house/default-night.webp"
+        },
+        "indoors": true
+      }
+    ],
+    "indoors": true,
+    "private": false,
+    "drills": [],
+    "iconImage": "sprites/icons/places-dawnbloom-house-cutout.webp"
+  },
+  {
+    "id": "spell-and-sip",
+    "name": "Spell & Sip",
+    "icon": "coffee",
+    "description": "Spell & Sip 是燈籠街上的咖啡店，是大家讀書的地方，一半是咖啡館，一半是魔法研習休息室：這裡有款式不一的扶手椅、設有防護咒語供練習小法術的包廂、隔壁 Sugarbloom 烘焙坊送來的糕點，而且插座永遠不夠用。窗戶上的告示寫著：咖啡、茶、附魔、Wi-Fi。晚上九點後禁止施咒。人們常為了喝一杯飲料就待上好幾個小時。這裡是第一次約咖啡、讀書約會或在扶手椅上長談的常見地點。",
+    "appearance": "這間溫馨咖啡店的內部同時也是一間魔法學習休息室。室內擺放著不成對的扶手椅與小木桌，桌上擠滿了筆電、筆記本和咖啡杯；牆面是裸露的磚牆，並設有書架與盆栽。木製櫃檯配有濃縮咖啡機、糕點玻璃展示櫃和黑板選單。沿著一面牆排列著一排小玻璃隔間，每個隔間都環繞著柔和發光的藍色防護符文，其中一個隔間內還漂浮著一個小型的照明咒語。室內懸掛著燈絲燈泡，前窗點綴著裝飾燈串，還有一個形狀如冒煙咖啡杯並帶有星星的霓虹燈牌。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/spell-and-sip/default-day-5.webp",
+          "night": "generated/backgrounds/spell-and-sip/default-night-3.webp"
+        }
+      }
+    ],
+    "open": {
+      "fromHour": 7,
+      "toHour": 22
+    },
+    "indoors": true,
+    "private": false,
+    "drills": [
+      {
+        "stat": "intelligence",
+        "title": "邊喝咖啡邊讀書",
+        "description": "一張扶手椅、一個插座，以及一杯你打算慢慢享用的咖啡。"
+      },
+      {
+        "stat": "charisma",
+        "title": "加入讀書小組的爭論",
+        "description": "你隔壁桌的人正在爭論讀數，而你也有自己的看法。"
+      }
+    ],
+    "iconImage": "sprites/icons/places-spell-and-sip-cutout.webp"
+  },
+  {
+    "id": "pixel-and-rune",
+    "icon": "gamepad",
+    "iconImage": "sprites/icons/places-pixel-and-rune-cutout.webp",
+    "name": "畫素與符文",
+    "description": "畫素與符文是位於燈籠街舊印刷廠的一間遊戲場：裡面有一排排的街機、排隊玩的那種節奏遊戲、氣墊曲棍球，還有一臺大家都覺得被詛咒過的夾娃娃機。樓上是魔力酒吧，既是遊戲休息室也是酒吧：配備電腦、遊戲機、VR 體驗室，還有比賽之夜和會發光的雞尾酒。隔壁的遊戲店「致命一擊」也從這兩處獲益良多。這裡吵鬧、充滿競爭性且價格低廉，很適合跟比起聊天更想玩遊戲的人約會。輸得優雅與否，全看你心情。",
+    "appearance": "一間位於改建自舊工業建築內的電玩城內部，擁有磚牆與鐵柱。一排排螢幕發光的街機、一臺帶有發光感應墊的大型跳舞節奏遊戲機、氣墊曲棍球桌、賽車座椅，以及一臺標示為「UFO Catch」且裝滿絨毛玩偶、周圍散發著淡淡紫色微光的夾娃娃機。牆上的霓虹燈招牌寫著「Pixel and Rune」，地毯上有鮮豔的幾何圖案，霓虹燈中還融入了發光的符文。一座鐵製樓梯通往夾層酒吧，那裡設有電競電腦、VR 體驗室，以及底部發光的酒架，櫃檯上擺放著杯杯發光的雞尾酒。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/pixel-and-rune/default-day-2.png",
+          "night": "generated/backgrounds/pixel-and-rune/default-night.png"
+        }
+      }
+    ],
+    "open": {
+      "fromHour": 12,
+      "toHour": 1
+    },
+    "indoors": true,
+    "private": false,
+    "eventOnly": false,
+    "drills": [
+      {
+        "stat": "dexterity",
+        "title": "節奏遊戲",
+        "description": "你投入硬幣，隨著第一首歌開始，踏上了感應墊。"
+      }
+    ]
+  },
+  {
+    "id": "boba-blossom",
+    "name": "波霸花開",
+    "icon": "boba",
+    "description": "波霸花開是位於燈籠街的一間粉色與淡綠色調的珍奶店。它就在布魯姆威爾婦女健康診所隔壁，所以排隊的人一半是在等檢查結果，另一半隻是想喝芋香奶茶，而且沒人會問是哪一種。這裡有靠窗座位、集點卡，還有會隨著飲用而變色的季節限定飲品。風格甜美明亮且充滿少女感；朋友們常成雙成對地來這裡聊天。",
+    "appearance": "這是一家裝飾著粉紅色與淡綠色調的小型珍珠奶茶店內部。白色櫃檯上整齊排列著金屬茶罐、裝滿彩色珍珠的玻璃罐和封口機，上方掛著一個粉紅色的花朵形霓虹燈招牌。牆上有附有飲料圖片的選單，架子上擺滿了絨毛玩偶與盆栽多肉植物，窗邊設有靠窗長凳與高腳凳，可眺望街道。店內有圓形白桌、粉嫩色座椅、供拍照用的花牆，以及散發著柔和變色光芒的高筒塑膠茶杯。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/boba-blossom/default-day-3.webp",
+          "night": "generated/backgrounds/boba-blossom/default-night-3.webp"
+        }
+      }
+    ],
+    "open": {
+      "fromHour": 11,
+      "toHour": 22
+    },
+    "indoors": true,
+    "private": false,
+    "drills": [
+      {
+        "stat": "charisma",
+        "title": "跟排隊的人搭訕",
+        "description": "排隊的人龍很長、動作很慢且顯得很無聊，這就是你的觀眾。"
+      }
+    ],
+    "iconImage": "sprites/icons/places-boba-blossom-cutout.webp"
+  },
+  {
+    "id": "cauldron",
+    "name": "坩堝",
+    "icon": "pot",
+    "description": "坩堝是學生們省吃儉用也要去吃的餐廳，主廚們在開放式廚房裡運用受控魔法烹飪。選單上有著餘燼拉麵（湯頭還在燃燒）、低於冰點的霜莓茶，以及附帶「請勿觸碰盤子」警告的雷鳴蛋糕。以學生的標準來看，這裡很貴且需要預約；帶人來這裡吃飯代表著不尋常的意義。隔壁的「媽媽的餐桌」提供份量十足的家常菜，負責消化這裡溢位的客流。",
+    "appearance": "高檔餐廳內部，裝潢採用深色木材、銅器與深紅色的牆面。後方設有開放式廚房，位於銅製檯面後方，上方有藍色與橘色魔法火焰環繞的大型黑色大釜，懸掛著銅鍋，架上擺滿了香料罐。桌上鋪著白布，擺放著深色餐盤與蠟燭；其中一張桌上有一碗湯頭閃爍著微小火焰的拉麵，以及一杯覆蓋著寒霜的淡藍色茶。發光的符文環繞在大釜的邊緣。銅製吊燈散發著溫暖的微光，彩色蒸汽絲絲飄向排風罩。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/cauldron/default-day.webp",
+          "night": "generated/backgrounds/cauldron/default-night.webp"
+        }
+      }
+    ],
+    "open": {
+      "fromHour": 12,
+      "toHour": 23
+    },
+    "indoors": true,
+    "private": false,
+    "drills": [
+      {
+        "stat": "endurance",
+        "title": "蛋白質補給：餘燼拉麵挑戰",
+        "description": "選單上最大份量的拉麵送上桌時還在燃燒，而且第二碗也即將送達。"
+      },
+      {
+        "stat": "charisma",
+        "title": "像個熟客一樣用餐",
+        "description": "你獨自坐下一張桌子，表現得就像每週都來這裡一樣。"
+      }
+    ],
+    "iconImage": "sprites/icons/places-cauldron-cutout.webp"
+  },
+  {
+    "id": "ironroot",
+    "icon": "dumbbell",
+    "iconImage": "sprites/icons/places-ironroot-cutout.webp",
+    "name": "鐵根健身",
+    "description": "鐵根健身房，一個充滿槓鈴架、跑步機和吵雜音樂的健身房。它與隔壁的魔法訓練中心「以太」共用一面牆壁和學生會員資格：那裡有咒語室、元素競技場、障礙賽道和收容室。一邊是普通人和未強化的運動員在舉重，另一邊則是法師在訓練，兩邊之間有一扇窗戶，雙方都假裝沒看過。人們互相觀察、比較進度並稍微炫耀一下。這裡是鍛鍊力量與耐力的好地方。",
+    "appearance": "現代健身房內部，鋪著黑色橡膠地板，有外露的管道與明亮的頂燈。一排排的深蹲架、槓鈴、槓片、臥推凳、啞鈴架，以及面向鏡牆的一列跑步機。其中一面牆上有扇大窗戶，可以望向第二個大廳：那是一個魔法訓練場，地面是焦黑的石板，設有靶子，並有一個閃爍著藍色能量的圓頂屏障。牆上掛著寫有「Ironfoot fitness」的勵志橫幅、壁掛式螢幕、飲水機，以及備有毛巾的前臺。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/ironroot/default-day-2.png",
+          "night": "generated/backgrounds/ironroot/default-night-3.png"
+        }
+      }
+    ],
+    "open": {
+      "fromHour": 6,
+      "toHour": 23
+    },
+    "indoors": true,
+    "private": false,
+    "eventOnly": false,
+    "drills": [
+      {
+        "stat": "strength",
+        "title": "在槓鈴架上鍛鍊",
+        "description": "你裝上槓鈴片，抹上防滑粉，開始第一組動作。"
+      },
+      {
+        "stat": "endurance",
+        "title": "跑步機與迴圈訓練",
+        "description": "在跑步機上原地踏步一小時，接著進行迴圈訓練。"
+      }
+    ]
+  },
+  {
+    "id": "lumen",
+    "name": "Lumen",
+    "icon": "ticket",
+    "description": "Lumen，一座由音樂廳改建而成的三銀幕電影院：擁有紅天鵝絨座椅、露臺，週五有幻象增強放映，週六晚間則有便宜的學生票。放映期間昏暗、狹窄且安靜，使其成為經典約會地點：耳語、分享零食、搭著扶手上的手臂。露臺最後一排頗具名聲。",
+    "appearance": "一座由舊音樂廳改建而成的電影院放映廳。一排排紅絲絨座椅向著大螢幕傾斜，螢幕由華麗的金箔裝飾舞臺拱門與厚重的紅窗簾所框住。後方環繞著一個帶有金箔裝飾的弧形包廂，上方是彩繪石膏天花板與玻璃吊燈。走道旁點綴著微小的漂浮燈，發光的螢幕邊緣散發出淡淡的幻術微光。黃銅扶手、花紋地毯，以及散發溫暖琥珀光芒的壁燈。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/lumen/default-day.webp",
+          "night": "generated/backgrounds/lumen/default-night.webp"
+        }
+      }
+    ],
+    "open": {
+      "fromHour": 13,
+      "toHour": 1
+    },
+    "indoors": true,
+    "private": false,
+    "drills": [
+      {
+        "stat": "wisdom",
+        "title": "專注地觀賞老片",
+        "description": "在幾乎空無一人的影廳裡，觀賞一場老舊且節奏緩慢的午場電影。"
+      }
+    ],
+    "iconImage": "sprites/icons/places-lumen-cutout.webp"
+  },
+  {
+    "id": "undergrowth",
+    "name": "叢林",
+    "icon": "music",
+    "description": "叢林，位於鐵路拱門下的地下俱樂部，是大學生跳舞的地方。低矮的天花板上掛著附魔生長的藤蔓，隨著重低音律動。這裡有彈性地板，後方設有安靜室，供那些覺得 Bloom 音樂太吵的人休息。它開門很晚，環境悶熱、擁擠且昏暗。交談時必須貼耳大喊，否則根本聽不見；這裡預期會有親密的舞蹈，到了深夜，抑制劑的效果也會逐漸減弱。",
+    "appearance": "磚造鐵路拱門下的地下夜店內部。低矮的拱形磚造天花板上懸掛著茂密的活藤蔓與葉片，閃爍著綠、紫、藍色的脈動光芒。木製舞池由移動的彩色光束與薄霧照亮，設有唱片機與螢幕的 DJ 臺，以及高大的音響塔。沿著其中一個拱門的吧檯擺放著發光的酒瓶與發光飲料。設有深色天鵝絨座椅的卡座，葉片與花朵形狀的霓虹燈，以及後方通往較暗、較安靜房間的拱門，那裡有柔和的琥珀色燈光與靠墊。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/undergrowth/default-day.webp",
+          "night": "generated/backgrounds/undergrowth/default-night.webp"
+        }
+      }
+    ],
+    "open": {
+      "fromHour": 20,
+      "toHour": 4
+    },
+    "indoors": true,
+    "private": false,
+    "drills": [
+      {
+        "stat": "charisma",
+        "title": "在舞池中盡情跳舞",
+        "description": "你走下階梯進入喧鬧之中，引起大家的注意。"
+      },
+      {
+        "stat": "endurance",
+        "title": "跳舞直到打烊",
+        "description": "舞池擠滿了人，重低音震動著你的肋骨，而你絕不會是第一個停下來的人。"
+      }
+    ],
+    "iconImage": "sprites/icons/places-undergrowth-cutout.webp"
+  },
+  {
+    "id": "riverside-park",
+    "name": "河畔公園",
+    "icon": "tree",
+    "description": "位於河北岸的一座長形公園：有果樹林、慢跑徑、面向水面與遠方城市塔樓的長椅，每十分鐘會有一班電車駛過古老的石橋。人們在清晨在此慢跑，週末在此野餐，傍晚則在此散步，以便在不被旁人察覺的情況下交談。沿岸的大宅屬於教授與名門望族。這裡是與人漫步的好去處。",
+    "appearance": "一座位於平靜寬闊河流旁的長型河濱公園。鋪設好的小徑沿著岸邊延伸，兩旁是成排盛開的果樹林，岸邊設有面向水面的木製長椅，以及頂端鑲嵌著發光水晶的古老鐵製燈柱。河對岸的城市天際線交織著古老的石塔、尖塔與現代玻璃建築，部分建築上閃爍著柔和的符文光芒。一座多拱石橋橫跨河流，一輛流線型的路面電車正從橋上駛過。綠草如茵，野花點綴，幾艘划艇停泊在小碼頭旁。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/riverside-park/default-day.webp",
+          "night": "generated/backgrounds/riverside-park/default-night.webp"
+        }
+      },
+      {
+        "id": "first-frost",
+        "name": "初霜節",
+        "images": {
+          "day": "generated/backgrounds/riverside-park/first-frost-day.webp",
+          "night": "generated/backgrounds/riverside-park/first-frost-night.webp"
+        },
+        "description": "河畔公園正為初霜節裝扮：光禿的果樹林掛著霜藍色的冰燈，小徑旁點亮著冰燈籠，燈柱上裝飾著花環，岸邊淺灘已結成小小的溜冰池。長椅與草地上覆蓋著薄霜。"
+      }
+    ],
+    "indoors": false,
+    "private": false,
+    "drills": [
+      {
+        "stat": "endurance",
+        "title": "沿河慢跑",
+        "description": "你以穩定的步調沿著河畔小徑出發。"
+      },
+      {
+        "stat": "wisdom",
+        "title": "坐在水邊沉思",
+        "description": "你找了一張面向河流的長椅坐下，任由思緒流轉。"
+      }
+    ],
+    "iconImage": "sprites/icons/places-riverside-park-cutout.webp"
+  },
+  {
+    "id": "sire-house",
+    "icon": "house",
+    "name": "避風港之家",
+    "description": "避風港之家，位於繁花鎮河畔公園後方的榲桲街，是一棟家族住宅。由始祖關係辦公室持有租約並租給註冊的始祖：大門與每個窗臺都設有防護咒語，前門設有登記簿，非住戶或非住戶帶領的人員不得進入。室內簡樸溫暖且僅配備部分傢俱，是一棟預留擴充空間的房子。辦公室聘請了一名保姆居住於此。這是一處私人住宅。",
+    "appearance": "一棟樸實現代家庭住宅中溫馨的開放式廚房與客廳：一張長形的刷洗木桌搭配著款式各異的椅子、一座鑄鐵爐、擺放著餐具的開放式層架、窗下有一張磨損的沙發、正門旁有一塊發著微光的小型黃銅護符牌、淡色的灰泥牆，以及木地板。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/sire-house/default-day.webp",
+          "night": "generated/backgrounds/sire-house/default-night.webp"
+        },
+        "appearance": "一間溫馨的開放式廚房與客廳，位於一棟樸實的現代家庭住宅中：一張長型刷洗過的木桌，搭配著款式各異的椅子，一個鑄鐵爐，擺放著餐具的開放式架子，窗下有一張磨損的沙發，正門旁有一塊發著微光的小型黃銅護符牌，淺色的抹灰牆，以及木地板。"
+      },
+      {
+        "id": "family",
+        "name": "家庭起居室",
+        "images": {
+          "day": "generated/backgrounds/sire-house/family-day.webp",
+          "night": "generated/backgrounds/sire-house/family-night.webp"
+        },
+        "appearance": "一間舒適的家庭起居室：厚實的地毯上對放著兩張深陷舒適的沙發，中間有一張矮桌，架子上擺滿了桌遊與繪本，還有裝滿毛絨玩具的籃子、帶有護欄的壁爐、透著暖光的燈具，以及掛著厚重窗簾的高窗。"
+      },
+      {
+        "id": "study",
+        "name": "書房",
+        "images": {
+          "day": "generated/backgrounds/sire-house/study-day.webp",
+          "night": "generated/backgrounds/sire-house/study-night.webp"
+        },
+        "appearance": "一間小巧整潔的書房：窗下有一張木製書桌，上面放著綠色燈罩檯燈和一臺筆電，一張舒適的椅子，一整面放了一半書籍的書架，一塊釘著便箋的軟木板，一塊地毯，以及一扇關上的鑲板門。"
+      },
+      {
+        "id": "nanny",
+        "name": "保姆房",
+        "images": {
+          "day": "generated/backgrounds/sire-house/nanny-day.webp",
+          "night": "generated/backgrounds/sire-house/nanny-night.webp"
+        },
+        "appearance": "一間位於一樓的整潔小臥室：一張鋪著平整白色亞麻床單的窄床、一張掛著彩色小絲帶、擺著一排香水瓶且配有橢圓形鏡子的梳妝臺、門後衣架上掛著一件白色領口的黑色洋裝、窗臺上有一顆散發柔和光芒的水晶、一瓶鮮花，以及一幅裝裱在小相框裡的港口版畫。"
+      },
+      {
+        "id": "nursery",
+        "name": "育兒室",
+        "images": {
+          "day": "generated/backgrounds/sire-house/nursery-day.webp",
+          "night": "generated/backgrounds/sire-house/nursery-night.webp"
+        },
+        "appearance": "一間明亮的育兒室：一面牆邊擺著三張白色木製嬰兒床，一張尿布臺，一張放著摺疊毯子的搖椅，一個紙鳥吊飾，擺滿摺疊布料與小衣服的架子，淡黃色的牆壁，以及窗框上刻著隱約發光的符文。"
+      },
+      {
+        "id": "garden",
+        "name": "花園",
+        "images": {
+          "day": "generated/backgrounds/sire-house/garden-day.webp",
+          "night": "generated/backgrounds/sire-house/garden-night.webp"
+        },
+        "indoors": false,
+        "appearance": "一座位於鎮屋後方的小型圍牆花園：整潔的草坪、結滿黃色果實的老榲桲樹、沿著磚牆的繁茂與香草圃、一張木製長椅、一條晾衣繩，以及一條通往後門的碎石小徑。"
+      },
+      {
+        "id": "master",
+        "name": "主臥室",
+        "images": {
+          "day": "generated/backgrounds/sire-house/master-day.webp",
+          "night": "generated/backgrounds/sire-house/master-night.webp"
+        },
+        "appearance": "一間位於普通家庭住宅一樓的大臥室：一張配有簡樸木製床頭板與米色亞麻床單的寬大床鋪、一個衣櫥、一個五斗櫃、角落裡的一個柳條嬰兒籃、一扇可俯瞰花園的窗戶、木地板上鋪著的地毯，以及每個床頭櫃上的一盞燈。"
+      },
+      {
+        "id": "bathroom",
+        "name": "浴室",
+        "images": {
+          "day": "generated/backgrounds/sire-house/the-bathroom-day.webp",
+          "night": "generated/backgrounds/sire-house/bathroom-night.webp"
+        },
+        "appearance": "一間簡潔乾淨的浴室：一個白色的深型琺瑯浴缸、鏡子下方的洗臉盆、牆壁貼到肩膀高度的白色磁磚、一張放著摺疊毛巾的木凳，以及一扇磨砂玻璃窗。"
+      },
+      {
+        "id": "suite-west",
+        "name": "西側臥室",
+        "images": {
+          "day": "generated/backgrounds/sire-house/suite-west-day.webp",
+          "night": "generated/backgrounds/sire-house/suite-west-night.webp"
+        },
+        "appearance": "排屋後方一間舒適的臥室：一張鋪著被褥的雙人床、帶有靠墊的窗邊座位、附有鏡子的梳妝臺、一個等待填滿的空書架，以及柔和的午後陽光。"
+      },
+      {
+        "id": "suite-east",
+        "name": "東側臥室",
+        "images": {
+          "day": "generated/backgrounds/sire-house/suite-east-day.webp",
+          "night": "generated/backgrounds/sire-house/suite-east-night.webp"
+        },
+        "appearance": "一間採光良好的明亮臥室，沐浴在晨曦之中：一張鋪著淡藍色亞麻床單的雙人床、一個衣櫥、一張小書桌、一塊碎布地毯，陽光穿透薄紗窗簾。"
+      },
+      {
+        "id": "suite-attic",
+        "name": "閣樓",
+        "images": {
+          "day": "generated/backgrounds/sire-house/suite-attic-day.webp",
+          "night": "generated/backgrounds/sire-house/suite-attic-night.webp"
+        },
+        "appearance": "斜屋頂下的長型閣樓臥室：外露的樑柱、圓窗下有一張低矮的雙人床、一張閱讀椅、一個儲物箱、沿著樑柱掛著一串溫暖的小燈串、一個能看見天空的天窗。"
+      }
+    ],
+    "indoors": true,
+    "private": true,
+    "drills": [],
+    "iconImage": "sprites/icons/places-sire-house-cutout.webp"
+  },
+  {
+    "id": "saltmere",
+    "name": "索特米爾泉",
+    "icon": "leaf",
+    "description": "一座位於林木丘陵深處、車程數小時的溫泉療養小鎮：擁有古老的木石結構浴場旅館、冒著熱氣的池塘、瀑布、湖泊，以及王國中最美的秋色。",
+    "appearance": "位於林木丘陵間的溫泉療養小鎮：古老的木石澡堂旅館、煙霧繚繞的石池、紅黃交織的秋季楓林，以及小鎮下方的一片湖泊。",
+    "backgrounds": [
+      {
+        "id": "outdoor-bath",
+        "name": "戶外浴池",
+        "images": {
+          "day": "generated/backgrounds/saltmere/outdoor-bath.webp",
+          "night": "generated/backgrounds/saltmere/outdoor-bath.webp"
+        },
+        "clip": "sprites/saltmere/outdoor-bath.mp4"
+      },
+      {
+        "id": "cascade",
+        "name": "階梯瀑布",
+        "images": {
+          "day": "generated/backgrounds/saltmere/cascade.webp",
+          "night": "generated/backgrounds/saltmere/cascade.webp"
+        },
+        "clip": "sprites/saltmere/cascade.mp4"
+      },
+      {
+        "id": "night-market",
+        "name": "夜市",
+        "images": {
+          "day": "generated/backgrounds/saltmere/night-market.webp",
+          "night": "generated/backgrounds/saltmere/night-market.webp"
+        },
+        "clip": "sprites/saltmere/night-market.mp4"
+      },
+      {
+        "id": "private-bath",
+        "name": "私人浴池",
+        "images": {
+          "day": "generated/backgrounds/saltmere/private-bath.webp",
+          "night": "generated/backgrounds/saltmere/private-bath.webp"
+        },
+        "clip": "sprites/saltmere/private-bath.mp4"
+      },
+      {
+        "id": "lake",
+        "name": "湖泊",
+        "images": {
+          "day": "generated/backgrounds/saltmere/lake.webp",
+          "night": "generated/backgrounds/saltmere/lake.webp"
+        },
+        "clip": "sprites/saltmere/lake.mp4"
+      },
+      {
+        "id": "balcony",
+        "name": "陽臺",
+        "images": {
+          "day": "generated/backgrounds/saltmere/balcony.webp",
+          "night": "generated/backgrounds/saltmere/balcony.webp"
+        },
+        "clip": "sprites/saltmere/balcony.mp4"
+      }
+    ],
+    "indoors": false,
+    "private": false,
+    "eventOnly": true
+  },
+  {
+    "id": "ballroom",
+    "name": "大舞廳",
+    "icon": "music",
+    "description": "大學舊集會廳的大舞廳，每年僅在化裝舞會時開放：這座寬敞的大廳鋪著拋光的拼花木地板，水晶吊燈閃耀著魔法光芒，懸掛著紅金相間的絲綢裝飾，閣樓上有弦樂四重奏演奏，高大的玻璃門通往花園上方月光下的石製露臺。",
+    "appearance": "夜晚廣闊的大學舞廳：拋光拼花木地板舞池、高大的拱形窗、金色壁柱、三盞巨大的水晶吊燈、深紅與金色的絲綢垂飾、音樂閣，以及通往月光露臺的高大玻璃門。",
+    "backgrounds": [
+      {
+        "id": "default",
+        "name": "預設",
+        "images": {
+          "day": "generated/backgrounds/ballroom/ballroom.webp",
+          "night": "generated/backgrounds/ballroom/ballroom.webp"
+        }
+      },
+      {
+        "id": "terrace",
+        "name": "露臺",
+        "images": {
+          "day": "generated/backgrounds/ballroom/terrace.webp",
+          "night": "generated/backgrounds/ballroom/terrace.webp"
+        },
+        "indoors": false,
+        "description": "舞廳外月光下的石造露臺：長長的雕花欄杆俯瞰著幽暗的秋季花園，修剪整齊的樹籬凹處有一張石凳，還有燈籠，音樂聲從玻璃門傳來，隱約可聞。這裡沒有其他人。"
+      }
+    ],
+    "indoors": true,
+    "eventOnly": true,
+    "private": false,
+    "drills": []
+  }
+]

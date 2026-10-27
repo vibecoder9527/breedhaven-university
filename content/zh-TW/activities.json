@@ -1,0 +1,699 @@
+[
+  {
+    "id": "study",
+    "name": "在圖書館讀書",
+    "description": "找個讀書位、插座，享受兩小時的寧靜。",
+    "durationHours": 2,
+    "locationId": "library",
+    "tags": [
+      "study"
+    ],
+    "requirements": [
+      {
+        "type": "energy",
+        "min": 10
+      }
+    ],
+    "effects": [
+      {
+        "type": "stat",
+        "stat": "intelligence",
+        "amount": 1
+      },
+      {
+        "type": "energy",
+        "amount": -10
+      }
+    ]
+  },
+  {
+    "id": "train",
+    "name": "在 Tiltyard 訓練",
+    "description": "重訓、跑圈，並與沙地上的人切磋。",
+    "durationHours": 2,
+    "locationId": "tiltyard",
+    "tags": [
+      "sport"
+    ],
+    "requirements": [
+      {
+        "type": "energy",
+        "min": 25
+      }
+    ],
+    "effects": [
+      {
+        "type": "stat",
+        "stat": "endurance",
+        "amount": 1
+      },
+      {
+        "type": "energy",
+        "amount": -25
+      }
+    ]
+  },
+  {
+    "id": "eat",
+    "name": "在公共休息室用餐",
+    "description": "一份熱騰騰的餐點，以及壁爐旁的座位。",
+    "durationHours": 1,
+    "locationId": "commons",
+    "tags": [
+      "rest"
+    ],
+    "requirements": [
+      {
+        "type": "money",
+        "min": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "money",
+        "amount": -2
+      },
+      {
+        "type": "energy",
+        "amount": 15
+      }
+    ]
+  },
+  {
+    "id": "bathe",
+    "name": "在浴池泡澡",
+    "description": "在溫暖的池水中待上一小時。",
+    "durationHours": 1,
+    "locationId": "bathhouse",
+    "tags": [
+      "rest"
+    ],
+    "effects": [
+      {
+        "type": "energy",
+        "amount": 10
+      },
+      {
+        "type": "stat",
+        "stat": "charisma",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "id": "sleep",
+    "name": "睡覺",
+    "description": "在你的套房裡休息入睡。",
+    "durationHours": 8,
+    "locationId": "dormitories",
+    "tags": [
+      "rest"
+    ],
+    "availability": {
+      "periods": [
+        "evening",
+        "night"
+      ]
+    },
+    "effects": [
+      {
+        "type": "energy",
+        "amount": 100
+      }
+    ]
+  },
+  {
+    "id": "talk",
+    "name": "交談",
+    "description": "找個安靜的時刻聊天。",
+    "durationHours": 1,
+    "tags": [
+      "social"
+    ],
+    "withLoveInterest": "required",
+    "effects": []
+  },
+  {
+    "id": "study-together",
+    "name": "一起讀書",
+    "description": "共用一個讀書位和一盞檯燈。",
+    "durationHours": 2,
+    "locationId": "library",
+    "tags": [
+      "social",
+      "study"
+    ],
+    "withLoveInterest": "required",
+    "requirements": [
+      {
+        "type": "energy",
+        "min": 10
+      }
+    ],
+    "effects": [
+      {
+        "type": "stat",
+        "stat": "intelligence",
+        "amount": 1
+      },
+      {
+        "type": "energy",
+        "amount": -10
+      }
+    ]
+  },
+  {
+    "id": "meal-together",
+    "name": "共進餐點",
+    "description": "兩份餐盤、一張長凳，還有聊天的時間。",
+    "durationHours": 1,
+    "locationId": "commons",
+    "tags": [
+      "social"
+    ],
+    "withLoveInterest": "required",
+    "requirements": [
+      {
+        "type": "money",
+        "min": 4
+      }
+    ],
+    "effects": [
+      {
+        "type": "money",
+        "amount": -4
+      },
+      {
+        "type": "energy",
+        "amount": 15
+      }
+    ]
+  },
+  {
+    "id": "spar-together",
+    "name": "切磋對練",
+    "description": "在沙灘上來場友誼賽。",
+    "durationHours": 1,
+    "locationId": "tiltyard",
+    "tags": [
+      "social",
+      "sport"
+    ],
+    "withLoveInterest": "required",
+    "requirements": [
+      {
+        "type": "energy",
+        "min": 15
+      }
+    ],
+    "effects": [
+      {
+        "type": "stat",
+        "stat": "endurance",
+        "amount": 1
+      },
+      {
+        "type": "energy",
+        "amount": -15
+      }
+    ]
+  },
+  {
+    "id": "court-stroll",
+    "name": "漫步大庭院",
+    "description": "在露臺緩步繞行，不急著去任何地方。",
+    "durationHours": 1,
+    "locationId": "great-court",
+    "tags": [
+      "social",
+      "date"
+    ],
+    "withLoveInterest": "required",
+    "requirements": [
+      {
+        "type": "stage",
+        "min": "acquaintance"
+      }
+    ],
+    "effects": []
+  },
+  {
+    "id": "drinks",
+    "name": "共進飲品",
+    "description": "在「蜜蜂酒吧」買一輪飲料，然後聊聊天。",
+    "durationHours": 2,
+    "locationId": "honeyed-bee-inn",
+    "tags": [
+      "social"
+    ],
+    "withLoveInterest": "required",
+    "requirements": [
+      {
+        "type": "money",
+        "min": 5
+      }
+    ],
+    "effects": [
+      {
+        "type": "money",
+        "amount": -5
+      }
+    ]
+  },
+  {
+    "id": "revise-cafe",
+    "name": "在 Spell & Sip 用功讀書",
+    "description": "一杯澳白、一張扶手椅，還有你的筆記。",
+    "durationHours": 2,
+    "locationId": "spell-and-sip",
+    "tags": [
+      "study"
+    ],
+    "requirements": [
+      {
+        "type": "money",
+        "min": 3
+      }
+    ],
+    "effects": [
+      {
+        "type": "money",
+        "amount": -3
+      },
+      {
+        "type": "stat",
+        "stat": "intelligence",
+        "amount": 1
+      },
+      {
+        "type": "energy",
+        "amount": -5
+      }
+    ]
+  },
+  {
+    "id": "tinker",
+    "name": "在鑄造廠動動手",
+    "description": "借個長凳，做點大致能用的精巧小玩意。",
+    "durationHours": 2,
+    "locationId": "foundry",
+    "tags": [
+      "study"
+    ],
+    "requirements": [
+      {
+        "type": "energy",
+        "min": 10
+      }
+    ],
+    "effects": [
+      {
+        "type": "stat",
+        "stat": "dexterity",
+        "amount": 1
+      },
+      {
+        "type": "energy",
+        "amount": -10
+      }
+    ]
+  },
+  {
+    "id": "arcade",
+    "name": "玩街機",
+    "description": "一小時的代幣、高分紀錄與夾娃娃機。",
+    "durationHours": 1,
+    "locationId": "pixel-and-rune",
+    "tags": [
+      "play"
+    ],
+    "requirements": [
+      {
+        "type": "money",
+        "min": 3
+      }
+    ],
+    "effects": [
+      {
+        "type": "money",
+        "amount": -3
+      },
+      {
+        "type": "stat",
+        "stat": "dexterity",
+        "amount": 1
+      },
+      {
+        "type": "energy",
+        "amount": -5
+      }
+    ]
+  },
+  {
+    "id": "river-run",
+    "name": "沿著河岸小徑慢跑",
+    "description": "去石橋走一趟再回來。",
+    "durationHours": 1,
+    "locationId": "riverside-park",
+    "tags": [
+      "sport"
+    ],
+    "requirements": [
+      {
+        "type": "energy",
+        "min": 20
+      }
+    ],
+    "effects": [
+      {
+        "type": "stat",
+        "stat": "endurance",
+        "amount": 1
+      },
+      {
+        "type": "energy",
+        "amount": -20
+      }
+    ]
+  },
+  {
+    "id": "coffee-together",
+    "name": "去喝咖啡",
+    "description": "兩杯咖啡、舒服的扶手椅，悠閒地虛度光陰。",
+    "durationHours": 1,
+    "locationId": "spell-and-sip",
+    "tags": [
+      "social",
+      "date"
+    ],
+    "requirements": [
+      {
+        "type": "money",
+        "min": 6
+      }
+    ],
+    "effects": [
+      {
+        "type": "money",
+        "amount": -6
+      }
+    ],
+    "withLoveInterest": "required"
+  },
+  {
+    "id": "arcade-together",
+    "name": "一起玩電玩",
+    "description": "打氣墊曲棍球、玩節奏遊戲，再賭誰要買下一輪代幣。",
+    "durationHours": 2,
+    "locationId": "pixel-and-rune",
+    "tags": [
+      "social",
+      "date",
+      "play"
+    ],
+    "requirements": [
+      {
+        "type": "money",
+        "min": 6
+      }
+    ],
+    "effects": [
+      {
+        "type": "money",
+        "amount": -6
+      },
+      {
+        "type": "stat",
+        "stat": "dexterity",
+        "amount": 1
+      }
+    ],
+    "withLoveInterest": "required"
+  },
+  {
+    "id": "film-together",
+    "name": "看場電影",
+    "description": "在 Lumen 的包廂區佔兩個位子。",
+    "durationHours": 3,
+    "locationId": "lumen",
+    "tags": [
+      "social",
+      "date"
+    ],
+    "requirements": [
+      {
+        "type": "stage",
+        "min": "acquaintance"
+      },
+      {
+        "type": "money",
+        "min": 8
+      }
+    ],
+    "effects": [
+      {
+        "type": "money",
+        "amount": -8
+      }
+    ],
+    "withLoveInterest": "required"
+  },
+  {
+    "id": "river-walk",
+    "name": "河邊散步",
+    "description": "繞過公園長路，走在果樹林下。",
+    "durationHours": 1,
+    "locationId": "riverside-park",
+    "tags": [
+      "social",
+      "date"
+    ],
+    "effects": [],
+    "withLoveInterest": "required"
+  },
+  {
+    "id": "dance-together",
+    "name": "去跳舞",
+    "description": "在 Undergrowth 的彈性地板上跳上一整晚。",
+    "durationHours": 3,
+    "locationId": "undergrowth",
+    "tags": [
+      "social",
+      "date"
+    ],
+    "requirements": [
+      {
+        "type": "stage",
+        "min": "friend"
+      },
+      {
+        "type": "money",
+        "min": 6
+      },
+      {
+        "type": "energy",
+        "min": 20
+      }
+    ],
+    "effects": [
+      {
+        "type": "money",
+        "amount": -6
+      },
+      {
+        "type": "energy",
+        "amount": -20
+      }
+    ],
+    "withLoveInterest": "required"
+  },
+  {
+    "id": "lift",
+    "name": "在 Ironroot 舉重",
+    "description": "在架上鍛鍊一小時，隔著玻璃看著法師們在訓練。",
+    "durationHours": 1,
+    "locationId": "ironroot",
+    "tags": [
+      "sport"
+    ],
+    "requirements": [
+      {
+        "type": "money",
+        "min": 3
+      },
+      {
+        "type": "energy",
+        "min": 25
+      }
+    ],
+    "effects": [
+      {
+        "type": "money",
+        "amount": -3
+      },
+      {
+        "type": "stat",
+        "stat": "strength",
+        "amount": 1
+      },
+      {
+        "type": "energy",
+        "amount": -25
+      }
+    ]
+  },
+  {
+    "id": "bubble-tea",
+    "name": "去喝珍奶",
+    "description": "坐在窗邊，喝點冰涼、甜美又 Q 彈的東西。",
+    "durationHours": 1,
+    "locationId": "boba-blossom",
+    "tags": [
+      "rest"
+    ],
+    "requirements": [
+      {
+        "type": "money",
+        "min": 4
+      }
+    ],
+    "effects": [
+      {
+        "type": "money",
+        "amount": -4
+      },
+      {
+        "type": "energy",
+        "amount": 10
+      }
+    ]
+  },
+  {
+    "id": "bubble-tea-together",
+    "name": "一起去喝珍奶",
+    "description": "兩杯珍奶、一個靠窗位子，還有關於配料的爭執。",
+    "durationHours": 1,
+    "locationId": "boba-blossom",
+    "tags": [
+      "social",
+      "date"
+    ],
+    "requirements": [
+      {
+        "type": "money",
+        "min": 8
+      }
+    ],
+    "effects": [
+      {
+        "type": "money",
+        "amount": -8
+      }
+    ],
+    "withLoveInterest": "required"
+  },
+  {
+    "id": "workout-together",
+    "name": "一起健身",
+    "description": "在 Ironroot 互相照應，或是看她在隔壁的 Aether 訓練。",
+    "durationHours": 1,
+    "locationId": "ironroot",
+    "tags": [
+      "social",
+      "sport"
+    ],
+    "requirements": [
+      {
+        "type": "money",
+        "min": 3
+      },
+      {
+        "type": "energy",
+        "min": 15
+      }
+    ],
+    "effects": [
+      {
+        "type": "money",
+        "amount": -3
+      },
+      {
+        "type": "stat",
+        "stat": "strength",
+        "amount": 1
+      },
+      {
+        "type": "energy",
+        "amount": -15
+      }
+    ],
+    "withLoveInterest": "required"
+  },
+  {
+    "id": "dinner-together",
+    "name": "在 Cauldron 吃晚餐",
+    "description": "靠著開放式廚房的桌位，還有可以分享的雷鳴蛋糕。",
+    "durationHours": 2,
+    "locationId": "cauldron",
+    "tags": [
+      "social",
+      "date"
+    ],
+    "availability": {
+      "periods": [
+        "evening"
+      ]
+    },
+    "requirements": [
+      {
+        "type": "stage",
+        "min": "friend"
+      },
+      {
+        "type": "money",
+        "min": 14
+      }
+    ],
+    "effects": [
+      {
+        "type": "money",
+        "amount": -14
+      },
+      {
+        "type": "energy",
+        "amount": 15
+      }
+    ],
+    "withLoveInterest": "required"
+  },
+  {
+    "id": "night-together",
+    "name": "共度良宵",
+    "description": "邀請他們回到你的套房。",
+    "durationHours": 8,
+    "locationId": "dormitories",
+    "tags": [
+      "date"
+    ],
+    "withLoveInterest": "required",
+    "nsfw": true,
+    "availability": {
+      "periods": [
+        "evening",
+        "night"
+      ]
+    },
+    "requirements": [
+      {
+        "type": "stage",
+        "min": "dating"
+      }
+    ],
+    "effects": [
+      {
+        "type": "energy",
+        "amount": 60
+      }
+    ]
+  }
+]

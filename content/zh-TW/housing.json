@@ -1,0 +1,420 @@
+{
+  "locationId": "sire-house",
+  "name": "避風港宅邸",
+  "officerId": "una",
+  "nannyId": "zelie",
+  "rent": 200,
+  "rentRelief": {
+    "perChild": 20,
+    "floor": 60
+  },
+  "graceDays": 7,
+  "homePeriods": [
+    "night"
+  ],
+  "invite": {
+    "minAffection": 30
+  },
+  "babies": {
+    "weeklyCost": 20,
+    "startLevel": 2,
+    "levels": [
+      {
+        "name": "身體不適",
+        "description": "孩子在屋裡過得不好：營養不良、心神不寧，你為他感到擔憂。"
+      },
+      {
+        "name": "焦躁不安",
+        "description": "孩子焦躁不安且營養不足，你徹夜難眠，數著他所缺乏的一切。"
+      },
+      {
+        "name": "安靜下來",
+        "description": "孩子安穩下來了：吃飽了、暖和地睡著，沒有任何重要的匱乏。"
+      },
+      {
+        "name": "茁壯成長",
+        "description": "孩子在屋裡茁壯成長：長得很快、睡得香甜，且愛笑。"
+      },
+      {
+        "name": "繁茂",
+        "description": "孩子正處於綻放期：是你見過最健康、最快樂的嬰兒，全屋的人都寵愛著他。"
+      }
+    ],
+    "caps": [
+      {
+        "comfort": 0,
+        "level": 2
+      },
+      {
+        "comfort": 4,
+        "level": 3
+      },
+      {
+        "comfort": 8,
+        "level": 4
+      }
+    ],
+    "thrivingFrom": 3,
+    "thriving": {
+      "affection": 1,
+      "trust": 1
+    },
+    "neglect": {
+      "affection": -6,
+      "trust": -8
+    }
+  },
+  "feelings": {
+    "movedIn": {
+      "affection": 5,
+      "trust": 8
+    },
+    "askedToLeave": {
+      "affection": -8,
+      "trust": -12
+    },
+    "leftOverNeglect": {
+      "affection": -12,
+      "trust": -15
+    },
+    "evicted": {
+      "affection": -10,
+      "trust": -15
+    }
+  },
+  "texts": {
+    "offer": "{player}，早安。我是種嗣關係辦公室的 Una Fairweather。聽說您有喜事，因此本辦公室的住房計畫也對您開放。為了建檔，條款如下：{house}，位於 Quince Row 的安全家庭住宅，並配有一名我們派駐的保姆。租金為每月一號支付的 {rent}，這是補貼後的費率。您必須放棄在 Halls 的房間。您可以自費擴建或裝修房屋，且您孩子的母親也可以與您同住。請告訴我您是否接受。",
+    "welcome": "{house} 的鑰匙已於此時登記在您名下，受監護者們也已認得您。首期租金 {rent} 將於下個月一號到期。逾期未付的租金寬限期僅有七天。您的保姆 Zélie Marchand 已在屋內等候。歡迎回家，{player}。",
+    "nannyHello": "Bonjour, monsieur. 我是 Zélie。我是這棟房子『附贈』的照顧者，對吧？您的房間已經通好風了，備有熱咖啡，我也把嬰兒床放在吹不到風的安全角落。隨時歡迎您回家——現在這扇門認得您了，我也是。",
+    "arrears": "{player}，為了建檔：本月 {house} 的租金尚未繳納。目前欠款為 {amount}。必須在 {date} 前繳清，否則辦公室將收回房屋，屆時所有人都得搬走。我並不想寫那封信。請從房屋的自有帳戶中支付。",
+    "paid": "已收到{amount}。關於{house}的檔案已經重新整理妥當。謝謝你特地處理這件事。",
+    "evicted": "{player}，由於 {house} 的租金在寬限期後仍未繳納，辦公室已於今晨收回房屋。您在 Halls 的房間已為您保留。很遺憾事態竟演變至此。不會有第二次提議了。"
+  },
+  "viewing": {
+    "meetLocationId": "health-centre",
+    "hours": 2,
+    "text": "已記錄在案，{player}：接受。在將鑰匙交給你之前，我會親自帶領每一位領主參觀他的宅邸。請在 {date} 到 {place} 與我會合，我會帶你前往 {house}，逐一帶你參觀各個房間，並介紹你的保姆給你。全程兩小時。請務必準時出席。",
+    "missedText": "{player}，你沒有在約定的時間出現在 {place}。在參觀之前，這間房子並不屬於你。我已重新安排了參觀時間：{date}，地點在 {place}。這次請務必出席。",
+    "cutscene": {
+      "speakerId": "zelie",
+      "scenes": [
+        {
+          "locationId": "sire-house",
+          "castIds": [
+            "zelie"
+          ],
+          "lines": [
+            "*烏娜手拿鑰匙帶你回到壁爐房。一名穿著白領黑裙的苗條女性正等在火爐旁，看到你進來時挺直了身子。*",
+            "烏娜：這是保姆潔莉·馬尚。她是隨屋而來的，她會告訴你剩下的事。",
+            "潔莉：Bonjour，先生。歡迎回家。在你跑去參觀臥室之前，讓我告訴你關於孩子們的事。這就是這棟房子的用途，不是嗎？",
+            "潔莉：住在這裡的每個孩子都需要一張嬰兒床。每人一張，所以要在填滿房子之前先蓋好育兒室。",
+            "潔莉：這裡的每個孩子都可能身體虛弱、焦躁不安、安穩、茁壯或開花。我會告訴你每個人的狀況，而且我不會粉飾太平。",
+            "潔莉：每週的育兒經費都從你的錢中支付。得到照料的孩子會好一點。經費不足的孩子會變差，而母親可不會輕易原諒。",
+            "潔莉：孩子能發展得如何取決於房子。簡陋的房子只能讓嬰兒安穩，僅此而已。讓它足夠舒適，他們就會茁壯；讓它成為真正的家，他們就會開花。",
+            "潔莉：舒適來自於你建造的房間：育兒室、家庭房、花園。也來自於喜歡你的保姆，所以對我好一點。",
+            "Zélie：在這裡的孩子茁壯成長，母親會感激你。但若孩子太久沒得到所需，她會帶著孩子回託兒所，連她自己也會跟著離開。",
+            "Una：帳本歸妳保管，租金在每月一號繳納，鑰匙現在已登記在妳名下。",
+            "Zélie：很好。現在妳想問什麼都可以。"
+          ]
+        }
+      ]
+    }
+  },
+  "floors": [
+    "First floor",
+    "Second floor",
+    "Attic"
+  ],
+  "grid": {
+    "columns": 12,
+    "rows": 10
+  },
+  "exterior": {
+    "day": "generated/backgrounds/sire-house/exterior-day.webp",
+    "night": "generated/backgrounds/sire-house/exterior-night.webp"
+  },
+  "art": {
+    "roof": "sprites/house/roof.webp",
+    "footing": "sprites/house/footing.webp",
+    "beam": "sprites/house/beam.webp",
+    "wall": "sprites/house/wall.webp",
+    "shingles": "sprites/house/shingles.webp"
+  },
+  "rooms": [
+    {
+      "key": "hearth",
+      "name": "壁爐房",
+      "description": "進入後的房間：廚房與客廳合二為一，有一張長桌、一個始終保持溫度的爐灶，另一端則是裝有護符牌與日誌的門。",
+      "role": "common",
+      "viewId": "default",
+      "cost": 0,
+      "startsBuilt": true,
+      "beds": 0,
+      "cots": 0,
+      "comfort": 0,
+      "study": 0,
+      "plan": {
+        "floor": 0,
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 5
+      },
+      "tiers": [
+        {
+          "name": "像樣的廚房",
+          "cost": 210,
+          "comfort": 1,
+          "description": "廚房配置完善：有爐灶、深水槽，還有一個總是塞滿食物的儲藏室。"
+        }
+      ]
+    },
+    {
+      "key": "family",
+      "name": "家庭房",
+      "description": "全家共用的起居室：有深陷的沙發、可以躺著的地毯、擺滿遊戲和繪本的架子，還有能讓所有人同時待在一起的空間。",
+      "role": "common",
+      "viewId": "family",
+      "cost": 240,
+      "startsBuilt": false,
+      "beds": 0,
+      "cots": 0,
+      "comfort": 2,
+      "study": 0,
+      "plan": {
+        "floor": 0,
+        "x": 7,
+        "y": 0,
+        "w": 5,
+        "h": 5
+      },
+      "tiers": []
+    },
+    {
+      "key": "study",
+      "name": "書房",
+      "description": "一間安靜的小房間，窗下有一張書桌、一盞好燈，還有扇能關上的門。",
+      "role": "common",
+      "viewId": "study",
+      "cost": 210,
+      "startsBuilt": false,
+      "beds": 0,
+      "cots": 0,
+      "comfort": 0,
+      "study": 1,
+      "plan": {
+        "floor": 0,
+        "x": 0,
+        "y": 5,
+        "w": 4,
+        "h": 3
+      },
+      "tiers": [
+        {
+          "name": "閱讀牆",
+          "cost": 190,
+          "study": 1,
+          "description": "現在整面牆都擺滿了書，包括他所修每門課程的指定教材，還配有一把梯子方便取書。"
+        }
+      ]
+    },
+    {
+      "key": "nanny",
+      "name": "保姆房",
+      "description": "保姆自己的房間，位於壁爐房旁，緊鄰育兒室：有一張鋪著整齊床單的窄床、一張附有鏡子的梳妝臺，窗臺上還放著一個聽覺護身符。",
+      "role": "nanny",
+      "viewId": "nanny",
+      "cost": 0,
+      "startsBuilt": true,
+      "beds": 0,
+      "cots": 0,
+      "comfort": 0,
+      "study": 0,
+      "plan": {
+        "floor": 0,
+        "x": 4,
+        "y": 5,
+        "w": 4,
+        "h": 3
+      },
+      "tiers": []
+    },
+    {
+      "key": "nursery",
+      "name": "育兒室",
+      "description": "一間育兒室，裡面有三張嬰兒床、一張尿布臺、一張搖椅，窗戶上還有發出微弱嗡鳴聲的防護咒語。",
+      "role": "common",
+      "viewId": "nursery",
+      "cost": 190,
+      "startsBuilt": false,
+      "beds": 0,
+      "cots": 3,
+      "comfort": 4,
+      "study": 0,
+      "plan": {
+        "floor": 0,
+        "x": 8,
+        "y": 5,
+        "w": 4,
+        "h": 3
+      },
+      "tiers": [
+        {
+          "name": "夜間育兒室",
+          "cost": 240,
+          "cots": 2,
+          "comfort": 2,
+          "description": "這間育兒室已被改造成正式的夜間育兒室：多了兩張嬰兒床、一張供守夜者使用的床、一個專用的爐灶，還有一盞從不熄滅的燈。"
+        }
+      ]
+    },
+    {
+      "key": "garden",
+      "name": "花園",
+      "description": "屋後的一座圍牆花園：有草坪、一棵榲桲樹、需要有人除草的花床，以及一張曬著太陽的長椅。",
+      "role": "common",
+      "viewId": "garden",
+      "cost": 290,
+      "startsBuilt": false,
+      "beds": 0,
+      "cots": 0,
+      "comfort": 2,
+      "study": 0,
+      "plan": {
+        "floor": 0,
+        "x": 0,
+        "y": 8,
+        "w": 12,
+        "h": 2,
+        "outdoors": true
+      },
+      "tiers": [
+        {
+          "name": "溫室",
+          "cost": 220,
+          "comfort": 1,
+          "description": "溫室靠著南牆而建，無論天氣如何都很溫暖，植物叢中擺著一張桌子和兩把椅子。"
+        }
+      ]
+    },
+    {
+      "key": "master",
+      "name": "主臥室",
+      "description": "他的私人房間：一張寬大的床、一個衣櫥、一扇面向花園的窗戶，角落裡還有一個隨屋附贈的嬰兒籃。",
+      "role": "master",
+      "viewId": "master",
+      "cost": 0,
+      "startsBuilt": true,
+      "beds": 1,
+      "cots": 1,
+      "comfort": 0,
+      "study": 0,
+      "plan": {
+        "floor": 1,
+        "x": 0,
+        "y": 0,
+        "w": 7,
+        "h": 5
+      },
+      "tiers": [
+        {
+          "name": "家庭大床",
+          "cost": 270,
+          "beds": 1,
+          "description": "這張床已被更換為可容納三人以上的床，正如辦公室目錄毫不羞愧地描述的那樣。"
+        }
+      ]
+    },
+    {
+      "key": "bathroom",
+      "name": "浴室",
+      "description": "一間樸素的浴室，配有深邃的老式浴缸，鏡子會因水汽而模糊。",
+      "role": "common",
+      "viewId": "bathroom",
+      "cost": 0,
+      "startsBuilt": true,
+      "beds": 0,
+      "cots": 0,
+      "comfort": 0,
+      "study": 0,
+      "plan": {
+        "floor": 1,
+        "x": 7,
+        "y": 0,
+        "w": 5,
+        "h": 3
+      },
+      "tiers": [
+        {
+          "name": "浴室套房",
+          "cost": 320,
+          "comfort": 1,
+          "description": "這裡已被改造成浴室套房：一個足以容納客人的下沉式浴缸，腳下是溫暖的石板，熱水也用不完。"
+        }
+      ]
+    },
+    {
+      "key": "suite-west",
+      "name": "西側臥室",
+      "description": "位於屋後的一間臥室，設有窗邊座位，等待著某人來打造屬於她的空間。",
+      "role": "suite",
+      "viewId": "suite-west",
+      "cost": 240,
+      "startsBuilt": false,
+      "beds": 1,
+      "cots": 0,
+      "comfort": 0,
+      "study": 0,
+      "plan": {
+        "floor": 1,
+        "x": 0,
+        "y": 5,
+        "w": 6,
+        "h": 3
+      },
+      "tiers": []
+    },
+    {
+      "key": "suite-east",
+      "name": "東側臥室",
+      "description": "能沐浴在晨光中的臥室，等待著某人來打造屬於她的空間。",
+      "role": "suite",
+      "viewId": "suite-east",
+      "cost": 240,
+      "startsBuilt": false,
+      "beds": 1,
+      "cots": 0,
+      "comfort": 0,
+      "study": 0,
+      "plan": {
+        "floor": 1,
+        "x": 6,
+        "y": 5,
+        "w": 6,
+        "h": 3
+      },
+      "tiers": []
+    },
+    {
+      "key": "suite-attic",
+      "name": "閣樓房",
+      "description": "屋頂下的一間長型房間，天花板傾斜且設有圓窗，既隱密又與屋內其他空間略微隔開。",
+      "role": "suite",
+      "viewId": "suite-attic",
+      "cost": 300,
+      "startsBuilt": false,
+      "beds": 1,
+      "cots": 0,
+      "comfort": 0,
+      "study": 0,
+      "plan": {
+        "floor": 2,
+        "x": 2,
+        "y": 1,
+        "w": 8,
+        "h": 5
+      },
+      "tiers": []
+    }
+  ]
+}

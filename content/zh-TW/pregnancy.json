@@ -1,0 +1,60 @@
+{
+  "chance": 1,
+  "birthControlChance": 0.2,
+  "cycleDays": 28,
+  "periodDays": 4,
+  "lengthDays": 48,
+  "recoveryDays": 7,
+  "daughterChance": 0.875,
+  "birthLocationId": "health-centre",
+  "birthViewId": "maternity",
+  "birthHours": 2,
+  "birthNoticeDays": 3,
+  "names": {
+    "daughters": [
+      "Rosa",
+      "Ivy",
+      "Maeve",
+      "Juniper",
+      "Elodie",
+      "Sorrel",
+      "Thea",
+      "Willa"
+    ],
+    "sons": [
+      "Rowan",
+      "Finn",
+      "Alder",
+      "Corin"
+    ]
+  },
+  "stages": [
+    {
+      "id": "early",
+      "name": "懷孕初期",
+      "from": 0,
+      "description": "雖然還看不出來，但你能感覺到：小腹深處有一股暖意，Bloom 在你體內共鳴，你的魔法變得比以往更容易掌控。你變得更渴望食物，更感性，也更想讓他陪在你身邊。"
+    },
+    {
+      "id": "showing",
+      "name": "懷孕中期",
+      "from": 0.334,
+      "showing": true,
+      "description": "你的肚子隆起了，衣服穿起來感覺不太一樣。大家都能看出來，並會為你讓路。現在增幅效果非常明顯：你能引導比以往更多的力量，導師們已將你安排到有護盾保護的長椅，你也帶著一種全新的自豪感。"
+    },
+    {
+      "id": "heavy",
+      "name": "懷孕後期",
+      "from": 0.667,
+      "showing": true,
+      "description": "你的肚子很大，能感覺到胎動，有時甚至會覺得她的情緒就像是你自己的。你更容易疲累，能坐著就坐著，會下意識地把手放在肚子上。你的魔法正處於巔峰，必須小心使用。比起冒險，你現在更渴望從他那裡得到安慰、親近與安心感。"
+    },
+    {
+      "id": "due",
+      "name": "即將臨盆",
+      "from": 0.92,
+      "showing": true,
+      "description": "分娩最多隻剩幾天，健康中心已經預訂了花開室。你行動遲緩，睡眠品質不佳，腦中幾乎只剩下這件事。你渴望他就在身邊，也想確認他一定會在那裡。"
+    }
+  ]
+}

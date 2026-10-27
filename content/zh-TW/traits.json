@@ -1,0 +1,128 @@
+[
+  {
+    "id": "promiscuous",
+    "name": "放蕩",
+    "definition": "對隨性的性行為感到自在，且不輕易將吸引力與承諾掛鉤。",
+    "drama": {
+      "jealousy": -10,
+      "sociable": 0
+    }
+  },
+  {
+    "id": "shy",
+    "name": "害羞",
+    "definition": "對他人關注感到不安，且不輕易向陌生人敞開心扉。起初回答簡短，慌張時會語塞或轉移話題，甚至真的會逃跑。",
+    "drama": {
+      "jealousy": -5,
+      "sociable": 0
+    }
+  },
+  {
+    "id": "bookish",
+    "name": "愛讀書",
+    "definition": "在書堆中感到最快樂，且喜歡引用書中的內容。喜歡引用參考資料與事實；被問及正在閱讀的內容時會神采奕奕。",
+    "drama": {
+      "jealousy": 0,
+      "sociable": 0
+    }
+  },
+  {
+    "id": "flirtatious",
+    "name": "愛調情",
+    "definition": "享受俏皮的挑逗與浪漫的鬥嘴。能將平凡的話語轉化為輕微的調情；很少讓讚美石沉大海。",
+    "drama": {
+      "jealousy": 0,
+      "sociable": 3
+    }
+  },
+  {
+    "id": "competitive",
+    "name": "好勝",
+    "definition": "把一切都變成競賽且討厭輸。會提出賭注與挑戰；輸了會表現得風度欠佳並要求重賽。",
+    "drama": {
+      "jealousy": 0,
+      "sociable": 3
+    }
+  },
+  {
+    "id": "loyal",
+    "name": "忠誠",
+    "definition": "會站在自己在乎的人身邊，即便要犧牲自己。當朋友受到批評時會挺身而出，並銘記承諾。",
+    "drama": {
+      "jealousy": 5,
+      "sociable": 0
+    }
+  },
+  {
+    "id": "jealous",
+    "name": "嫉妒",
+    "definition": "當她在乎的人把注意力轉向他人時會非常介意。會留意他看著誰、曾與誰在一起；會因此變得沉默或言辭犀利，且需要那種她不會主動索求的安慰。",
+    "drama": {
+      "jealousy": 15,
+      "sociable": 0
+    }
+  },
+  {
+    "id": "obsessive",
+    "name": "執著",
+    "definition": "鎖定一個人後，很難將其移出腦海或視線。瞭解他的行程，出現在他所在之處，對小事過度解讀，且難以忍受任何距離感。",
+    "drama": {
+      "jealousy": 20,
+      "sociable": 0
+    }
+  },
+  {
+    "id": "easygoing",
+    "name": "隨和",
+    "definition": "沒有佔有慾；隨遇而安且不對他人有所要求。對會讓他人嫉妒的事毫不在意；有話直說，說完就放下。",
+    "drama": {
+      "jealousy": -15,
+      "sociable": 2
+    }
+  },
+  {
+    "id": "dirty-talk",
+    "name": "髒話調情",
+    "definition": "在性愛過程中，會說非常露骨的髒話且聲音很大",
+    "drama": {
+      "jealousy": 0,
+      "sociable": 0
+    }
+  },
+  {
+    "id": "sex-addict",
+    "name": "性成癮者",
+    "definition": "主動追求性行為，渴望被配種",
+    "drama": {
+      "jealousy": 0,
+      "sociable": 0
+    }
+  },
+  {
+    "id": "prude",
+    "name": "保守",
+    "definition": "對隨性的性行為感到不自在，需要浪漫與愛",
+    "drama": {
+      "jealousy": 0,
+      "sociable": 0
+    }
+  },
+  {
+    "id": "dominant",
+    "name": "強勢",
+    "definition": "喜歡在性愛中掌控全域性，隨心所欲地索取",
+    "drama": {
+      "jealousy": 0,
+      "sociable": 0
+    }
+  },
+  {
+    "id": "exhibitionist",
+    "name": "露體狂",
+    "definition": "熱愛在公共場合發生性行為，不在乎被誰看見",
+    "drama": {
+      "jealousy": 0,
+      "sociable": 0
+    }
+  }
+]

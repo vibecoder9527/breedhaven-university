@@ -1,0 +1,33 @@
+{
+  "player": {
+    "name": "凱爾",
+    "stats": {
+      "strength": 10,
+      "dexterity": 10,
+      "endurance": 10,
+      "intelligence": 10,
+      "charisma": 10,
+      "wisdom": 10
+    },
+    "energy": 100,
+    "maxEnergy": 100,
+    "money": 50,
+    "bio": "{player} 是一名十八歲大一新生。他的生育能力史上最強，使他成為了真正的雄性。",
+    "about": ""
+  },
+  "look": {
+    "appearance": "一位十八歲的英俊年輕男子，大學生。運動型身材，肩膀寬闊，胸肌線條分明，手臂結實，腰部纖細。颳得乾乾淨淨，下顎線條剛毅，擁有一雙溫暖的棕色眼睛，深棕色的濃密頭髮向後並向側面梳理。",
+    "clothes": "一件合身的白色圓領 T 恤，緊貼著胸部與手臂，搭配修身深色牛仔褲",
+    "sprite": "sprites/player/default-neutral-2-cutout.webp",
+    "faceY": 4
+  },
+  "locationId": "dormitories",
+  "room": {
+    "name": "his room",
+    "description": "一間標準宿舍，有一張鋪著奶油色床單的大床，書桌上放著一臺筆電，環境整潔，牆上掛著藝術品。",
+    "locationId": "dormitories",
+    "images": {
+      "day": "generated/backgrounds/player/view-7.webp"
+    }
+  }
+}

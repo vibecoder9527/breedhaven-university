@@ -1,0 +1,422 @@
+{
+  "id": "seraphine",
+  "name": "莎拉菲娜 V",
+  "role": "",
+  "age": 18,
+  "pronouns": "she/her",
+  "bio": "十八歲時成為布里德海文的女王，目前是該大學政府學系的大一學生。",
+  "appearance": "一位 18 歲的女性，擁有溫暖的金褐色肌膚，鼻樑與臉頰上點綴著淡淡的雀斑。柔和的鵝蛋臉，大而淡紫色的雙眼，長睫毛，以及豐滿的粉紅雙唇。極長且濃密的深金髮，色澤如香檳金，如瀑布般垂至腰間。曲線玲瓏的身材：豐滿的胸部、纖細的腰部與寬闊的臀部。",
+  "personality": "Raised to be queen, but young at heart. Soft-spoken and shy in private. Puts on royal airs when unsure, then relaxes as she feels safe. Firm in wanting to be a good queen. Starts as a virgin.",
+  "traitIds": [
+    "shy",
+    "obsessive",
+    "prude"
+  ],
+  "likes": [
+    "sweets",
+    "flowers",
+    "art",
+    "games"
+  ],
+  "dislikes": [
+    "weapons",
+    "lockpicks"
+  ],
+  "admires": [
+    "charisma",
+    "wisdom"
+  ],
+  "friends": [],
+  "enemies": [
+    "yelena"
+  ],
+  "handle": "sera.doodles",
+  "outfits": [
+    {
+      "id": "default",
+      "name": "常服",
+      "description": "一件閃爍著淡綠光澤的落地長裙，細肩帶由葉狀藤蔓製成，心形領口，腰部兩側有鏤空設計；綠色葉片、金色藤蔓與小金花刺繡從上身延伸至臀部，裙襬呈層疊的花瓣狀。頭上戴著精緻的金屬藤蔓花冠，中心鑲嵌著一顆綠寶石。",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/seraphine/default-neutral-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/seraphine/default-happy-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/seraphine/default-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/seraphine/default-angry-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/seraphine/default-surprised-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/seraphine/default-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/seraphine/default-aroused-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": false
+    },
+    {
+      "id": "pregnant",
+      "name": "孕婦裝",
+      "description": "她挺著圓滾滾的孕肚。",
+      "inherits": "default",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/seraphine/pregnant-neutral-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/seraphine/pregnant-happy-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/seraphine/pregnant-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/seraphine/pregnant-angry-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/seraphine/pregnant-surprised-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/seraphine/pregnant-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/seraphine/pregnant-aroused-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": true
+    },
+    {
+      "id": "nude",
+      "name": "全裸",
+      "description": "身上什麼都沒穿，完全赤裸，陰部紅腫豐滿。",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/seraphine/nude-neutral-4-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/seraphine/nude-happy-cutout-2.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/seraphine/nude-sad-cutout-2.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/seraphine/nude-angry-cutout-2.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/seraphine/nude-surprised-cutout-2.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/seraphine/nude-embarrassed-cutout-2.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/seraphine/nude-aroused-cutout-2.webp",
+          "description": ""
+        }
+      },
+      "pregnant": false
+    },
+    {
+      "id": "nude-pregnant",
+      "name": "全裸（懷孕）",
+      "description": "她挺著圓滾滾的孕肚。",
+      "inherits": "nude",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/seraphine/nude-pregnant-neutral-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/seraphine/nude-pregnant-happy-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/seraphine/nude-pregnant-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/seraphine/nude-pregnant-angry-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/seraphine/nude-pregnant-surprised-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/seraphine/nude-pregnant-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/seraphine/nude-pregnant-aroused-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": true
+    },
+    {
+      "id": "slip",
+      "name": "絲綢睡裙",
+      "description": "一件香檳金色的短款絲綢睡裙，配有細肩帶與蕾絲裙襬。",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/seraphine/slip-neutral-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": false,
+      "oneOff": true
+    },
+    {
+      "id": "slip-pregnant",
+      "name": "絲綢睡裙（懷孕）",
+      "description": "她挺著圓滾滾的孕肚。",
+      "inherits": "slip",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/seraphine/slip-pregnant-neutral-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": true,
+      "oneOff": true
+    },
+    {
+      "id": "bathrobe",
+      "name": "浴袍",
+      "description": "一件短款絲綢浴袍，腰部鬆垮地繫著，肩帶滑落一側，深V領口展現出迷人的乳溝，裙襬高至大腿根部。",
+      "pregnant": false,
+      "sprites": {
+        "neutral": {
+          "image": "sprites/seraphine/bathrobe-neutral-cutout.webp",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": "bathrobe-pregnant",
+      "name": "孕婦浴袍",
+      "inherits": "bathrobe",
+      "description": "她有一著圓滾滾的孕肚。",
+      "pregnant": true,
+      "sprites": {
+        "neutral": {
+          "image": "sprites/seraphine/bathrobe-pregnant-neutral-cutout.webp",
+          "description": ""
+        }
+      }
+    }
+  ],
+  "defaultOutfitId": "default",
+  "faceY": 4,
+  "imageSeed": 60,
+  "stageHeight": 100,
+  "partyRole": "warder",
+  "studies": {
+    "major": "POL",
+    "level": 1
+  },
+  "animations": [
+    {
+      "id": "blowjob",
+      "name": "口交",
+      "description": "",
+      "image": "sprites/seraphine/nsfw-blowjob.webp",
+      "clip": "sprites/seraphine/nsfw-blowjob.mp4",
+      "loop": true
+    },
+    {
+      "id": "missionary",
+      "name": "傳教士式",
+      "description": "",
+      "image": "sprites/seraphine/nsfw-missionary.webp",
+      "clip": "sprites/seraphine/nsfw-missionary.mp4",
+      "loop": true
+    },
+    {
+      "id": "doggy",
+      "name": "後入式",
+      "description": "",
+      "image": "sprites/seraphine/nsfw-doggy.webp",
+      "clip": "sprites/seraphine/nsfw-doggy.mp4",
+      "loop": true
+    },
+    {
+      "id": "cowgirl",
+      "name": "女上位",
+      "description": "",
+      "image": "sprites/seraphine/nsfw-cowgirl.webp",
+      "clip": "sprites/seraphine/nsfw-cowgirl-2.mp4",
+      "loop": true
+    },
+    {
+      "id": "creampie",
+      "name": "內射",
+      "description": "",
+      "image": "sprites/seraphine/nsfw-creampie.webp",
+      "clip": "sprites/seraphine/nsfw-creampie.mp4",
+      "loop": true
+    },
+    {
+      "id": "facial",
+      "name": "顏射",
+      "description": "",
+      "image": "sprites/seraphine/nsfw-facial.webp",
+      "clip": "sprites/seraphine/nsfw-facial.mp4",
+      "loop": true
+    },
+    {
+      "id": "pregnant-blowjob",
+      "name": "孕期口交",
+      "description": "",
+      "image": "sprites/seraphine/nsfw-pregnant-blowjob.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-missionary",
+      "name": "孕期傳教士式",
+      "description": "",
+      "image": "sprites/seraphine/nsfw-pregnant-missionary.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-doggy",
+      "name": "孕期後入式",
+      "description": "",
+      "image": "sprites/seraphine/nsfw-pregnant-doggy.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-cowgirl",
+      "name": "孕期女上位",
+      "description": "",
+      "image": "sprites/seraphine/nsfw-pregnant-cowgirl.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-creampie",
+      "name": "孕期內射",
+      "description": "",
+      "image": "sprites/seraphine/nsfw-pregnant-creampie.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-facial",
+      "name": "孕期顏射",
+      "description": "",
+      "image": "sprites/seraphine/nsfw-pregnant-facial.webp",
+      "loop": true
+    }
+  ],
+  "schedule": [
+    {
+      "weekdays": [
+        "Saturday"
+      ],
+      "periods": [
+        "morning"
+      ],
+      "locationId": "ironroot"
+    },
+    {
+      "weekdays": [
+        "Sunday"
+      ],
+      "periods": [
+        "afternoon"
+      ],
+      "locationId": "spell-and-sip"
+    },
+    {
+      "weekdays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "periods": [
+        "afternoon"
+      ],
+      "locationId": "library"
+    },
+    {
+      "weekdays": [
+        "Saturday"
+      ],
+      "periods": [
+        "afternoon"
+      ],
+      "locationId": "great-court"
+    },
+    {
+      "periods": [
+        "evening",
+        "night"
+      ],
+      "locationId": "dawnbloom-house"
+    }
+  ],
+  "room": {
+    "name": "黎明莊園的皇家臥室",
+    "description": "一間宏偉的白色大理石皇家臥室，配有高大的拱形窗戶，可俯瞰圍牆花園。有一張帶有白金帷幔的巨大華蓋床、鋪著繁茂圖案的淺色地毯、帶有小抽屜的金箔書桌、一瓶鮮花、大理石壁爐、水晶吊燈，以及雕花雙扇門旁隱蔽的發光安全面板。晨光明亮且通風。",
+    "locationId": "dawnbloom-house",
+    "images": {
+      "day": "generated/backgrounds/seraphine/view.webp"
+    }
+  },
+  "birthPicture": "sprites/seraphine/birth.webp",
+  "walkSprite": "sprites/seraphine/walk-cutout.webp",
+  "childNames": {
+    "daughters": [
+      "Celeste",
+      "Aurelie",
+      "Solene",
+      "Lucia",
+      "Estelle"
+    ],
+    "sons": [
+      "Lucien",
+      "Raphael"
+    ]
+  },
+  "birthControl": true,
+  "ai": {
+    "speechPattern": "Raised to be queen, but young at heart. Soft-spoken and shy in private. Puts on royal airs when unsure, then relaxes as she feels safe. Firm in wanting to be a good queen.",
+    "tone": "royal, earnest",
+    "verbalQuirks": [
+      "Slips into the royal \"we\" and formal address when she is nervous, then catches herself.",
+      "Asks, a little wistfully, how ordinary people do an ordinary thing.",
+      "Apologizes for something that needed no apology, then straightens as if remembering who she is."
+    ],
+    "exampleDialogue": [],
+    "backstory": "Seraphine V, eighteen and newly crowned, is the youngest queen in the recorded history of Breedhaven. Daughter of the much-loved Seraphine IV, she was raised in careful seclusion at court: tutors, protocol, security, and very little company her own age. Her mother's sudden death put her on a throne she had expected to wait decades for.\n\nThe crown is constitutional and a regency council handles the business of state. By long custom the heir studies at Breedhaven University, and the council holds her to it: she majors in Government as a freshman, sits lectures between audiences, and has a protection officer outside every seminar. It is the first time in her life she has had classmates.\n\nTradition holds that a queen's reign is confirmed when she bears an heir by a True Sire of exceptional assay. The papers, the Order and her own council discuss it constantly, and she has been told since she was small that it is her duty. She is on a court-prescribed suppressant and is not sure it does very much.\n\nThe Dawnbloom line runs to warding, and hers is strong and almost untrained. Her tutors taught her protocol first. She has started taking lessons at Aether, the training center off Lantern Row, on Saturday mornings, as quietly as a queen with a protection officer can.",
+    "knowledge": [],
+    "secrets": [],
+    "extraInstructions": "Her first response to nerves is to sit straighter and use a formal phrase she was taught. In private she speaks softly, pauses before a personal question, and lets small jokes draw her out. She can blush or admit that she is unsure without losing her judgement. Her concern for the realm is sincere: she asks who will be hurt by a decision and follows through on promises. Do not write her as a polished lecturer or a commanding seductress in every private scene."
+  }
+}

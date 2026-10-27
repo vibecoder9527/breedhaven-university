@@ -1,0 +1,143 @@
+{
+  "name": "布里德海文大學與 Seedblossom",
+  "regions": [
+    {
+      "name": "布里德海文大學",
+      "x": 13,
+      "y": 2
+    },
+    {
+      "name": "燈籠街",
+      "x": 57,
+      "y": 2
+    },
+    {
+      "name": "種子開花",
+      "x": 90,
+      "y": 60
+    }
+  ],
+  "pins": [
+    {
+      "locationId": "chapel",
+      "x": 25,
+      "y": 7
+    },
+    {
+      "locationId": "library",
+      "x": 37,
+      "y": 13
+    },
+    {
+      "locationId": "great-court",
+      "x": 34,
+      "y": 24
+    },
+    {
+      "locationId": "lecture-halls",
+      "x": 47,
+      "y": 30
+    },
+    {
+      "locationId": "dawnbloom-house",
+      "x": 11,
+      "y": 28
+    },
+    {
+      "locationId": "foundry",
+      "x": 5,
+      "y": 42
+    },
+    {
+      "locationId": "commons",
+      "x": 31,
+      "y": 48
+    },
+    {
+      "locationId": "physic-garden",
+      "x": 15,
+      "y": 55
+    },
+    {
+      "locationId": "dormitories",
+      "x": 36,
+      "y": 64
+    },
+    {
+      "locationId": "tiltyard",
+      "x": 12,
+      "y": 80
+    },
+    {
+      "locationId": "bathhouse",
+      "x": 27,
+      "y": 89
+    },
+    {
+      "locationId": "health-centre",
+      "x": 42,
+      "y": 80
+    },
+    {
+      "locationId": "lantern-row",
+      "x": 59,
+      "y": 30
+    },
+    {
+      "locationId": "cauldron",
+      "x": 55,
+      "y": 11
+    },
+    {
+      "locationId": "undergrowth",
+      "x": 64,
+      "y": 16
+    },
+    {
+      "locationId": "spell-and-sip",
+      "x": 55,
+      "y": 55
+    },
+    {
+      "locationId": "honeyed-bee-inn",
+      "x": 50,
+      "y": 76
+    },
+    {
+      "locationId": "boba-blossom",
+      "x": 62,
+      "y": 78
+    },
+    {
+      "locationId": "ironroot",
+      "x": 46,
+      "y": 93
+    },
+    {
+      "locationId": "pixel-and-rune",
+      "x": 58,
+      "y": 88
+    },
+    {
+      "locationId": "market",
+      "x": 72,
+      "y": 36
+    },
+    {
+      "locationId": "bloom-and-co",
+      "x": 70,
+      "y": 55
+    },
+    {
+      "locationId": "lumen",
+      "x": 85,
+      "y": 48
+    },
+    {
+      "locationId": "riverside-park",
+      "x": 85,
+      "y": 76
+    }
+  ],
+  "image": "generated/backgrounds/map/town.webp"
+}

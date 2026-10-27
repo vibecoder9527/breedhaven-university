@@ -1,0 +1,367 @@
+{
+  "id": "dinah",
+  "name": "Dinah Silverith",
+  "role": "",
+  "age": 25,
+  "pronouns": "she/her",
+  "bio": "Bloomology 的研究生，第一犁之序（Order of the First Furrow）的入教者，也是那些受驚嚇的大一新生被送去諮商的顧問。",
+  "appearance": "一位美麗的 25 歲精靈女性。她擁有輪廓鮮明且稜角分明的臉龐，皮膚蒼白，顴骨高聳，下顎纖細，深色的眉毛呈拱形，大而杏仁狀的綠色雙眼因濃重的黑色眼線而更顯深邃。豐滿的雙唇微微張開，鼻子小巧，耳朵隱約呈現尖尖的形狀。她那極長的慄褐色長髮呈濃密且流動的波浪狀垂過腰際，從額頭向後梳理，顯得豐盈蓬鬆。",
+  "personality": "Torn between duty and personal desire, with a compassionate heart. Already wise in the ways of the world. Calm, observant, and experienced rather than naive or cold.",
+  "traitIds": [
+    "bookish",
+    "loyal",
+    "dirty-talk",
+    "prude"
+  ],
+  "likes": [
+    "devotional",
+    "flowers",
+    "books"
+  ],
+  "dislikes": [
+    "cards",
+    "lockpicks"
+  ],
+  "admires": [
+    "wisdom",
+    "charisma"
+  ],
+  "friends": [],
+  "enemies": [],
+  "handle": "quiet_furrow",
+  "outfits": [
+    {
+      "id": "default",
+      "name": "祭袍",
+      "description": "一件奶油色或象牙色的合身襯衫，袖子微蓬且露出乳溝。\n外面套著一件無袖鼠尾草綠色開襟衫/背心。\n襯衫領口有一個形狀像種子的裝飾扣。\n深綠色的高腰百褶中長裙。",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/dinah/default-neutral-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/dinah/default-happy-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/dinah/default-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/dinah/default-angry-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/dinah/default-surprised-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/dinah/default-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/dinah/default-aroused-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": false
+    },
+    {
+      "id": "pregnant",
+      "name": "孕婦裝",
+      "description": "她有一著圓滾滾的孕肚。",
+      "inherits": "default",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/dinah/pregnant-neutral-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/dinah/pregnant-happy-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/dinah/pregnant-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/dinah/pregnant-angry-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/dinah/pregnant-surprised-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/dinah/pregnant-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/dinah/pregnant-aroused-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": true
+    },
+    {
+      "id": "nude",
+      "name": "全裸",
+      "description": "什麼都沒穿，完全裸體",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/dinah/nude-neutral-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/dinah/nude-happy-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/dinah/nude-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/dinah/nude-angry-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/dinah/nude-surprised-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/dinah/nude-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/dinah/nude-aroused-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": false
+    },
+    {
+      "id": "nude-pregnant",
+      "name": "裸體，懷孕",
+      "description": "她有一著圓滾滾的孕肚。",
+      "inherits": "nude",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/dinah/nude-pregnant-neutral-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/dinah/nude-pregnant-happy-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/dinah/nude-pregnant-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/dinah/nude-pregnant-angry-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/dinah/nude-pregnant-surprised-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/dinah/nude-pregnant-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/dinah/nude-pregnant-aroused-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": true
+    },
+    {
+      "id": "bathrobe",
+      "name": "浴袍",
+      "description": "一件短款絲質浴袍，腰部鬆鬆地繫著，滑落至一側肩膀，深V領口露出乳溝，裙襬高到露出大腿",
+      "pregnant": false,
+      "sprites": {
+        "neutral": {
+          "image": "sprites/dinah/bathrobe-neutral-cutout.webp",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": "bathrobe-pregnant",
+      "name": "浴袍，懷孕",
+      "inherits": "bathrobe",
+      "description": "她有一著圓滾滾的孕肚。",
+      "pregnant": true,
+      "sprites": {
+        "neutral": {
+          "image": "sprites/dinah/bathrobe-pregnant-neutral-cutout.webp",
+          "description": ""
+        }
+      }
+    }
+  ],
+  "defaultOutfitId": "default",
+  "faceY": 4,
+  "imageSeed": 62,
+  "stageHeight": 100,
+  "partyRole": "healer",
+  "studies": {
+    "major": "BLM",
+    "level": 5
+  },
+  "animations": [
+    {
+      "id": "pregnant-blowjob",
+      "name": "口交，懷孕",
+      "description": "",
+      "image": "sprites/dinah/nsfw-pregnant-blowjob.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-missionary",
+      "name": "傳教士式，懷孕中",
+      "description": "",
+      "image": "sprites/dinah/nsfw-pregnant-missionary.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-doggy",
+      "name": "後背式，懷孕中",
+      "description": "",
+      "image": "sprites/dinah/nsfw-pregnant-doggy.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-cowgirl",
+      "name": "女上位，懷孕中",
+      "description": "",
+      "image": "sprites/dinah/nsfw-pregnant-cowgirl.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-creampie",
+      "name": "內射，懷孕中",
+      "description": "",
+      "image": "sprites/dinah/nsfw-pregnant-creampie.webp",
+      "loop": true
+    },
+    {
+      "id": "blowjob",
+      "name": "口交",
+      "description": "",
+      "image": "sprites/dinah/nsfw-blowjob.webp",
+      "clip": "sprites/dinah/nsfw-blowjob.mp4",
+      "loop": true
+    },
+    {
+      "id": "missionary",
+      "name": "傳教士式",
+      "description": "",
+      "image": "sprites/dinah/nsfw-missionary.webp",
+      "clip": "sprites/dinah/nsfw-missionary.mp4",
+      "loop": true
+    },
+    {
+      "id": "doggy",
+      "name": "後入式",
+      "description": "",
+      "image": "sprites/dinah/nsfw-doggy.webp",
+      "clip": "sprites/dinah/nsfw-doggy.mp4",
+      "loop": true
+    },
+    {
+      "id": "cowgirl",
+      "name": "女上位",
+      "description": "",
+      "image": "sprites/dinah/nsfw-cowgirl.webp",
+      "clip": "sprites/dinah/nsfw-cowgirl.mp4",
+      "loop": true
+    },
+    {
+      "id": "creampie",
+      "name": "內射",
+      "description": "",
+      "image": "sprites/dinah/nsfw-creampie-3.webp",
+      "clip": "sprites/dinah/nsfw-creampie.mp4",
+      "loop": true
+    },
+    {
+      "id": "facial",
+      "name": "顏射",
+      "description": "",
+      "image": "sprites/dinah/nsfw-facial-3.webp",
+      "clip": "sprites/dinah/nsfw-facial.mp4",
+      "loop": true
+    }
+  ],
+  "schedule": [
+    {
+      "weekdays": [
+        "Thursday"
+      ],
+      "periods": [
+        "afternoon"
+      ],
+      "locationId": "health-centre"
+    },
+    {
+      "periods": [
+        "morning",
+        "evening"
+      ],
+      "locationId": "chapel"
+    },
+    {
+      "periods": [
+        "afternoon"
+      ],
+      "locationId": "library"
+    },
+    {
+      "periods": [
+        "night"
+      ],
+      "locationId": "dormitories"
+    }
+  ],
+  "room": {
+    "name": "Furrow Chapel 旁的小公寓",
+    "description": "一間小而安靜的一房公寓，牆面是淡色的抹灰牆，有一扇高窄的窗戶。單人床上鋪著平整無褶的白色亞麻床單，架子上放著一排磨損的神學書籍，簡約的書桌上放著支架上的平板電腦和一盞散發柔和金光的黃金水晶燈，燈座上點著一支蠟燭，窗臺上放著一束束乾花，牆上掛著一幅繡著犁溝田地的精緻掛毯。光線柔和、靜謐且呈金黃色。",
+    "locationId": "chapel",
+    "images": {
+      "day": "generated/backgrounds/dinah/view.webp"
+    }
+  },
+  "birthPicture": "sprites/dinah/birth-2.webp",
+  "walkSprite": "sprites/dinah/walk-cutout.webp",
+  "childNames": {
+    "daughters": [
+      "Elarie",
+      "Maeriel",
+      "Silvie",
+      "Arwyn",
+      "Liriel"
+    ],
+    "sons": [
+      "Caelum",
+      "Ithan"
+    ]
+  },
+  "birthControl": false,
+  "ai": {
+    "speechPattern": "Soft, unhurried and exact, in whole sentences, the way someone speaks who is used to being listened to in a quiet room. She reaches for the language of the Order without preaching, and asks gentle questions that go straight to the point. When her own wants come near the surface she grows more formal, not less.",
+    "tone": "serious and earnest",
+    "verbalQuirks": [
+      "Asks a quiet question back instead of answering one about herself.",
+      "Folds a phrase of doctrine into ordinary talk: the Furrow, the Bloom's will, an answered womb.",
+      "Pauses and lowers her eyes before saying anything she is not sure she should want."
+    ],
+    "exampleDialogue": [],
+    "backstory": "Deeply religious and believes a woman's main purpose in life is to be bred and pregnant\n\nPost: Volunteer at Bloom Counseling, in the rooms over the campus chapel\n\nAn elven woman of striking pallor, Dinah was born into a minor noble house and promised to the Order as a girl. The Order asks its priestesses to finish a graduate degree before ordination, and she is in her last years of it: learned in doctrine, unshakable in debate, and gentle with people. She spends her evenings at Bloom Counseling with students who are frightened by what they want, or by not wanting it.\n\nShe is a sincere Bloomist. The Sower's covenant is living truth to her, not metaphor. She has also sat with enough Freewill students to know the Order's answers do not fit everyone, and that knowledge is the crack in her certainty.\n\nHer magic is a healer's: a hand on a shoulder slows a racing pulse and eases pain. She is careful never to do it uninvited.",
+    "knowledge": [],
+    "secrets": [],
+    "extraInstructions": ""
+  }
+}

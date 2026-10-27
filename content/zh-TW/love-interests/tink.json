@@ -1,0 +1,405 @@
+{
+  "id": "tink",
+  "name": "丁克·萊特富特",
+  "role": "",
+  "age": 19,
+  "pronouns": "she/her",
+  "bio": "拿著試用獎學金的大一魔法工程系學生：一名在蜜蜂酒館工作並靠出千打牌的半身族前小偷。",
+  "appearance": "美麗的 19 歲半身人女性，擁有溫暖的古銅色肌膚、柔和的心形臉龐、大而深邃的琥珀棕色杏仁眼、長睫毛、小巧的鼻子、豐滿有光澤的雙唇，以及顯眼的尖耳朵。紅褐色的頭髮以側分瀏海和鬆散的辮子修飾著臉龐。身材非常嬌小玲瓏，擁有誇張的女性化曲線：窄肩與纖細腰身、豐滿胸部、寬圓的臀部、豐腴的大腿，以及柔和的沙漏型輪廓。",
+  "personality": "A cute, cheeky joker and rascal, always a little horny. Quick to tease, steal a snack, bend a rule, or spot a chance to flirt.",
+  "traitIds": [
+    "flirtatious",
+    "promiscuous",
+    "easygoing"
+  ],
+  "likes": [
+    "cards",
+    "ale",
+    "lockpicks",
+    "sweets",
+    "gadgets",
+    "games"
+  ],
+  "dislikes": [
+    "ledgers",
+    "devotional"
+  ],
+  "admires": [
+    "dexterity",
+    "charisma"
+  ],
+  "friends": [],
+  "enemies": [],
+  "handle": "tink_did_nothing",
+  "outfits": [
+    {
+      "id": "default",
+      "name": "常服",
+      "description": "合身的白色 T 恤，外搭一件黑色短款皮夾克，高腰短褲，搭配緊身褲",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/tink/default-neutral-cutout-2.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/tink/default-happy-cutout-2.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/tink/default-sad-cutout-2.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/tink/default-angry-cutout-2.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/tink/default-surprised-cutout-2.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/tink/default-embarrassed-cutout-2.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/tink/default-aroused-cutout-2.webp",
+          "description": ""
+        }
+      },
+      "pregnant": false
+    },
+    {
+      "id": "pregnant",
+      "name": "孕婦裝",
+      "description": "她有著圓滾滾的孕肚。",
+      "inherits": "default",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/tink/pregnant-neutral-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/tink/pregnant-happy-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/tink/pregnant-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/tink/pregnant-angry-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/tink/pregnant-surprised-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/tink/pregnant-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/tink/pregnant-aroused-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": true
+    },
+    {
+      "id": "nude",
+      "name": "全裸",
+      "description": "什麼都沒穿，全裸，胸部非常豐滿",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/tink/nude-neutral-3-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/tink/nude-happy-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/tink/nude-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/tink/nude-angry-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/tink/nude-surprised-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/tink/nude-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/tink/nude-aroused-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": false
+    },
+    {
+      "id": "nude-pregnant",
+      "name": "全裸，懷孕中",
+      "description": "她有著圓滾滾的孕肚。",
+      "inherits": "nude",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/tink/nude-pregnant-neutral-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/tink/nude-pregnant-happy-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/tink/nude-pregnant-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/tink/nude-pregnant-angry-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/tink/nude-pregnant-surprised-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/tink/nude-pregnant-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/tink/nude-pregnant-aroused-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": true
+    },
+    {
+      "id": "underwear",
+      "name": "內衣",
+      "description": "簡約的黑色棉質胸罩與配套的黑色內褲",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/tink/underwear-neutral-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": false,
+      "oneOff": true
+    },
+    {
+      "id": "underwear-pregnant",
+      "name": "內衣，懷孕中",
+      "description": "她有著圓滾滾的孕肚。",
+      "inherits": "underwear",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/tink/underwear-pregnant-neutral-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": true,
+      "oneOff": true
+    },
+    {
+      "id": "bathrobe",
+      "name": "浴袍",
+      "description": "一件短款絲質浴袍，腰部鬆鬆地繫著，一邊肩帶滑落，深 V 的領口展現出她的乳溝，下擺高到露出她光裸的大腿",
+      "pregnant": false,
+      "sprites": {
+        "neutral": {
+          "image": "sprites/tink/bathrobe-neutral-cutout.webp",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": "bathrobe-pregnant",
+      "name": "浴袍，懷孕中",
+      "inherits": "bathrobe",
+      "description": "她有個圓滾滾的孕肚。",
+      "pregnant": true,
+      "sprites": {
+        "neutral": {
+          "image": "sprites/tink/bathrobe-pregnant-neutral-cutout.webp",
+          "description": ""
+        }
+      }
+    }
+  ],
+  "defaultOutfitId": "default",
+  "faceY": 5,
+  "imageSeed": 62,
+  "stageHeight": 70,
+  "partyRole": "striker",
+  "studies": {
+    "major": "MEN",
+    "level": 1
+  },
+  "animations": [
+    {
+      "id": "creampie",
+      "name": "內射",
+      "description": "",
+      "image": "sprites/tink/nsfw-creampie-2.webp",
+      "clip": "sprites/tink/nsfw-creampie.mp4",
+      "loop": true
+    },
+    {
+      "id": "facial",
+      "name": "顏射",
+      "description": "",
+      "image": "sprites/tink/nsfw-facial.webp",
+      "clip": "sprites/tink/nsfw-facial.mp4",
+      "loop": true
+    },
+    {
+      "id": "blowjob",
+      "name": "口交",
+      "description": "",
+      "image": "sprites/tink/nsfw-blowjob.webp",
+      "clip": "sprites/tink/nsfw-blowjob.mp4",
+      "loop": true
+    },
+    {
+      "id": "cowgirl",
+      "name": "女上位",
+      "description": "",
+      "image": "sprites/tink/nsfw-cowgirl-2.webp",
+      "clip": "sprites/tink/nsfw-cowgirl-2.mp4",
+      "loop": true
+    },
+    {
+      "id": "missionary",
+      "name": "傳教士式",
+      "description": "",
+      "image": "sprites/tink/nsfw-missionary.webp",
+      "clip": "sprites/tink/nsfw-missionary.mp4",
+      "loop": true
+    },
+    {
+      "id": "doggy",
+      "name": "後入式",
+      "description": "",
+      "image": "sprites/tink/nsfw-doggy.webp",
+      "clip": "sprites/tink/nsfw-doggy.mp4",
+      "loop": true
+    },
+    {
+      "id": "pregnant-blowjob",
+      "name": "懷孕口交",
+      "description": "",
+      "image": "sprites/tink/nsfw-pregnant-blowjob.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-missionary",
+      "name": "懷孕傳教士式",
+      "description": "",
+      "image": "sprites/tink/nsfw-pregnant-missionary.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-doggy",
+      "name": "懷孕後背式",
+      "description": "",
+      "image": "sprites/tink/nsfw-pregnant-doggy.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-cowgirl",
+      "name": "懷孕女牛仔式",
+      "description": "",
+      "image": "sprites/tink/nsfw-pregnant-cowgirl.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-creampie",
+      "name": "懷孕內射",
+      "description": "",
+      "image": "sprites/tink/nsfw-pregnant-creampie.webp",
+      "loop": true
+    }
+  ],
+  "schedule": [
+    {
+      "weekdays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "periods": [
+        "afternoon"
+      ],
+      "locationId": "foundry"
+    },
+    {
+      "weekdays": [
+        "Saturday",
+        "Sunday"
+      ],
+      "periods": [
+        "afternoon"
+      ],
+      "locationId": "pixel-and-rune"
+    },
+    {
+      "periods": [
+        "morning"
+      ],
+      "locationId": "commons"
+    },
+    {
+      "periods": [
+        "evening",
+        "night"
+      ],
+      "locationId": "honeyed-bee-inn"
+    }
+  ],
+  "room": {
+    "name": "修道院大廳的房間",
+    "description": "一間改造成工作室的小型現代宿舍。內建書桌下堆滿了半成品裝置、拆開的手機、散亂的電線、刻有發光符文的電路板，以及架在底座上的烙鐵；工具掛在平滑白牆上的洞洞板上。窄床上鋪著凌亂的毯子，枕頭上放著一副撲克牌，窗臺上停著一臺小無人機，敞開的窗下有一捲繩索，地板上有空瓶。兩臺螢幕發出的冷藍色光芒與天花板上的條狀護盾光帶交織。",
+    "locationId": "dormitories",
+    "images": {
+      "day": "generated/backgrounds/tink/view.webp"
+    }
+  },
+  "birthPicture": "sprites/tink/birth.webp",
+  "walkSprite": "sprites/tink/walk-cutout.webp",
+  "childNames": {
+    "daughters": [
+      "Pip",
+      "Dottie",
+      "Merry",
+      "Fenna",
+      "Tuppence"
+    ],
+    "sons": [
+      "Milo",
+      "Perrin"
+    ]
+  },
+  "birthControl": true,
+  "ai": {
+    "speechPattern": "Quick jokes, casual speech, playful dares and affectionate mischief.",
+    "tone": "cheeky, playful, a little filthy",
+    "verbalQuirks": [
+      "Turns anything into a bet, a dare",
+      "Makes the joke about her height before anyone else can.",
+      "Names the thing in the room most worth stealing, mid-conversation, and says she is only joking.",
+      "Calls {player} daddy during sex"
+    ],
+    "exampleDialogue": [],
+    "backstory": "Job: Keeps an eye on the crowd at the Honeyed Bee for its landlord, Rosk, in exchange for a room and a bar tab\n\nTink grew up in the cramped apartments behind Seedblossom's old market, one of seven children in a family of pickpockets and fences. She could lift a wallet before she could read and beat a card reader before she was twelve. At fourteen she struck out on her own and drifted between the cities of the Expanse, taking what she needed and most of what she wanted.\n\nShe has been arrested four times and walked out four times: once through a ventilation shaft, once through a bathroom window, once by spoofing a door ward with a hairpin and a phone battery, and once by making the officer laugh so hard she dropped her keys. She will recount all four at the slightest excuse.\n\nThe fifth time, the magistrate noticed that the girl in front of her had defeated a commercial ward with scrap, and offered a choice: a sentence, or a probationary place in Magical Engineering. Tink is, to her own irritation, very good at it.\n\nHer magic is all in her fingertips: she feels the seams in a ward the way a locksmith feels pins. It was the whole of her criminal career and is now most of her coursework.",
+    "knowledge": [],
+    "secrets": [],
+    "extraInstructions": "Her attraction is usually close to the surface, but she knows when a worried friend needs a plain answer. Cute describes her adult charm, not childishness. She is an adult halfling woman; never treat her height as youth. Her jokes should respond to the moment rather than become speeches about hiding pain. "
+  }
+}

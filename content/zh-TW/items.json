@@ -1,0 +1,1044 @@
+[
+  {
+    "id": "posy",
+    "name": "野花小花束",
+    "description": "草地花朵，用麻繩紮起，是今天早上採摘的。",
+    "price": 5,
+    "icon": "flower",
+    "appearance": "一小束混合的野花，包含雛菊與矢車菊，用一圈麻繩紮起。",
+    "tags": [
+      "flowers"
+    ],
+    "image": "sprites/items/posy-cutout.webp"
+  },
+  {
+    "id": "potted-fern",
+    "name": "盆栽蕨類",
+    "description": "黏土盆裡的小蕨類，很難養死。",
+    "price": 8,
+    "icon": "plant",
+    "appearance": "一盆種在圓形紅陶土盆裡的小型綠葉蕨類。",
+    "tags": [
+      "plants"
+    ],
+    "image": "sprites/items/potted-fern-cutout.webp"
+  },
+  {
+    "id": "moss-ball",
+    "name": "苔蘚球",
+    "description": "盤子裡濕潤、如天鵝絨般的池塘苔蘚球。",
+    "price": 4,
+    "icon": "plant",
+    "appearance": "一個圓形的綠色天鵝絨苔蘚球，放在淺白瓷盤中。",
+    "tags": [
+      "moss",
+      "plants"
+    ],
+    "image": "sprites/items/moss-ball-cutout.webp"
+  },
+  {
+    "id": "seed-packets",
+    "name": "種子包",
+    "description": "用紙扭成的香草與豆類種子包，上面有手寫標籤。",
+    "price": 4,
+    "icon": "plant",
+    "appearance": "三個棕色紙製的小種子包，上面有手寫標籤，呈扇形展開。",
+    "tags": [
+      "gardening"
+    ],
+    "image": "sprites/items/seed-packets-cutout.webp"
+  },
+  {
+    "id": "lavender-soap",
+    "name": "薰衣草肥皂",
+    "description": "用亞麻布包裹著的淡色香氛肥皂塊。",
+    "price": 6,
+    "icon": "soap",
+    "appearance": "一塊用奶油色亞麻布半包著的淡紫色肥皂，上面放著一枝薰衣草。",
+    "tags": [
+      "soap"
+    ],
+    "image": "sprites/items/lavender-soap-cutout.webp"
+  },
+  {
+    "id": "honey-cakes",
+    "name": "蜂蜜蛋糕",
+    "description": "紙袋裡裝著三塊黏答答的蛋糕，還帶著餘溫。",
+    "price": 4,
+    "icon": "sweet",
+    "appearance": "三個金黃色糖霜蜂蜜蛋糕，從敞開的紙袋中散落出來。",
+    "tags": [
+      "sweets"
+    ],
+    "image": "sprites/items/honey-cakes-cutout.webp"
+  },
+  {
+    "id": "candied-plums",
+    "name": "蜜漬李子",
+    "description": "一小盒裹著糖霜的李子。",
+    "price": 6,
+    "icon": "sweet",
+    "appearance": "一個裝著深紫色糖漬梅子的小型開口禮盒。",
+    "tags": [
+      "sweets"
+    ],
+    "image": "sprites/items/candied-plums-cutout.webp"
+  },
+  {
+    "id": "loose-leaf-tea",
+    "name": "茶葉罐",
+    "description": "裝在彩繪小鐵罐裡的丘陵產紅茶。",
+    "price": 7,
+    "icon": "sweet",
+    "appearance": "一個裝飾著綠葉的小型方形彩繪茶罐，附圓蓋。",
+    "tags": [
+      "tea"
+    ],
+    "image": "sprites/items/loose-leaf-tea-cutout.webp"
+  },
+  {
+    "id": "coffee-beans",
+    "name": "一袋咖啡豆",
+    "description": "由 Spell & Sip 的供應商於本週烘焙。",
+    "price": 8,
+    "icon": "sweet",
+    "appearance": "一袋頂部摺疊的褐色紙袋裝烘焙咖啡豆，旁邊散落著幾顆豆子。",
+    "tags": [
+      "coffee"
+    ],
+    "image": "sprites/items/coffee-beans-cutout.webp"
+  },
+  {
+    "id": "spiced-cider",
+    "name": "一瓶香料蘋果酒",
+    "description": "味道濃鬱香甜，適合與人共飲。",
+    "price": 7,
+    "icon": "bottle",
+    "appearance": "一個深琥珀色玻璃瓶裝的香料蘋果酒，配有翻蓋式瓶塞，標籤上有蘋果圖案。",
+    "tags": [
+      "ale"
+    ],
+    "image": "sprites/items/spiced-cider-cutout.webp"
+  },
+  {
+    "id": "salt-pretzels",
+    "name": "鹽味蝴蝶餅",
+    "description": "表面裹滿粗鹽的結狀麵包。",
+    "price": 3,
+    "icon": "salt",
+    "appearance": "兩個結狀的褐色扭結餅，表面裹滿粗白鹽。",
+    "tags": [
+      "salt"
+    ],
+    "image": "sprites/items/salt-pretzels-cutout.webp"
+  },
+  {
+    "id": "blank-ledger",
+    "name": "有橫線的分類帳",
+    "description": "硬皮橫線帳本，適合那些仍習慣在紙上思考的人。",
+    "price": 10,
+    "icon": "book",
+    "appearance": "一本闔上的硬皮帳本，封面為深綠色布面，邊角為紅色。",
+    "tags": [
+      "ledgers"
+    ],
+    "image": "sprites/items/blank-ledger-cutout.webp"
+  },
+  {
+    "id": "trade-treatise",
+    "name": "《論貨幣與信用》",
+    "description": "一本備受爭議的經濟學經典，裝幀是破舊的學生平裝本。",
+    "price": 12,
+    "icon": "book",
+    "appearance": "一本破舊厚實的平裝書，封面為素藍色，印有金幣徽章。",
+    "tags": [
+      "books",
+      "trade"
+    ],
+    "image": "sprites/items/trade-treatise-cutout.webp"
+  },
+  {
+    "id": "book-of-hymns",
+    "name": "犁溝讚美詩集",
+    "description": "附有絲帶書籤的教團讚美詩口袋書。",
+    "price": 9,
+    "icon": "book",
+    "appearance": "一本深紅色皮革的小型口袋聖歌集，掛著一條絲帶書籤。",
+    "tags": [
+      "devotional"
+    ],
+    "image": "sprites/items/book-of-hymns-cutout.webp"
+  },
+  {
+    "id": "sketchbook",
+    "name": "粉紅色素描本",
+    "description": "玫瑰色封面夾著厚實的繪圖紙。",
+    "price": 10,
+    "icon": "book",
+    "appearance": "一本玫瑰粉色硬殼封面、配有黑色鬆緊帶的素描本，上面橫放著一支鉛筆。",
+    "tags": [
+      "art"
+    ],
+    "image": "sprites/items/sketchbook-cutout.webp"
+  },
+  {
+    "id": "old-map",
+    "name": "舊版擴張區鐵路地圖",
+    "description": "已過時，繪製精美，帶有些微斑點。地圖上的兩條傳送門線路從未建成。",
+    "price": 8,
+    "icon": "map",
+    "appearance": "一張泛黃的舊摺疊鐵路地圖，部分展開，露出精細的線條。",
+    "tags": [
+      "maps"
+    ],
+    "image": "sprites/items/old-map-cutout.webp"
+  },
+  {
+    "id": "playing-cards",
+    "name": "一副撲克牌",
+    "description": "一副磨損的牌。可能被動過手腳，但賣家不肯透露。",
+    "price": 6,
+    "icon": "cards",
+    "appearance": "一疊散開的舊撲克牌，A在最上面，旁邊有一個皺巴巴的牌盒。",
+    "tags": [
+      "cards"
+    ],
+    "image": "sprites/items/playing-cards-cutout.webp"
+  },
+  {
+    "id": "silk-ribbon",
+    "name": "絲綢緞帶",
+    "description": "一條亮麗的絲綢，可用於束髮或繫腕。",
+    "price": 5,
+    "icon": "ribbon",
+    "appearance": "一捲鮮紅色的絲帶。",
+    "tags": [
+      "ribbons"
+    ],
+    "image": "sprites/items/silk-ribbon-cutout.webp"
+  },
+  {
+    "id": "lace-choker",
+    "name": "蕾絲頸圈",
+    "description": "精緻的黑色蕾絲，配有小銀扣。",
+    "price": 12,
+    "icon": "necklace",
+    "appearance": "一條黑色蕾絲頸圈項鍊，帶有小銀扣，呈環狀擺放。",
+    "tags": [
+      "finery"
+    ],
+    "image": "sprites/items/lace-choker-cutout.webp"
+  },
+  {
+    "id": "river-stone",
+    "name": "河石",
+    "description": "一顆光滑的灰色石頭，保留著陽光的餘溫。",
+    "price": 3,
+    "icon": "stone",
+    "appearance": "一顆光滑扁平的灰色橢圓形河石。",
+    "tags": [
+      "stones"
+    ],
+    "image": "sprites/items/river-stone-cutout.webp"
+  },
+  {
+    "id": "whetstone",
+    "name": "磨刀石",
+    "description": "細顆粒磨刀石，用來保持競賽用刃的鋒利。",
+    "price": 6,
+    "icon": "blade",
+    "appearance": "一個放在小木塊上的長方形灰色磨刀石。",
+    "tags": [
+      "weapons"
+    ],
+    "image": "sprites/items/whetstone-cutout.webp"
+  },
+  {
+    "id": "sword-belt",
+    "name": "壓花勤務腰帶",
+    "description": "堅固的皮革搭配簡約黃銅扣，專為攜帶刀刃與無線電設計，經久耐用。",
+    "price": 14,
+    "icon": "belt",
+    "appearance": "一條捲起的堅固棕色壓花皮革腰帶，配有素色黃銅扣和劍鞘掛環。",
+    "tags": [
+      "leatherwork"
+    ],
+    "image": "sprites/items/sword-belt-cutout.webp"
+  },
+  {
+    "id": "lockpicks",
+    "name": "開鎖工具組",
+    "description": "被標榜為「防護測試工具」，但沒人會上當。",
+    "price": 12,
+    "icon": "key",
+    "appearance": "一個展開的小型皮革捲包，裡面整齊排列著一排細鋼製開鎖工具。",
+    "tags": [
+      "lockpicks"
+    ],
+    "image": "sprites/items/lockpicks-cutout.webp"
+  },
+  {
+    "id": "glass-vials",
+    "name": "玻璃小瓶",
+    "description": "六個帶塞子的藥瓶，裝在襯墊盒中，適合精細的藥劑製作。",
+    "price": 9,
+    "icon": "vial",
+    "appearance": "一個開啟的襯墊盒，裡面裝著六個帶塞子的小型空玻璃瓶。",
+    "tags": [
+      "potions"
+    ],
+    "image": "sprites/items/glass-vials-cutout.webp"
+  },
+  {
+    "id": "game-cartridge",
+    "name": "復古遊戲卡帶",
+    "description": "比你年紀還大的主機經典作品。標籤已磨損，存檔是別人的。",
+    "price": 9,
+    "icon": "cards",
+    "appearance": "一個灰色的復古電子遊戲卡帶，上面貼著磨損的彩色標籤。",
+    "tags": [
+      "games"
+    ],
+    "image": "sprites/items/game-cartridge-cutout.webp"
+  },
+  {
+    "id": "hobby-kit",
+    "name": "附魔電路組裝包",
+    "description": "一塊需自行焊接的電路板，可施加一次小型附魔。包裝盒標註適合十歲以上使用。",
+    "price": 12,
+    "icon": "key",
+    "appearance": "一個開啟的紙箱，裡面有一塊綠色電子電路板，旁邊放著一支烙鐵。",
+    "tags": [
+      "gadgets"
+    ],
+    "image": "sprites/items/hobby-kit-cutout.webp"
+  },
+  {
+    "id": "earbuds",
+    "name": "整新品耳機",
+    "description": "音質良好，僅一位愛惜的使用者，充電盒有一道刮痕。",
+    "price": 14,
+    "icon": "gift",
+    "appearance": "一副放在開啟的充電盒裡的白色無線耳機，充電盒上有輕微刮痕。",
+    "tags": [
+      "music"
+    ],
+    "image": "sprites/items/earbuds-cutout.webp"
+  },
+  {
+    "id": "charm-case",
+    "name": "防護咒語手機殼",
+    "description": "超薄手機殼，內襯縫有防摔咒語。防護等級為一趟樓梯的高度。",
+    "price": 10,
+    "icon": "gift",
+    "appearance": "一個纖薄的深藍色手機殼，上面用銀線縫製了一個小符文。",
+    "tags": [
+      "gadgets"
+    ],
+    "image": "sprites/items/charm-case-cutout.webp"
+  },
+  {
+    "id": "instant-ramen",
+    "name": "餘燼拉麵杯麵",
+    "description": "釜爐名菜的速食版。拉開拉環後通常會自動加熱。",
+    "price": 3,
+    "icon": "salt",
+    "appearance": "一杯印有紅橘火焰圖案的杯裝泡麵，蓋子帶有拉環。",
+    "tags": [
+      "salt"
+    ],
+    "image": "sprites/items/instant-ramen-cutout.webp"
+  },
+  {
+    "id": "energy-drink",
+    "name": "閃根能量飲料罐",
+    "description": "罐裝能量飲料，會發出輕微的嗡嗡聲。在考試季非常受歡迎。",
+    "price": 3,
+    "icon": "bottle",
+    "appearance": "一個細長的電光綠鋁製飲料罐，上面印有黃色閃電圖案。",
+    "tags": [
+      "coffee"
+    ],
+    "use": {
+      "effects": [
+        {
+          "type": "energy",
+          "amount": 25
+        }
+      ],
+      "on": "self"
+    },
+    "image": "sprites/items/energy-drink-cutout.webp"
+  },
+  {
+    "id": "scratchcard",
+    "name": "幸運七號刮刮樂",
+    "description": "有七片花瓣可刮。中獎機率以小字印在背面。",
+    "price": 2,
+    "icon": "cards",
+    "appearance": "一張印有七片花瓣圖案的樂透刮刮卡，其中一片已被刮開，旁邊放著一枚硬幣。",
+    "tags": [
+      "cards"
+    ],
+    "image": "sprites/items/scratchcard-cutout.webp"
+  },
+  {
+    "id": "phone-charger",
+    "name": "手機充電器",
+    "description": "充電器與傳輸線，因為每個人都弄丟了。",
+    "price": 6,
+    "icon": "key",
+    "appearance": "一個白色手機充電插頭，電線整齊地捲繞著。",
+    "tags": [
+      "gadgets"
+    ],
+    "image": "sprites/items/phone-charger-cutout.webp"
+  },
+  {
+    "id": "bath-salts",
+    "name": "薰衣草浴鹽",
+    "description": "一罐香氛浴鹽，適合長時間浸泡。",
+    "price": 7,
+    "icon": "soap",
+    "appearance": "一個裝著淡紫色浴鹽的玻璃罐，配有軟木塞蓋和一把小木勺。",
+    "tags": [
+      "soap"
+    ],
+    "image": "sprites/items/bath-salts-cutout.webp"
+  },
+  {
+    "id": "chamomile-tea",
+    "name": "洋甘菊茶盒",
+    "description": "從收銀臺旁的架子上拿來的二十包舒緩茶包。",
+    "price": 5,
+    "icon": "sweet",
+    "appearance": "一盒黃色的洋甘菊茶包小紙盒，上面印有雛菊圖案。",
+    "tags": [
+      "tea"
+    ],
+    "image": "sprites/items/chamomile-tea-cutout.webp"
+  },
+  {
+    "id": "study-tonic",
+    "name": "讀書提神劑",
+    "description": "棕色瓶裝的合法專注提神劑。上課前喝一瓶，絕對不要喝兩瓶。",
+    "price": 9,
+    "icon": "vial",
+    "appearance": "一個棕色小玻璃藥瓶，配有黑色螺旋蓋和素色白色標籤。",
+    "tags": [
+      "potions"
+    ],
+    "use": {
+      "effects": [
+        {
+          "type": "boon",
+          "modifier": {
+            "kind": "marks",
+            "amount": 1.5
+          },
+          "hours": 6
+        }
+      ],
+      "on": "self"
+    },
+    "image": "sprites/items/study-tonic-cutout.webp"
+  },
+  {
+    "id": "pocket-speaker",
+    "name": "口袋喇叭",
+    "description": "一個只有李子大小的喇叭，音量大得不合常理。",
+    "price": 15,
+    "icon": "gift",
+    "appearance": "一個李子大小的微型圓形行動式喇叭，深灰色，帶有織物格柵和腕帶。",
+    "tags": [
+      "music"
+    ],
+    "image": "sprites/items/pocket-speaker-cutout.webp"
+  },
+  {
+    "id": "game-controller",
+    "name": "遊戲手把",
+    "description": "半透明紫色的無線手把。",
+    "price": 14,
+    "icon": "cards",
+    "appearance": "半透明紫色塑膠材質的無線遊戲控制器。",
+    "tags": [
+      "games"
+    ],
+    "image": "sprites/items/game-controller-cutout.webp"
+  },
+  {
+    "id": "smart-lamp",
+    "name": "附魔燈檯燈",
+    "description": "用小型附魔燈代替燈泡的檯燈。聽從指令即可調暗。",
+    "price": 12,
+    "icon": "key",
+    "appearance": "一盞現代風格的小型檯燈，燈泡處是一個發光的暖色圓球。",
+    "tags": [
+      "gadgets"
+    ],
+    "image": "sprites/items/smart-lamp-cutout.webp"
+  },
+  {
+    "id": "quartz-point",
+    "name": "石英晶尖",
+    "description": "一根手指長度的透明水晶，用於聚焦微小的法術，大多是因為漂亮而被購買。",
+    "price": 6,
+    "icon": "stone",
+    "appearance": "一根手指長度的透明尖端石英晶體。",
+    "tags": [
+      "stones"
+    ],
+    "image": "sprites/items/quartz-point-cutout.webp"
+  },
+  {
+    "id": "component-pouch",
+    "name": "咒語材料袋",
+    "description": "裝在標籤束中的乾草藥、鹽和粉末，用於藥水製作與實作。",
+    "price": 10,
+    "icon": "vial",
+    "appearance": "一個敞開的小型抽繩布袋，裡面散落著捲曲的紙條和乾燥草藥。",
+    "tags": [
+      "potions"
+    ],
+    "image": "sprites/items/component-pouch-cutout.webp"
+  },
+  {
+    "id": "charm-bracelet",
+    "name": "吊飾手鍊",
+    "description": "一條精美的銀鍊，上面掛著一個小幸運吊飾，還有空間可以增加更多。",
+    "price": 13,
+    "icon": "necklace",
+    "appearance": "一條精緻的銀鍊手鍊，上面掛著一顆小小的四葉草吊飾。",
+    "tags": [
+      "finery"
+    ],
+    "image": "sprites/items/charm-bracelet-cutout.webp"
+  },
+  {
+    "id": "tarot-deck",
+    "name": "塔羅牌組",
+    "description": "七十八張牌裝在天鵝絨袋中。「綻放」是第二十二號王牌。",
+    "price": 9,
+    "icon": "cards",
+    "appearance": "一疊塔羅牌露出一半在紫色天鵝絨袋中，最上面一張牌畫著一朵花。",
+    "tags": [
+      "cards"
+    ],
+    "image": "sprites/items/tarot-deck-cutout.webp"
+  },
+  {
+    "id": "grimoire",
+    "name": "摹本魔法書",
+    "description": "一本四百年前咒語書的印刷副本，連邊註也一併保留。",
+    "price": 14,
+    "icon": "book",
+    "appearance": "一本厚重的古老咒語書，擁有深色皮革封面、金屬護角和搭扣。",
+    "tags": [
+      "books"
+    ],
+    "image": "sprites/items/grimoire-cutout.webp"
+  },
+  {
+    "id": "heretics-history",
+    "name": "《異端者眼中的弗羅歷史》",
+    "description": "由教團內部的一位女祭司所撰寫的歷史。並不算是被禁書。",
+    "price": 11,
+    "icon": "book",
+    "appearance": "一本硬皮歷史書，配有黑色書衣，封面印有金色的犁溝圖騰。",
+    "tags": [
+      "books"
+    ],
+    "image": "sprites/items/heretics-history-cutout.webp"
+  },
+  {
+    "id": "antique-atlas",
+    "name": "古董地圖集",
+    "description": "鐵路時代之前的「廣袤之地」手繪著色地圖。",
+    "price": 12,
+    "icon": "map",
+    "appearance": "一本大型古董地圖集，擁有磨損的棕色皮革封面與金箔壓紋，正面印有羅盤玫瑰圖案。",
+    "tags": [
+      "maps"
+    ],
+    "image": "sprites/items/antique-atlas-cutout.webp"
+  },
+  {
+    "id": "curio",
+    "name": "可疑的人造物",
+    "description": "一個帶有鉸鏈的小黃銅物件，沒有明顯用途。標籤上只寫著「開啟」。",
+    "price": 8,
+    "icon": "key",
+    "appearance": "一個奇特的小型黃銅機械裝置，帶有鉸鏈、齒輪和一個微小的鑰匙孔。",
+    "tags": [
+      "lockpicks"
+    ],
+    "image": "sprites/items/curio-cutout.webp"
+  },
+  {
+    "id": "vintage-scarf",
+    "name": "復古絲巾",
+    "description": "一條印花絲巾，比你還老，但儲存狀況極佳。",
+    "price": 6,
+    "icon": "ribbon",
+    "appearance": "一條摺疊好的絲巾，印有色彩繽紛的復古繁茂圖案。",
+    "tags": [
+      "ribbons",
+      "finery"
+    ],
+    "image": "sprites/items/vintage-scarf-cutout.webp"
+  },
+  {
+    "id": "band-tee",
+    "name": "老舊樂團 T 恤",
+    "description": "背面印著褪色的巡演日期，這支樂團在你出生前就解散了。",
+    "price": 5,
+    "icon": "gift",
+    "appearance": "一件摺疊好的褪色黑色樂團 T 恤，上面印著裂開的白色玫瑰圖案。",
+    "tags": [
+      "music"
+    ],
+    "image": "sprites/items/band-tee-cutout.webp"
+  },
+  {
+    "id": "worn-leather-jacket",
+    "name": "磨損的皮夾克",
+    "description": "隨著歲月變得柔軟，其中一隻手肘處曾被懂行的人修補過。",
+    "price": 14,
+    "icon": "belt",
+    "appearance": "一件柔軟且有磨損感的棕色皮夾克，手肘處有補丁。",
+    "tags": [
+      "leatherwork"
+    ],
+    "image": "sprites/items/worn-leather-jacket-cutout.webp"
+  },
+  {
+    "id": "paperback",
+    "name": "二手平裝書",
+    "description": "一本書脊裂開的小說，裡面還夾著某人的公車票當書籤。",
+    "price": 3,
+    "icon": "book",
+    "appearance": "一本二手平裝小說，書脊有裂痕，裡面夾著一張當作書籤的票券。",
+    "tags": [
+      "books"
+    ],
+    "image": "sprites/items/paperback-cutout.webp"
+  },
+  {
+    "id": "heartsease-draught",
+    "name": "慰藉飲劑",
+    "description": "一小瓶你自己釀製的玫瑰金液體。喝了之後，一整天都會讓人覺得你很親切好接近。",
+    "price": 0,
+    "icon": "vial",
+    "appearance": "一個裝著發光玫瑰金液體的小型圓形玻璃瓶，瓶口塞著軟木塞。",
+    "tags": [
+      "potions"
+    ],
+    "use": {
+      "effects": [
+        {
+          "type": "boon",
+          "modifier": {
+            "kind": "affection",
+            "amount": 2
+          },
+          "hours": 24
+        }
+      ],
+      "on": "self"
+    },
+    "image": "sprites/items/heartsease-draught-cutout.webp"
+  },
+  {
+    "id": "bloom-cordial",
+    "name": "繁花糖漿",
+    "description": "你親手釀製的甜美深色糖漿，適合兩人分享。它能讓她對「繁花」所產生的任何抵觸情緒平息一整天。",
+    "price": 0,
+    "icon": "bottle",
+    "appearance": "一個矮胖的深色玻璃瓶，裝著深紫色利口酒，瓶口有蠟封軟木塞，附兩小杯玻璃杯。",
+    "tags": [
+      "potions"
+    ],
+    "use": {
+      "effects": [
+        {
+          "type": "boon",
+          "modifier": {
+            "kind": "unguarded",
+            "amount": 1
+          },
+          "hours": 24,
+          "on": "her",
+          "telling": "You shared a cordial he brewed, and you know what it does: for today, what you take against the Bloom will not hold. You drank it knowing that."
+        }
+      ],
+      "on": "her"
+    },
+    "image": "sprites/items/bloom-cordial-cutout.webp"
+  },
+  {
+    "id": "charmed-confection",
+    "name": "附魔甜點",
+    "description": "一盒你在爐火旁製作並施了咒的精緻甜點。沒人會因為收到它而感到遺憾。",
+    "price": 0,
+    "icon": "sweet",
+    "appearance": "一個裝著圓形粉彩色糖果的小開口盒子，糖果隱約閃爍著光芒。",
+    "tags": [
+      "sweets"
+    ],
+    "lovedByAll": true,
+    "image": "sprites/items/charmed-confection-cutout.webp"
+  },
+  {
+    "id": "stillwater",
+    "name": "靜水",
+    "description": "一瓶來自下方、從未波動過的水。在戰鬥中，它能讓某人重新站起來。",
+    "price": 0,
+    "icon": "flask",
+    "appearance": "一個圓底玻璃瓶，裝著清澈透明的靜止水，附軟木塞，隱約發出藍光。",
+    "tags": [],
+    "below": {
+      "footing": 12
+    },
+    "image": "sprites/items/stillwater-cutout.webp"
+  },
+  {
+    "id": "grounding-salt",
+    "name": "定神鹽",
+    "description": "來自舊水管的灰色鹽。在戰鬥中，它能立即平息孕婦的湧動。",
+    "price": 0,
+    "icon": "crystals",
+    "appearance": "一個裝著粗糙灰色鹽晶的小開口皮革小袋。",
+    "tags": [],
+    "below": {
+      "footing": 4,
+      "calms": true
+    },
+    "image": "sprites/items/grounding-salt-cutout.webp"
+  },
+  {
+    "id": "spring-tonic",
+    "name": "泉水補劑",
+    "description": "源自泉水，帶著淡淡苦味。飲用可補充體力，或用於穩定某人。",
+    "price": 0,
+    "icon": "drop",
+    "appearance": "一個小陶瓶，瓶頸繫著繩索，開口處正冒著蒸汽。",
+    "tags": [],
+    "use": {
+      "effects": [
+        {
+          "type": "energy",
+          "amount": 30
+        }
+      ]
+    },
+    "below": {
+      "footing": 8
+    },
+    "image": "sprites/items/spring-tonic-cutout.webp"
+  },
+  {
+    "id": "resonance-token",
+    "name": "共鳴符記",
+    "description": "一枚帶電的圓盤，在掌心嗡嗡作響。放在女性身邊啟動，會激起她對你的渴望。",
+    "price": 0,
+    "icon": "stone",
+    "appearance": "一個扁平的圓形青銅圓盤，刻有同心圓與符文，隱約發出粉紅光芒。",
+    "tags": [],
+    "use": {
+      "effects": [
+        {
+          "type": "meter",
+          "meter": "desire",
+          "amount": 10
+        }
+      ],
+      "on": "her"
+    },
+    "image": "sprites/items/resonance-token-cutout.webp"
+  },
+  {
+    "id": "stamina-band",
+    "name": "耐力手環",
+    "description": "你親手製作的手環，已充能並準備好觸發。",
+    "price": 0,
+    "icon": "belt",
+    "appearance": "一個手工編織皮革手環，附有小銅片，並有發出綠光的充能指示燈。",
+    "tags": [],
+    "use": {
+      "effects": [
+        {
+          "type": "energy",
+          "amount": 40
+        }
+      ],
+      "on": "self"
+    },
+    "image": "sprites/items/stamina-band-cutout.webp"
+  },
+  {
+    "id": "first-blossom-bouquet",
+    "name": "初花花束",
+    "description": "七朵白花與一朵紅花，按照節慶慣例紮成花束。",
+    "price": 9,
+    "icon": "flower",
+    "appearance": "一束由七朵白花與一朵紅花組成，並繫著奶油色絲帶。",
+    "tags": [
+      "flowers"
+    ],
+    "image": "sprites/items/first-blossom-bouquet-cutout.webp"
+  },
+  {
+    "id": "dawnbloom-rose",
+    "name": "晨曦玫瑰",
+    "description": "單朵金邊皇室品種玫瑰，在宮廷苗圃獲得許可後培育。",
+    "price": 7,
+    "icon": "flower",
+    "appearance": "一朵長莖玫瑰，奶油色的花瓣邊緣鑲著金邊。",
+    "tags": [
+      "flowers"
+    ],
+    "image": "sprites/items/dawnbloom-rose-cutout.webp"
+  },
+  {
+    "id": "beeswax-tapers",
+    "name": "蜂蠟長蠟燭",
+    "description": "一捆手工浸製的蠟燭，散發著淡淡的蜂蜜香。",
+    "price": 4,
+    "icon": "gift",
+    "appearance": "一小捆用繩子紮起的高大蜂蜜色蜂蠟蠟燭。",
+    "tags": [
+      "candles"
+    ],
+    "image": "sprites/items/beeswax-tapers-cutout.webp"
+  },
+  {
+    "id": "charmed-trowel",
+    "name": "附魔小鏟子",
+    "description": "一把手柄中融入了生長咒語的園藝小鏟。幼苗非常喜歡它。",
+    "price": 8,
+    "icon": "plant",
+    "appearance": "一把小園藝鏟，附有拋光木柄，上面刻著發出綠光的符文。",
+    "tags": [
+      "gardening"
+    ],
+    "image": "sprites/items/charmed-trowel-cutout.webp"
+  },
+  {
+    "id": "moss-terrarium",
+    "name": "苔蘚生態瓶",
+    "description": "一個密封的玻璃球，裡面裝著活苔蘚和一株蕨類，內部潮濕翠綠。",
+    "price": 10,
+    "icon": "plant",
+    "appearance": "一個圓形密封玻璃球，裡面裝著綠色苔蘚、小石頭和微型蕨類。",
+    "tags": [
+      "moss",
+      "plants"
+    ],
+    "image": "sprites/items/moss-terrarium-cutout.webp"
+  },
+  {
+    "id": "kharadi-stout",
+    "name": "卡拉迪黑啤酒",
+    "description": "黑色、苦澀，且濃稠到能插進湯匙。在船艙底釀造，並以此為傲。",
+    "price": 6,
+    "icon": "bottle",
+    "appearance": "一個矮胖的深褐色玻璃瓶，裝著黑色黑啤，附紅色蠟封與交叉斧頭標籤。",
+    "tags": [
+      "ale"
+    ],
+    "image": "sprites/items/kharadi-stout-cutout.webp"
+  },
+  {
+    "id": "brown-ale",
+    "name": "種子花棕色艾爾啤酒罐",
+    "description": "陶罐裝著這座城市的自家艾爾，產自鐵路拱門下的釀酒廠。",
+    "price": 7,
+    "icon": "bottle",
+    "appearance": "一個附軟木塞的小圓形石器罐，上面貼著簡單的印章標籤。",
+    "tags": [
+      "ale"
+    ],
+    "image": "sprites/items/brown-ale-cutout.webp"
+  },
+  {
+    "id": "apple-tart",
+    "name": "果園蘋果塔",
+    "description": "裝在紙盒裡的低地蘋果塔，表面裹著糖漿，仍溫熱著。",
+    "price": 4,
+    "icon": "sweet",
+    "appearance": "一個裝在波浪邊紙託中的圓形金黃色蘋果塔，上面鋪著裹著糖漿的蘋果片。",
+    "tags": [
+      "sweets"
+    ],
+    "image": "sprites/items/apple-tart-cutout.webp"
+  },
+  {
+    "id": "starkeland-honey-drops",
+    "name": "斯塔克蘭蜂蜜糖",
+    "description": "來自赫斯派爾的硬質琥珀糖，包著蠟紙。它們永遠不會壞。",
+    "price": 3,
+    "icon": "sweet",
+    "appearance": "一小堆圓形的琥珀色蜂蜜糖，有些用扭曲的蠟紙包著。",
+    "tags": [
+      "sweets"
+    ],
+    "image": "sprites/items/starkeland-honey-drops-cutout.webp"
+  },
+  {
+    "id": "vesperan-romance",
+    "name": "維斯佩拉言情小說",
+    "description": "海盜船長、被偷走的賽瑞，還有公海上大量的起伏。非常受歡迎，但沒人會承認看過。",
+    "price": 5,
+    "icon": "book",
+    "appearance": "一本平裝浪漫小說，封面畫著波濤洶湧大海上的大帆船，畫面極具張力。",
+    "tags": [
+      "books"
+    ],
+    "image": "sprites/items/vesperan-romance-cutout.webp"
+  },
+  {
+    "id": "paint-set",
+    "name": "繁茂顏料組",
+    "description": "十二格水彩盤，其中兩格是附魔顏料，乾燥後會閃爍光芒。",
+    "price": 12,
+    "icon": "gift",
+    "appearance": "一個開啟的小錫盒水彩顏料組，內含十二個彩色色盤和一支畫筆，其中兩個色盤閃爍著光芒。",
+    "tags": [
+      "art"
+    ],
+    "image": "sprites/items/paint-set-cutout.webp"
+  },
+  {
+    "id": "practice-blade",
+    "name": "提爾提亞德練習劍",
+    "description": "學員們操練用的鈍頭訓練劍。比看起來還要重。",
+    "price": 13,
+    "icon": "blade",
+    "appearance": "一把斜放著的樸素鈍頭鋼製練習劍，握柄包覆著皮革。",
+    "tags": [
+      "weapons"
+    ],
+    "image": "sprites/items/practice-blade-cutout.webp"
+  },
+  {
+    "id": "banded-agate",
+    "name": "條紋瑪瑙",
+    "description": "取自河床礫石的瑪瑙切片，紋路如同樹木年輪。",
+    "price": 5,
+    "icon": "stone",
+    "appearance": "一片磨光的瑪瑙切片，上面有藍白相間的同心圓紋路。",
+    "tags": [
+      "stones"
+    ],
+    "image": "sprites/items/banded-agate-cutout.webp"
+  },
+  {
+    "id": "prayer-beads",
+    "name": "福羅祈禱珠",
+    "description": "由七顆木珠與一顆種籽珍珠組成的圓環，用於計算晨禱。",
+    "price": 6,
+    "icon": "necklace",
+    "appearance": "一串由七顆磨光的木珠和一顆珍珠珠組成的念珠，附有一個小流蘇。",
+    "tags": [
+      "devotional"
+    ],
+    "image": "sprites/items/prayer-beads-cutout.webp"
+  },
+  {
+    "id": "match-ball",
+    "name": "比賽用球",
+    "description": "一顆標準排球，目前還沒人簽名。",
+    "price": 8,
+    "icon": "gift",
+    "appearance": "一顆藍白相間的排球。",
+    "tags": [
+      "sport"
+    ],
+    "image": "sprites/items/match-ball-cutout.webp"
+  },
+  {
+    "id": "lantern-row-whisper",
+    "name": "燈籠街耳語",
+    "description": "校園八卦報。內容一半是真的，但每個人都會讀。",
+    "price": 1,
+    "icon": "book",
+    "appearance": "一份摺疊的小報，報頭印著大大的「WHISPER」，上面有模糊的女性照片和一排排代表文字的波浪線。",
+    "tags": [
+      "overheard gossip"
+    ],
+    "image": "sprites/items/lantern-row-whisper-cutout.webp"
+  },
+  {
+    "id": "arena-program",
+    "name": "大競技場決賽節目單",
+    "description": "今年的決賽，包含每一場對決與每一位參賽者，賠率由前任主人手寫標註。",
+    "price": 4,
+    "icon": "book",
+    "appearance": "一本亮面的活動手冊，封面印著「FINALS」字樣，下方是兩名穿著盔甲的女性在對練。",
+    "tags": [
+      "sport"
+    ],
+    "image": "sprites/items/arena-program-cutout.webp"
+  },
+  {
+    "id": "ward-candles",
+    "name": "伊斯卡蘭護盾蠟燭",
+    "description": "三支紫色蠟燭，蠟中鑄有微小的護盾咒語。無論在多大的穿堂風中都能穩定燃燒。",
+    "price": 9,
+    "icon": "gift",
+    "appearance": "三根紫色蠟燭併排站立，蠟質中壓印著微小的發光符文。",
+    "tags": [
+      "candles"
+    ],
+    "image": "sprites/items/ward-candles-cutout.webp"
+  },
+  {
+    "id": "first-rain",
+    "name": "第一場雨的罐裝",
+    "description": "捕捉自春季首場風暴的雨水，以罐裝出售，供需要它的法術使用。",
+    "price": 6,
+    "icon": "vial",
+    "appearance": "一個裝著雨水的小透明玻璃罐，蓋著軟木塞，貼著雨滴標籤，玻璃表面凝結著水珠。",
+    "tags": [
+      "rain"
+    ],
+    "image": "sprites/items/first-rain-cutout.webp"
+  },
+  {
+    "id": "veyran-mask",
+    "name": "雕刻的 Veyran 面具",
+    "description": "一個來自 Veyra 的彩繪戲劇面具，狐狸臉且帶著笑容。某人的紀念品，現在歸你了。",
+    "price": 11,
+    "icon": "gift",
+    "appearance": "一個紅金配色的木製戲劇面具，雕刻成咧嘴笑的狐狸臉。",
+    "tags": [
+      "art"
+    ],
+    "image": "sprites/items/veyran-mask-cutout.webp"
+  },
+  {
+    "id": "coffee-to-go",
+    "name": "Spell & Sip 特製烘焙咖啡",
+    "description": "一杯外帶的大杯特製烘焙咖啡，杯套上附有保溫咒語。",
+    "price": 3,
+    "icon": "bottle",
+    "appearance": "一個高大的紙製外帶咖啡杯，蓋著蓋子，杯套上印著一個小符文。",
+    "tags": [
+      "coffee"
+    ],
+    "image": "sprites/items/coffee-to-go-cutout.webp"
+  },
+  {
+    "id": "almond-croissant",
+    "name": "杏仁可頌",
+    "description": "層次酥脆、口感黏甜，大多數日子到了中午就賣光了。",
+    "price": 3,
+    "icon": "sweet",
+    "appearance": "一個撒著糖粉和杏仁片的金黃色杏仁可頌。",
+    "tags": [
+      "sweets"
+    ],
+    "image": "sprites/items/almond-croissant-cutout.webp"
+  }
+]

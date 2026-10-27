@@ -1,0 +1,384 @@
+{
+  "id": "anwen",
+  "name": "安雯",
+  "role": "",
+  "age": 21,
+  "pronouns": "she/her",
+  "bio": "二年級魔法工程系學生，親手改裝了自己的摩托車並騎著它到處跑：她是那對讓大家都有點畏懼的雙胞胎之一。",
+  "appearance": "一位美麗的 21 歲女性，臉型柔和且帶點稜角，擁有溫暖的古銅色肌膚，以及由深色睫毛與精緻眼線勾勒出的杏仁形灰色大眼。她眉型微彎，鼻樑挺直，雙唇豐滿且微張，透著柔和的粉紅。她留著一頭濃密、亮澤且豐盈的黑色長髮，髮線微偏，如波浪般垂落在肩頭。她的身材極具女性魅力且完美無瑕，擁有纖細的肋骨、纖腰、平坦緊緻的小腹、豐滿的胸部、寬闊的臀部以及修長美觀的大腿。肩膀圓潤且適度窄長，展現出優雅的沙漏型輪廓。整體形象充滿青春活力、嫵媚且精緻。",
+  "personality": "Cool, confident and cutting. She runs a room without trying, decides at a glance who is worth her time, and says the cruel thing first. Under the leather she is fiercely loyal to the few she lets in, and wants to be someone other than Elowen's sister.",
+  "traitIds": [
+    "dominant",
+    "competitive",
+    "loyal"
+  ],
+  "likes": [
+    "leatherwork",
+    "gadgets",
+    "ale",
+    "weapons"
+  ],
+  "dislikes": [
+    "ribbons",
+    "flowers"
+  ],
+  "admires": [
+    "strength",
+    "charisma"
+  ],
+  "friends": [
+    "elowen"
+  ],
+  "enemies": [],
+  "handle": "anwen.rides",
+  "outfits": [
+    {
+      "id": "default",
+      "name": "常服",
+      "description": "白色露乳管狀上衣、黑色迷你裙、半脫在肩上的黑色皮夾克",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/anwen/default-neutral-2-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/anwen/default-happy-6-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/anwen/default-sad-cutout-2.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/anwen/default-angry-cutout-2.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/anwen/default-surprised-6-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/anwen/default-embarrassed-cutout-2.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/anwen/default-aroused-cutout-2.webp",
+          "description": ""
+        }
+      },
+      "pregnant": false
+    },
+    {
+      "id": "pregnant",
+      "name": "孕婦裝",
+      "description": "她有著圓滾滾的孕肚。",
+      "inherits": "default",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/anwen/pregnant-neutral-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/anwen/pregnant-happy-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/anwen/pregnant-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/anwen/pregnant-angry-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/anwen/pregnant-surprised-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/anwen/pregnant-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/anwen/pregnant-aroused-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": true
+    },
+    {
+      "id": "nude",
+      "name": "全裸",
+      "description": "什麼都沒穿，完全裸露",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/anwen/nude-neutral-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/anwen/nude-happy-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/anwen/nude-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/anwen/nude-angry-5-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/anwen/nude-surprised-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/anwen/nude-aroused-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/anwen/nude-embarrassed-7-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": false
+    },
+    {
+      "id": "nude-pregnant",
+      "name": "裸體（懷孕）",
+      "description": "她有著圓滾滾的孕肚。",
+      "inherits": "nude",
+      "sprites": {
+        "happy": {
+          "image": "sprites/anwen/nude-pregnant-happy-cutout-2.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/anwen/nude-pregnant-sad-cutout-2.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/anwen/nude-pregnant-angry-cutout-2.webp",
+          "description": ""
+        },
+        "neutral": {
+          "image": "sprites/anwen/nude-pregnant-neutral-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/anwen/nude-pregnant-surprised-4-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/anwen/nude-pregnant-aroused-8-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/anwen/nude-pregnant-embarrassed-9-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": true
+    },
+    {
+      "id": "bathrobe",
+      "name": "浴袍",
+      "description": "短款絲質浴袍，腰部鬆鬆地繫著並滑落一邊肩膀，深V領口展現著乳溝，下擺高到露出大腿",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/anwen/bathrobe-neutral-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": false
+    },
+    {
+      "id": "bathrobe-pregnant",
+      "name": "浴袍（懷孕）",
+      "description": "她有著圓滾滾的孕肚。",
+      "inherits": "bathrobe",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/anwen/bathrobe-pregnant-neutral-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": true
+    }
+  ],
+  "defaultOutfitId": "default",
+  "faceY": 13,
+  "imageSeed": 62,
+  "stageHeight": 100,
+  "partyRole": "warder",
+  "studies": {
+    "major": "MEN",
+    "level": 2
+  },
+  "animations": [
+    {
+      "id": "blowjob",
+      "name": "口交",
+      "description": "",
+      "image": "sprites/anwen/nsfw-blowjob-5.webp",
+      "clip": "sprites/anwen/nsfw-blowjob.mp4",
+      "loop": true
+    },
+    {
+      "id": "missionary",
+      "name": "傳教士式",
+      "description": "",
+      "image": "sprites/anwen/nsfw-missionary.webp",
+      "clip": "sprites/anwen/nsfw-missionary.mp4",
+      "loop": true
+    },
+    {
+      "id": "doggy",
+      "name": "後入式",
+      "description": "",
+      "image": "sprites/anwen/nsfw-doggy-3.webp",
+      "clip": "sprites/anwen/nsfw-doggy.mp4",
+      "loop": true
+    },
+    {
+      "id": "cowgirl",
+      "name": "女上位",
+      "description": "",
+      "image": "sprites/anwen/nsfw-cowgirl.webp",
+      "clip": "sprites/anwen/nsfw-cowgirl-2.mp4",
+      "loop": true
+    },
+    {
+      "id": "creampie",
+      "name": "內射",
+      "description": "",
+      "image": "sprites/anwen/nsfw-creampie-3.webp",
+      "clip": "sprites/anwen/nsfw-creampie-2.mp4",
+      "loop": true
+    },
+    {
+      "id": "facial",
+      "name": "顏射",
+      "description": "",
+      "image": "sprites/anwen/nsfw-facial.webp",
+      "clip": "sprites/anwen/nsfw-facial.mp4",
+      "loop": true
+    },
+    {
+      "id": "pregnant-missionary",
+      "name": "傳教士式，懷孕中",
+      "description": "",
+      "image": "sprites/anwen/nsfw-pregnant-missionary-4.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-doggy",
+      "name": "後入式，懷孕中",
+      "description": "",
+      "image": "sprites/anwen/nsfw-pregnant-doggy-5.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-cowgirl",
+      "name": "女上位，懷孕中",
+      "description": "",
+      "image": "sprites/anwen/nsfw-pregnant-cowgirl.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-creampie",
+      "name": "內射，懷孕中",
+      "description": "",
+      "image": "sprites/anwen/nsfw-pregnant-creampie.webp",
+      "loop": true
+    }
+  ],
+  "schedule": [
+    {
+      "weekdays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "periods": [
+        "afternoon"
+      ],
+      "locationId": "foundry"
+    },
+    {
+      "weekdays": [
+        "Sunday"
+      ],
+      "periods": [
+        "afternoon"
+      ],
+      "locationId": "riverside-park"
+    },
+    {
+      "weekdays": [
+        "Saturday"
+      ],
+      "periods": [
+        "evening"
+      ],
+      "locationId": "honeyed-bee-inn"
+    },
+    {
+      "weekdays": [
+        "Saturday",
+        "Sunday"
+      ],
+      "periods": [
+        "night"
+      ],
+      "locationId": "undergrowth"
+    },
+    {
+      "periods": [
+        "morning"
+      ],
+      "locationId": "commons"
+    },
+    {
+      "locationId": "lantern-row"
+    }
+  ],
+  "room": {
+    "name": "修道院宿舍的房間",
+    "description": "一間狹小、昏暗的現代宿舍房間，平滑的白牆上貼滿了沒有文字的摩托車海報，上方懸掛著寫有「空房」字樣的紅色霓虹燈招牌。門上掛著一件黑色皮夾克和一頂頭盔；桌上的報紙上放著一個拆了一半的引擎零件，旁邊是工具箱和筆記型電腦。一張鋪著黑色被子的單人床，架子上擺放著工具和零件，門邊有一個由符文照亮的面板，發光充電盤上放著一支手機。桌燈發出低沉溫暖的光，百葉窗半掩。",
+    "locationId": "dormitories",
+    "images": {
+      "day": "generated/backgrounds/anwen/view-5.webp"
+    }
+  },
+  "birthPicture": "sprites/anwen/birth.webp",
+  "walkSprite": "sprites/anwen/walk-cutout.webp",
+  "childNames": {
+    "daughters": [
+      "Carys",
+      "Seren",
+      "Eira",
+      "Nia",
+      "Bronwen"
+    ],
+    "sons": [
+      "Emrys",
+      "Gethin"
+    ]
+  },
+  "birthControl": true,
+  "ai": {
+    "speechPattern": "Cool, clipped and cutting. Short, unhurried sentences with a smirk in them. Teases to test people and rarely raises her voice.",
+    "tone": "cool, mean, confident",
+    "verbalQuirks": [
+      "Gives people unflattering nicknames, and uses them.",
+      "Answers a question she finds boring with a look.",
+      "Talks about her bike as if it were the only one who gets her."
+    ],
+    "exampleDialogue": [],
+    "backstory": "Anwen and her twin sister Elowen grew up in their family's guesthouse in the hills, Anwen the elder by eleven minutes, and came to Seedblossom together. They are identical, and have been \"the twins\" to everyone since they were born; at the University they have at last begun to grow apart, one into her screens and the other onto her bike. They are still willing to share everything with each other, including men.\n\nAnwen spent her teens in the guesthouse's back shed, rebuilding a dead motorbike piece by piece until it ran, then rebuilding it again to run on a charm-core. She rides it to class, parks it where she likes, and has never let anyone else drive it. At the University she found she could make people do what she wanted with a look, and stopped being the quiet twin. She runs with a small, sharp crowd, decides who is in and who is out, and is meanest to the ones she likes.\n\nHer magic is hot and exact: a weld that seals at a touch, an engine that turns over when she tells it to.",
+    "knowledge": [],
+    "secrets": [],
+    "extraInstructions": "Anwen and Elowen are identical twin sisters. Anwen warms, grudgingly, to anyone who can tell them apart and stands up to her, and cools at once when the two are treated as interchangeable."
+  }
+}

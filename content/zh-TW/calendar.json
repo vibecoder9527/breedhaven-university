@@ -1,0 +1,740 @@
+{
+  "months": [
+    {
+      "id": "thawmoon",
+      "name": "融月",
+      "days": 30
+    },
+    {
+      "id": "greening",
+      "name": "翠月",
+      "days": 30
+    },
+    {
+      "id": "bloomtide",
+      "name": "花潮月",
+      "days": 31
+    },
+    {
+      "id": "suncrest",
+      "name": "陽冠月",
+      "days": 30
+    },
+    {
+      "id": "highsun",
+      "name": "盛夏月",
+      "days": 31
+    },
+    {
+      "id": "goldenhay",
+      "name": "金穗月",
+      "days": 31
+    },
+    {
+      "id": "emberfall",
+      "name": "餘燼月",
+      "days": 30
+    },
+    {
+      "id": "harvestwane",
+      "name": "豐收月",
+      "days": 31
+    },
+    {
+      "id": "mistmoon",
+      "name": "霧月",
+      "days": 30
+    },
+    {
+      "id": "frostveil",
+      "name": "霜紗月",
+      "days": 31
+    },
+    {
+      "id": "deepwinter",
+      "name": "深冬月",
+      "days": 31
+    },
+    {
+      "id": "icebreak",
+      "name": "破冰月",
+      "days": 28
+    }
+  ],
+  "weekdays": [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ],
+  "hoursPerDay": 24,
+  "periods": [
+    {
+      "id": "morning",
+      "name": "早晨",
+      "startHour": 6,
+      "light": "day"
+    },
+    {
+      "id": "afternoon",
+      "name": "下午",
+      "startHour": 12,
+      "light": "day"
+    },
+    {
+      "id": "evening",
+      "name": "傍晚",
+      "startHour": 18,
+      "light": "night"
+    },
+    {
+      "id": "night",
+      "name": "晚上",
+      "startHour": 22,
+      "light": "night"
+    }
+  ],
+  "start": {
+    "year": 412,
+    "month": "goldenhay",
+    "day": 15,
+    "hour": 8
+  },
+  "startWeekday": 1,
+  "lengthDays": 133,
+  "weather": [
+    {
+      "id": "clear",
+      "name": "晴空萬裡",
+      "icon": "clear",
+      "description": "明亮乾燥，伴隨微風。",
+      "effect": "none",
+      "chance": {
+        "thawmoon": 28,
+        "greening": 32,
+        "bloomtide": 40,
+        "suncrest": 46,
+        "highsun": 46,
+        "goldenhay": 44,
+        "emberfall": 40,
+        "harvestwane": 28,
+        "mistmoon": 18,
+        "frostveil": 18,
+        "deepwinter": 20,
+        "icebreak": 22
+      },
+      "iconImage": "sprites/icons/weather-clear-cutout.webp"
+    },
+    {
+      "id": "overcast",
+      "name": "陰天",
+      "icon": "cloudy",
+      "description": "灰濛濛的天空，溫和且靜止。",
+      "effect": "none",
+      "chance": {
+        "thawmoon": 30,
+        "greening": 26,
+        "bloomtide": 24,
+        "suncrest": 20,
+        "highsun": 16,
+        "goldenhay": 18,
+        "emberfall": 24,
+        "harvestwane": 28,
+        "mistmoon": 32,
+        "frostveil": 32,
+        "deepwinter": 30,
+        "icebreak": 30
+      },
+      "iconImage": "sprites/icons/weather-overcast-cutout.webp"
+    },
+    {
+      "id": "drizzle",
+      "name": "小雨",
+      "icon": "rain",
+      "description": "細雨綿綿，落在外套上形成水珠，也讓小徑變得濕暗。",
+      "effect": "rain",
+      "chance": {
+        "thawmoon": 18,
+        "greening": 22,
+        "bloomtide": 18,
+        "suncrest": 12,
+        "highsun": 8,
+        "goldenhay": 8,
+        "emberfall": 14,
+        "harvestwane": 18,
+        "mistmoon": 20,
+        "frostveil": 14,
+        "deepwinter": 8,
+        "icebreak": 10
+      },
+      "iconImage": "sprites/icons/weather-drizzle-cutout.webp"
+    },
+    {
+      "id": "downpour",
+      "name": "大雨",
+      "icon": "storm",
+      "description": "大雨傾盆，遠處河面上隱約傳來雷聲。電車擠滿了人，沒人想待在戶外。",
+      "effect": "storm",
+      "chance": {
+        "thawmoon": 6,
+        "greening": 6,
+        "bloomtide": 6,
+        "suncrest": 8,
+        "highsun": 10,
+        "goldenhay": 10,
+        "emberfall": 6,
+        "harvestwane": 6,
+        "mistmoon": 6,
+        "frostveil": 4,
+        "deepwinter": 2,
+        "icebreak": 2
+      },
+      "iconImage": "sprites/icons/weather-downpour-cutout.webp"
+    },
+    {
+      "id": "windy",
+      "name": "強風",
+      "icon": "wind",
+      "description": "陣風襲來，吹亂紙張、衣角與遮陽棚。",
+      "effect": "wind",
+      "chance": {
+        "thawmoon": 10,
+        "greening": 8,
+        "bloomtide": 6,
+        "suncrest": 4,
+        "highsun": 2,
+        "goldenhay": 4,
+        "emberfall": 6,
+        "harvestwane": 8,
+        "mistmoon": 8,
+        "frostveil": 8,
+        "deepwinter": 8,
+        "icebreak": 10
+      },
+      "iconImage": "sprites/icons/weather-windy-cutout.webp"
+    },
+    {
+      "id": "mist",
+      "name": "薄霧",
+      "icon": "fog",
+      "description": "薄霧籠罩校園，聲音變得沉悶，也會在羊毛織物上凝結成水珠。",
+      "effect": "mist",
+      "chance": {
+        "thawmoon": 6,
+        "greening": 6,
+        "bloomtide": 4,
+        "suncrest": 2,
+        "goldenhay": 2,
+        "emberfall": 8,
+        "harvestwane": 12,
+        "mistmoon": 14,
+        "frostveil": 8,
+        "deepwinter": 6,
+        "icebreak": 6
+      },
+      "iconImage": "sprites/icons/weather-mist-cutout.webp"
+    },
+    {
+      "id": "snow",
+      "name": "雪",
+      "icon": "snow",
+      "description": "雪靜靜落下，覆蓋在屋頂與牆面上。",
+      "effect": "snow",
+      "chance": {
+        "thawmoon": 2,
+        "mistmoon": 2,
+        "frostveil": 16,
+        "deepwinter": 26,
+        "icebreak": 20
+      },
+      "iconImage": "sprites/icons/weather-snow-cutout.webp"
+    },
+    {
+      "id": "heat",
+      "name": "酷熱",
+      "icon": "clear",
+      "description": "悶熱潮濕。每個人都顯得懶散，四處尋找陰涼處。",
+      "effect": "motes",
+      "chance": {
+        "bloomtide": 2,
+        "suncrest": 8,
+        "highsun": 18,
+        "goldenhay": 14,
+        "emberfall": 2
+      },
+      "iconImage": "sprites/icons/weather-heat-cutout.webp"
+    }
+  ],
+  "events": [
+    {
+      "id": "orientation-day",
+      "name": "入學迎新日",
+      "month": "goldenhay",
+      "day": 15,
+      "locationId": "great-court",
+      "description": "秋季學期的第一天：包含校長集會、新生校園導覽，以及在宿舍享用首晚晚餐。當天沒有課。"
+    },
+    {
+      "id": "societies-fair",
+      "name": "社團博覽會",
+      "month": "goldenhay",
+      "day": 20,
+      "durationDays": 2,
+      "locationId": "great-court",
+      "startHour": 10,
+      "hours": 6,
+      "description": "大庭院裡設有大學各社團的攤位：包含三個部門的體育社、辯論聯盟、保持著安全距離的「繁茂主義」與「自由意志」學生團體，還有免費提供的筆。"
+    },
+    {
+      "id": "masquerade",
+      "name": "化裝舞會",
+      "description": "在大舞廳舉行的校園化裝舞會：華麗禮服、能隱藏真容的魔法面具，以及與陌生人共舞的一夜——而那些人或許根本不是陌生人。",
+      "month": "emberfall",
+      "day": 20,
+      "locationId": "ballroom",
+      "startHour": 19,
+      "hours": 3,
+      "program": [
+        {
+          "id": "ball",
+          "name": "舞會",
+          "day": 1,
+          "startHour": 19,
+          "hours": 3,
+          "description": "大舞廳在吊燈下閃閃發光：畫廊裡有弦樂四重奏，舞池中是穿著禮服與魔法面具的舞者，玻璃門外則是月光下的露臺。",
+          "direction": "這是大舞廳舉行的化裝舞會，大學的盛大化裝舞會：吊燈閃爍，弦樂四重奏奏響，每個人都穿著禮服，戴著隱藏真容的魔法面具。在沒人認出你的情況下，你會比卸下偽裝時更加大膽：說出平時不敢說的話，做出平時不敢做的事。",
+          "castSize": 1,
+          "masquerade": {
+            "masks": [
+              {
+                "id": "crimson",
+                "name": "緋紅",
+                "description": "一件大裙擺的深紅絲綢舞會禮服，配有長袖與高領，戴著深紅長手套，以及一副華麗的金絲花紋面具；面具後的雙眼顏色隨時變幻，而她的頭髮則隱藏在閃爍的魔法盤髮之中。",
+                "faceY": 8,
+                "sprites": {
+                  "neutral": "sprites/masquerade-crimson/default-neutral-cutout.webp",
+                  "happy": "sprites/masquerade-crimson/default-happy-cutout.webp",
+                  "aroused": "sprites/masquerade-crimson/default-aroused-cutout.webp"
+                },
+                "walk": "sprites/masquerade-crimson/walk-cutout.webp",
+                "animations": [
+                  {
+                    "id": "blowjob",
+                    "name": "口交",
+                    "description": "穿著禮服跪在露臺上，他在她口中。",
+                    "image": "sprites/masquerade-crimson/nsfw-blowjob.webp",
+                    "clip": "sprites/masquerade-crimson/nsfw-blowjob.mp4"
+                  },
+                  {
+                    "id": "doggy",
+                    "name": "後入式",
+                    "description": "俯身在石製欄杆上，裙擺被掀起，他從後方佔有她。",
+                    "image": "sprites/masquerade-crimson/nsfw-doggy.webp",
+                    "clip": "sprites/masquerade-crimson/nsfw-doggy.mp4"
+                  },
+                  {
+                    "id": "missionary",
+                    "name": "傳教士式",
+                    "description": "仰躺在花園長椅上，裙擺被掀起。",
+                    "image": "sprites/masquerade-crimson/nsfw-missionary.webp",
+                    "clip": "sprites/masquerade-crimson/nsfw-missionary.mp4"
+                  },
+                  {
+                    "id": "creampie",
+                    "name": "內射",
+                    "description": "在長椅上，他在她體內射精的瞬間。",
+                    "image": "sprites/masquerade-crimson/nsfw-creampie.webp",
+                    "clip": "sprites/masquerade-crimson/nsfw-creampie.mp4"
+                  }
+                ]
+              },
+              {
+                "id": "midnight",
+                "name": "午夜",
+                "description": "一件大裙擺的午夜藍天鵝絨舞會禮服，上面點綴著銀色星星，配有長袖與高領，戴著銀色長手套，以及一副鑲嵌水晶的銀色面具；面具後的雙眼顏色隨時變幻，而她的頭髮則隱藏在閃爍的魔法盤髮之中。",
+                "faceY": 8,
+                "sprites": {
+                  "neutral": "sprites/masquerade-midnight/default-neutral-cutout.webp",
+                  "happy": "sprites/masquerade-midnight/default-happy-cutout.webp",
+                  "aroused": "sprites/masquerade-midnight/default-aroused-cutout.webp"
+                },
+                "walk": "sprites/masquerade-midnight/walk-cutout.webp",
+                "animations": [
+                  {
+                    "id": "blowjob",
+                    "name": "口交",
+                    "description": "穿著禮服跪在露臺上，他在她口中。",
+                    "image": "sprites/masquerade-midnight/nsfw-blowjob.webp",
+                    "clip": "sprites/masquerade-midnight/nsfw-blowjob.mp4"
+                  },
+                  {
+                    "id": "doggy",
+                    "name": "後入式",
+                    "description": "俯身在石製欄杆上，裙擺被掀起，他從後方佔有她。",
+                    "image": "sprites/masquerade-midnight/nsfw-doggy.webp",
+                    "clip": "sprites/masquerade-midnight/nsfw-doggy.mp4"
+                  },
+                  {
+                    "id": "missionary",
+                    "name": "傳教士式",
+                    "description": "仰躺在花園長椅上，裙擺被掀起。",
+                    "image": "sprites/masquerade-midnight/nsfw-missionary.webp",
+                    "clip": "sprites/masquerade-midnight/nsfw-missionary.mp4"
+                  },
+                  {
+                    "id": "creampie",
+                    "name": "內射",
+                    "description": "在長椅上，他在她體內射精的瞬間。",
+                    "image": "sprites/masquerade-midnight/nsfw-creampie.webp",
+                    "clip": "sprites/masquerade-midnight/nsfw-creampie.mp4"
+                  }
+                ]
+              },
+              {
+                "id": "emerald",
+                "name": "翡翠",
+                "description": "一件大裙擺的祖母綠緞面舞會禮服，上面繡有金葉，配有長袖與高領，戴著黑色長手套，以及一副羽毛黑蕾絲面具；面具後的雙眼顏色隨時變幻，而她的頭髮則隱藏在閃爍的魔法盤髮之中。",
+                "faceY": 8,
+                "sprites": {
+                  "neutral": "sprites/masquerade-emerald/default-neutral-cutout.webp",
+                  "happy": "sprites/masquerade-emerald/default-happy-cutout.webp",
+                  "aroused": "sprites/masquerade-emerald/default-aroused-cutout.webp"
+                },
+                "walk": "sprites/masquerade-emerald/walk-cutout.webp",
+                "animations": [
+                  {
+                    "id": "blowjob",
+                    "name": "口交",
+                    "description": "穿著禮服跪在露臺上，他在她口中。",
+                    "image": "sprites/masquerade-emerald/nsfw-blowjob.webp",
+                    "clip": "sprites/masquerade-emerald/nsfw-blowjob.mp4"
+                  },
+                  {
+                    "id": "doggy",
+                    "name": "後入式",
+                    "description": "俯身在石製欄杆上，裙擺被掀起，他從後方佔有她。",
+                    "image": "sprites/masquerade-emerald/nsfw-doggy.webp",
+                    "clip": "sprites/masquerade-emerald/nsfw-doggy.mp4"
+                  },
+                  {
+                    "id": "missionary",
+                    "name": "傳教士式",
+                    "description": "仰躺在花園長椅上，裙擺被掀起。",
+                    "image": "sprites/masquerade-emerald/nsfw-missionary.webp",
+                    "clip": "sprites/masquerade-emerald/nsfw-missionary.mp4"
+                  },
+                  {
+                    "id": "creampie",
+                    "name": "內射",
+                    "description": "在長椅上，他在她體內射精的瞬間。",
+                    "image": "sprites/masquerade-emerald/nsfw-creampie.webp",
+                    "clip": "sprites/masquerade-emerald/nsfw-creampie.mp4"
+                  }
+                ]
+              }
+            ],
+            "standInId": "lira",
+            "privateViewId": "terrace",
+            "loss": 10
+          },
+          "cutscene": {
+            "speakerId": "agnes",
+            "scenes": [
+              {
+                "locationId": "ballroom",
+                "castIds": [
+                  "agnes"
+                ],
+                "lines": [
+                  "*大舞廳在吊燈下閃耀著光芒。在樓梯底部，一名未戴面具、身著黑衣、手持寫字板名單的女子正站在那裡，她是連鎖圖書館的守護者，也是今晚的陪同人員，艾格妮絲·佩爾。*",
+                  "{player}。你的第一場化裝舞會。我守著名單，守著秩序，而到了清晨，我什麼都不留。",
+                  "一條規則。沒人是誰。面具附有魔法，效果顯著。在禮服之下，高挑的女子與嬌小的女子無異，纖細的女子也與豐滿的女子無異。",
+                  "髮絲隱沒在閃爍的光影中，看不出顏色。而雙眼每次被注視時都會變換顏色。記住它們是沒用的，雖然有人曾嘗試過。",
+                  "你或許能透過聲音，或是舞姿認出她。這是被允許的，這正是今晚的樂趣所在。",
+                  "*她舉起一根手指，彷彿在書架間示意安靜。*",
+                  "提醒你一句。戴上面具後，人們會做出那些在露臉時絕不敢做的事。我擔任這場舞會的陪同人員已有十九年。這是大學裡最真實的一夜。去吧，你已經被盯上了。"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "saltmere-booking",
+      "name": "霧月假期",
+      "month": "harvestwane",
+      "day": 27,
+      "locationId": "dormitories",
+      "secret": true,
+      "description": "假期即將到來，他正計畫著一趟旅行。",
+      "program": [
+        {
+          "id": "book",
+          "name": "開始計畫！",
+          "day": 1,
+          "startHour": 8,
+          "hours": 2,
+          "required": true,
+          "cutscene": {
+            "speakerId": "tamsin",
+            "scenes": [
+              {
+                "locationId": "dormitories",
+                "castIds": [],
+                "lines": [
+                  "*霧月假期即將到來。四天沒課，半個校園都在討論要去哪裡。*",
+                  "*我一直想去索特米爾的溫泉。蒸汽、楓林、湖泊，還有一個無須奔波的地方。*",
+                  "*若有人作伴會更好。我該帶誰去呢？*"
+                ]
+              }
+            ]
+          },
+          "booking": {
+            "eventId": "mistmoon-break",
+            "most": 2,
+            "price": 150,
+            "minStage": "dating",
+            "blurb": "位於林木丘陵間的溫泉小鎮，距離大學僅需數小時車程：古老的木造旅館、冒著熱氣的石池、位於城鎮上方的瀑布與下方的湖泊，還有王國裡最美的秋色。",
+            "highlights": [
+              "星空下的露天溫泉",
+              "專屬您的私人雪松浴池",
+              "通往瀑布的楓林小徑",
+              "燈籠點亮的夜市",
+              "最後一晚湖面上的煙火",
+              "在專屬陽臺迎接日出早餐",
+              "與心愛之人共度四天假期"
+            ],
+            "rating": 4.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "lantern-festival",
+      "name": "燈節",
+      "month": "harvestwane",
+      "day": 31,
+      "locationId": "physic-garden",
+      "startHour": 18,
+      "hours": 4,
+      "description": "在豐收月的最後一晚，大學會在黃昏時於藥草園的池塘上漂放紙燈籠，每一盞都承載著對下半年黑暗時節的期許。這是屬於戀人的夜晚：沒有人會獨自前往，每個人都會帶著伴侶，而你帶了誰也會引人注目。",
+      "program": [
+        {
+          "id": "float-lantern",
+          "name": "一起漂放燈籠",
+          "day": 1,
+          "startHour": 18,
+          "hours": 4,
+          "viewId": "lantern-festival",
+          "description": "藥草園被千盞紙燈籠點亮。燈籠漂浮在池塘上，懸掛在果樹間，並飄向黑暗的天空，每一條小徑都擠滿了緩步漫步的情侶。",
+          "direction": "這是燈節，大學裡屬於戀人的夜晚。在藥草園中，池塘、樹叢與夜空都點亮了燈籠。沒有人會獨自前來：{player} 邀請你擔任他的伴侶，並在眾多物件中選擇了你。這是一場約會。與他一同漫步在燈火小徑，寫下心願並一起漂放燈籠，享受浪漫時刻。如果兩位都隨他同行，你們都明白他同時選擇了你們兩位，而你們對共度良宵的態度也會展露無遺。",
+          "castSize": 2,
+          "date": {
+            "most": 2,
+            "gain": 10,
+            "loss": 10
+          },
+          "animations": [
+            "lanterns"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mistmoon-break",
+      "name": "霧月假期",
+      "month": "mistmoon",
+      "day": 6,
+      "durationDays": 4,
+      "locationId": "saltmere",
+      "noClasses": true,
+      "noBirths": true,
+      "description": "霧月期間的四天假期。大學變得空蕩蕩：學生們紛紛返鄉，或結伴前往山間的溫泉度假。",
+      "program": [
+        {
+          "id": "first-soak",
+          "name": "初次泡湯",
+          "day": 1,
+          "startHour": 18,
+          "hours": 3,
+          "viewId": "outdoor-bath",
+          "animations": [
+            "drive-there",
+            "soak"
+          ],
+          "description": "旅館由深色木材與燈火構成。在旅館後方，穿過竹籬，露天浴池在月光下冒著熱氣。",
+          "direction": "你正與 {player} 在霧月假期期間前往山間的溫泉小鎮——鹽海泉度假：他邀請了你，而你答應了。開車抵達並辦理入住後，你們在深夜來到旅館後方的露天浴池：熱水、水蒸氣、石燈籠與月色。這是你們遠離校園的第一個夜晚。脫下衣物進入浴池，與他一起享受這段遠離校園的時光。",
+          "castSize": 2,
+          "required": true,
+          "onTrip": true,
+          "outfitId": "bathrobe"
+        },
+        {
+          "id": "cascade-walk",
+          "name": "瀑布步道",
+          "day": 2,
+          "startHour": 10,
+          "hours": 4,
+          "viewId": "cascade",
+          "animations": [
+            "cascade"
+          ],
+          "description": "一條由紅黃楓葉鋪成的步道從城鎮延伸至瀑布，空氣中瀰漫著水霧與飄落的楓葉。",
+          "direction": "你與 {player} 在霧月假期期間前往山丘間的溫泉小鎮鹽泉溫泉。他邀請了你，而你答應了。現在是隔天早上。你們正沿著楓林小徑走向鎮上的瀑布，頂端準備了野餐。享受這段散步、色彩與美景吧。",
+          "castSize": 2,
+          "required": true,
+          "onTrip": true
+        },
+        {
+          "id": "night-market",
+          "name": "夜市",
+          "day": 2,
+          "startHour": 18,
+          "hours": 3,
+          "viewId": "night-market",
+          "animations": [
+            "market"
+          ],
+          "description": "黃昏時分，主街佈滿了燈火通明的攤位：烤串、甜包子、香料蘋果酒，還有各種機率遊戲。",
+          "direction": "你與 {player} 在霧月假期期間前往山丘間的溫泉小鎮鹽泉溫泉。他邀請了你，而你答應了。現在是傍晚，鎮上的街道已變成充滿美食攤位與遊戲的夜市。與他一同漫步，吃點東西，玩玩遊戲，並互買些小禮物留作旅行紀念。",
+          "castSize": 2,
+          "required": true,
+          "onTrip": true
+        },
+        {
+          "id": "private-bath",
+          "name": "私人浴池",
+          "day": 3,
+          "startHour": 11,
+          "hours": 3,
+          "viewId": "private-bath",
+          "animations": [
+            "private-bath"
+          ],
+          "description": "他預訂了旅館的私人浴池一小時：木石結構的房間內有一座雪松木浴缸，門也已鎖好。",
+          "direction": "你與 {player} 在霧月假期期間前往山丘間的溫泉小鎮鹽泉溫泉。他邀請了你，而你答應了。他為你們預訂了私人浴池：木石結構的房間內有一座雪松木浴缸，門已鎖上，不會有人打擾。你們赤身裸體地一起沐浴。這非常親密，且不會有人闖入。",
+          "castSize": 2,
+          "required": true,
+          "onTrip": true,
+          "outfitId": "bathrobe"
+        },
+        {
+          "id": "fireworks",
+          "name": "湖面煙火",
+          "day": 3,
+          "startHour": 20,
+          "hours": 3,
+          "viewId": "lake",
+          "animations": [
+            "fireworks"
+          ],
+          "description": "在最後一個晚上，鎮民聚集在湖岸邊。第一枚火箭帶著砰的一聲升空，天空綻放出金色的光芒。",
+          "direction": "你與 {player} 在霧月假期期間前往山丘間的溫泉小鎮鹽泉溫泉。他邀請了你，而你答應了。這是旅程的最後一個晚上，湖面上正燃放著煙火。與他在碼頭邊一同觀賞，緊靠在一起，讓這成為旅程中最浪漫的一夜。",
+          "castSize": 2,
+          "required": true,
+          "onTrip": true
+        },
+        {
+          "id": "last-morning",
+          "name": "最後一個早晨",
+          "day": 4,
+          "startHour": 8,
+          "hours": 2,
+          "viewId": "balcony",
+          "animations": [
+            "last-morning"
+          ],
+          "description": "黎明時分，金色的光芒灑落在霧氣繚繞的山谷。陽臺已擺好茶點，行李就在門邊。",
+          "direction": "你與 {player} 在霧月假期期間前往山丘間的溫泉小鎮鹽泉溫泉。他邀請了你，而你答應了。這是最後一個早晨。在開車回去之前，你們正穿著浴袍在旅館陽臺享用早餐。聊聊這趟旅行，聊聊它的意義，以及回到大學後會發生什麼。",
+          "castSize": 2,
+          "required": true,
+          "onTrip": true
+        }
+      ],
+      "homeAt": 18
+    },
+    {
+      "id": "first-frost",
+      "name": "初霜節",
+      "month": "mistmoon",
+      "day": 22,
+      "locationId": "commons",
+      "weatherId": "snow",
+      "mapDressing": "sprites/fx/wreath.webp",
+      "song": "sounds/music/magical-marketplace.mp3",
+      "presents": true,
+      "description": "大學的冬季慶典：市場廣場的霜降市集、公共食堂的熱騰騰晚餐，以及大庭院中點亮的巨樹。",
+      "program": [
+        {
+          "id": "frost-fair",
+          "name": "冰霜市集",
+          "day": 1,
+          "startHour": 13,
+          "hours": 4,
+          "locationId": "market",
+          "description": "市集廣場已化身為霜降市集：攤位上掛滿了常綠植物與冬青，寒冷中冒著熱氣的香料熱紅酒與烤栗子，櫃檯上擺著冰燈，廣場中央則燃燒著熊熊烈火的營火。",
+          "direction": "初霜節到了，這是入冬後的第一個寒冷日子。市集廣場正舉辦著霜之市集：攤位裝飾著常青植物與冬青，販售著香料熱紅酒、烤栗子與熱派，還有閃爍的冰燈，以及鐵盆中燃燒的營火。你正與 {player} 一起逛著市集。漫步在攤位間，分享熱騰騰的食物，在火邊暖暖手，共同感受冬天的第一抹滋味。",
+          "castSize": 2
+        },
+        {
+          "id": "feast",
+          "name": "晚宴",
+          "day": 1,
+          "startHour": 18,
+          "hours": 3,
+          "description": "初霜盛宴讓公共大廳熱鬧非凡：長桌鋪著白布，橫樑上掛滿花環，壁爐火光熊熊，全校師生都從寒冷中聚集而來。你在長凳末端找了個位子。",
+          "direction": "這是初霜盛宴，是大學為入冬後的第一個寒夜所舉辦的晚餐。公共休息室已裝扮成冬日景象：花環、蠟燭、掛滿玻璃飾品的樹、燃燒著的壁爐，還有罐裝的香料酒。依照習俗，沒有人會獨自用餐：你們共用一張桌子，分享著溫暖。你正與 {player} 一起參加盛宴，與他共用一張桌子。用餐、飲酒、為冬季舉杯，聊聊今年至今的點滴與即將到來的假期，讓溫暖與美酒讓氣氛變得輕鬆自在。",
+          "castSize": 2,
+          "cutscene": {
+            "speakerId": "dorrit",
+            "scenes": [
+              {
+                "locationId": "commons",
+                "backgroundId": "first-frost",
+                "lines": [
+                  "*公共休息室變得完全陌生：每根樑柱都掛滿花環，每張桌上都點著蠟燭，壁爐火光熊熊，半數大學生都躲進室內避寒。Dorrit Hale 像將軍般指揮著餐檯的工作。*",
+                  "你，{player}。拿盤子。快點，拿一個。今天是初霜節，今晚沒人會獨自用餐。",
+                  "有烤根莖類蔬菜、黑麵包，還有裝在罐子裡的香料酒。酒勁很大，慢慢喝。",
+                  "這就是習俗：一年的第一個寒夜，大家共用一張桌子，分享溫暖。快去找個人一起坐吧。"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "tree-lighting",
+          "name": "點燈儀式",
+          "day": 1,
+          "startHour": 21,
+          "hours": 2,
+          "locationId": "great-court",
+          "description": "晚餐過後，大學師生湧向大庭院。在中間露臺，那棵掛滿玻璃飾品的巨大常綠樹，隨著九點鐘聲響起，瞬間亮起霜藍與金色的燈光，歡呼聲在拱廊間迴盪。",
+          "direction": "初霜節已接近尾聲。晚餐過後，大學師生們聚集在大庭院中。中層露臺上的巨大常綠樹剛點亮，閃爍著霜藍與金色的光芒，拱廊沿線也點綴著閃亮的護衛燈火。寒冷中撥出的氣息化作白霧，辛香料熱酒在人群中傳遞。你正與 {player} 一起站在樹下。緊靠著彼此抵禦寒冷，欣賞著燈火，低聲談論著即將到來的冬季。",
+          "castSize": 2
+        }
+      ]
+    },
+    {
+      "id": "examinations",
+      "name": "考核",
+      "month": "frostveil",
+      "day": 12,
+      "durationDays": 5,
+      "locationId": "lecture-halls",
+      "description": "最後一週教學：各學院皆有實作、簡報與筆試。每個人都睡眠不足，圖書館座無虛席，Spell & Sip 的燕麥奶也賣光了。"
+    },
+    {
+      "id": "winter-break",
+      "name": "寒假",
+      "month": "frostveil",
+      "day": 19,
+      "durationDays": 7,
+      "noClasses": true,
+      "description": "學期已結束。沒有課堂；走廊空了一半，暖氣開得很足，而那些還沒回家的人則聚在一起度過仲冬。"
+    }
+  ]
+}

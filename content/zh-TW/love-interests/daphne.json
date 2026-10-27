@@ -1,0 +1,377 @@
+{
+  "id": "daphne",
+  "name": "黛芙妮",
+  "role": "",
+  "age": 22,
+  "pronouns": "she/her",
+  "bio": "大四體育系學生，排球隊隊長。",
+  "appearance": "一名 22 歲的女性，擁有溫暖的古銅色肌膚、輪廓分明的下顎、平直深色眉毛下的琥珀棕色雙眼，以及豐滿的雙唇。長而直的紅褐色頭髮紮成及腰的高馬尾。擁有運動型的肌肉身材：線條分明的腹肌、強健的肩膀與大腿、豐滿的胸部以及寬闊的臀部。",
+  "personality": "Direct, confident, and controlled, with dry humor and easy banter ",
+  "traitIds": [
+    "loyal",
+    "competitive",
+    "dominant",
+    "exhibitionist"
+  ],
+  "likes": [
+    "weapons",
+    "leatherwork",
+    "ale",
+    "sport",
+    "soap"
+  ],
+  "dislikes": [
+    "finery",
+    "ribbons"
+  ],
+  "admires": [
+    "strength",
+    "endurance"
+  ],
+  "friends": [],
+  "enemies": [],
+  "handle": "capt_daphne",
+  "outfits": [
+    {
+      "id": "default",
+      "name": "運動裝",
+      "description": "她穿著一件露腹的白色短版球衣，上面印有紅色的 69 號。搭配緊身藍色運動短褲，頭髮紮成馬尾。",
+      "sprites": {
+        "happy": {
+          "image": "sprites/daphne/default-happy-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/daphne/default-sad-cutout-2.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/daphne/default-angry-cutout-2.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/daphne/default-surprised-cutout-2.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/daphne/default-embarrassed-cutout-2.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/daphne/default-aroused-cutout-2.webp",
+          "description": ""
+        },
+        "neutral": {
+          "image": "sprites/daphne/default-neutral-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": false
+    },
+    {
+      "id": "pregnant",
+      "name": "孕婦裝",
+      "description": "她有著圓滾滾的孕肚。",
+      "inherits": "default",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/daphne/pregnant-neutral-2-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/daphne/pregnant-happy-2-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/daphne/pregnant-sad-2-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/daphne/pregnant-angry-2-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/daphne/pregnant-surprised-2-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/daphne/pregnant-embarrassed-2-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/daphne/pregnant-aroused-2-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": true
+    },
+    {
+      "id": "nude",
+      "name": "全裸",
+      "description": "什麼都沒穿，完全裸露。",
+      "sprites": {
+        "happy": {
+          "image": "sprites/daphne/nude-happy-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/daphne/nude-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/daphne/nude-angry-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/daphne/nude-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/daphne/nude-aroused-cutout.webp",
+          "description": ""
+        },
+        "neutral": {
+          "image": "sprites/daphne/nude-neutral-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/daphne/nude-surprised-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": false
+    },
+    {
+      "id": "nude-pregnant",
+      "name": "裸體，懷孕",
+      "description": "她有著圓滾滾的孕肚。",
+      "inherits": "nude",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/daphne/nude-pregnant-neutral-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/daphne/nude-pregnant-happy-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/daphne/nude-pregnant-aroused-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/daphne/nude-pregnant-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/daphne/nude-pregnant-angry-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/daphne/nude-pregnant-surprised-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/daphne/nude-pregnant-embarrassed-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": true
+    },
+    {
+      "id": "bathrobe",
+      "name": "浴袍",
+      "description": "一件短款絲質浴袍，腰部鬆鬆地繫著，滑落至一側肩膀，深V領口展現出乳溝，下擺高到露出大腿。",
+      "pregnant": false,
+      "sprites": {
+        "neutral": {
+          "image": "sprites/daphne/bathrobe-neutral-cutout.webp",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": "bathrobe-pregnant",
+      "name": "浴袍，懷孕",
+      "inherits": "bathrobe",
+      "description": "她有著圓滾滾的孕肚。",
+      "pregnant": true,
+      "sprites": {
+        "neutral": {
+          "image": "sprites/daphne/bathrobe-pregnant-neutral-cutout.webp",
+          "description": ""
+        }
+      }
+    }
+  ],
+  "defaultOutfitId": "default",
+  "faceY": 4,
+  "imageSeed": 60,
+  "stageHeight": 100,
+  "partyRole": "guard",
+  "studies": {
+    "major": "KIN",
+    "level": 4
+  },
+  "animations": [
+    {
+      "id": "blowjob",
+      "name": "口交",
+      "description": "",
+      "image": "sprites/daphne/nsfw-blowjob-2.webp",
+      "clip": "sprites/daphne/nsfw-blowjob.mp4",
+      "loop": true
+    },
+    {
+      "id": "missionary",
+      "name": "傳教士式",
+      "description": "",
+      "image": "sprites/daphne/nsfw-missionary.webp",
+      "clip": "sprites/daphne/nsfw-missionary.mp4",
+      "loop": true
+    },
+    {
+      "id": "doggy",
+      "name": "後入式",
+      "description": "",
+      "image": "sprites/daphne/nsfw-doggy.webp",
+      "clip": "sprites/daphne/nsfw-doggy.mp4",
+      "loop": true
+    },
+    {
+      "id": "cowgirl",
+      "name": "女上位",
+      "description": "",
+      "image": "sprites/daphne/nsfw-cowgirl.webp",
+      "clip": "sprites/daphne/nsfw-cowgirl-2.mp4",
+      "loop": true
+    },
+    {
+      "id": "creampie",
+      "name": "內射",
+      "description": "",
+      "image": "sprites/daphne/nsfw-creampie.webp",
+      "clip": "sprites/daphne/nsfw-creampie.mp4",
+      "loop": true
+    },
+    {
+      "id": "facial",
+      "name": "顏射",
+      "description": "",
+      "image": "sprites/daphne/nsfw-facial-2.webp",
+      "clip": "sprites/daphne/nsfw-facial.mp4",
+      "loop": true
+    },
+    {
+      "id": "pregnant-missionary",
+      "name": "傳教士式，懷孕",
+      "description": "",
+      "image": "sprites/daphne/nsfw-pregnant-missionary-2.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-doggy",
+      "name": "後入式，懷孕",
+      "description": "",
+      "image": "sprites/daphne/nsfw-pregnant-doggy-2.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-cowgirl",
+      "name": "女牛仔式，懷孕",
+      "description": "",
+      "image": "sprites/daphne/nsfw-pregnant-cowgirl-2.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-creampie",
+      "name": "內射，懷孕",
+      "description": "",
+      "image": "sprites/daphne/nsfw-pregnant-creampie-2.webp",
+      "loop": true
+    }
+  ],
+  "schedule": [
+    {
+      "weekdays": [
+        "Wednesday",
+        "Friday"
+      ],
+      "periods": [
+        "evening"
+      ],
+      "locationId": "ironroot"
+    },
+    {
+      "weekdays": [
+        "Sunday"
+      ],
+      "periods": [
+        "morning"
+      ],
+      "locationId": "riverside-park"
+    },
+    {
+      "periods": [
+        "morning"
+      ],
+      "locationId": "tiltyard"
+    },
+    {
+      "periods": [
+        "afternoon"
+      ],
+      "locationId": "tiltyard"
+    },
+    {
+      "periods": [
+        "evening"
+      ],
+      "locationId": "honeyed-bee-inn"
+    },
+    {
+      "periods": [
+        "night"
+      ],
+      "locationId": "dormitories"
+    }
+  ],
+  "room": {
+    "name": "修道院大廳門口上方的宿舍",
+    "description": "一間位於 布里德海文大學的現代公寓臥室，屬於一名大四的女排隊長：空間寬敞且時尚，帶有魔導科技元素，有一張大床、大學排球獎盃與獎牌、裝裱好的隊伍照片、排球裝備、運動鞋和隊長夾克。溫暖的木質傢俱、柔和的環境魔法照明、細微的 Bloom 風格裝飾、書桌上的筆電與教科書，充滿生活氣息但整潔，散發著自信的運動氛圍。",
+    "locationId": "dormitories",
+    "images": {
+      "day": "generated/backgrounds/daphne/view.webp"
+    }
+  },
+  "birthPicture": "sprites/daphne/birth.webp",
+  "walkSprite": "sprites/daphne/walk-cutout.webp",
+  "childNames": {
+    "daughters": [
+      "Thea",
+      "Calla",
+      "Ione",
+      "Phoebe",
+      "Xanthe"
+    ],
+    "sons": [
+      "Leander",
+      "Damon"
+    ]
+  },
+  "birthControl": true,
+  "ai": {
+    "speechPattern": "Short, direct sentences, said evenly: a captain's voice that expects to be heard without being raised. Dry jokes delivered with a straight face, and easy banter with anyone who can keep up. She says what she means and then stops.",
+    "tone": "direct, dry, steady",
+    "verbalQuirks": [
+      "Sums up a situation in a few words, as if briefing the team before a set.",
+      "Answers a compliment with a deadpan remark or a raised eyebrow rather than thanks.",
+      "Says \"Coach\" when she means Grushka, and quotes her to settle a point."
+    ],
+    "exampleDialogue": [],
+    "backstory": "Studies: Fourth year, College of Athletics\n\nCaptain of the Campus volleyball team\n\nDaphne grew up by Seedblossom's South Gate, where her family repaired body armor and duty gear for the city police, and spent her childhood watching officers train. Her coach is Grushka Tor-Vael, whose good opinion she values more than the titles. She has magic like any woman and rarely bothers with it: she competes in the unaugmented division on purpose, and trusts training over tricks.",
+    "knowledge": [],
+    "secrets": [],
+    "extraInstructions": ""
+  }
+}

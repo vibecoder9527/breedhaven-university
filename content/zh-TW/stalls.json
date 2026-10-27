@@ -1,0 +1,194 @@
+[
+  {
+    "id": "petal-and-posy",
+    "name": "花瓣與花束",
+    "description": "一個擠滿花盆與水桶的花販推車，每一根花莖都靠著她黎明時分更新的咒語保持新鮮。",
+    "icon": "flower",
+    "locationId": "market",
+    "itemIds": [
+      "posy",
+      "potted-fern",
+      "moss-ball",
+      "seed-packets",
+      "lavender-soap",
+      "first-blossom-bouquet",
+      "dawnbloom-rose",
+      "beeswax-tapers",
+      "charmed-trowel",
+      "moss-terrarium"
+    ],
+    "iconImage": "sprites/icons/stalls-petal-and-posy-cutout.webp"
+  },
+  {
+    "id": "the-sweet-tooth",
+    "name": "甜食之牙",
+    "description": "條紋遮陽篷下的麵包車。從大門就能聞到香味。",
+    "icon": "sweet",
+    "locationId": "market",
+    "itemIds": [
+      "honey-cakes",
+      "candied-plums",
+      "loose-leaf-tea",
+      "coffee-beans",
+      "spiced-cider",
+      "salt-pretzels",
+      "kharadi-stout",
+      "brown-ale",
+      "apple-tart",
+      "starkeland-honey-drops"
+    ],
+    "iconImage": "sprites/icons/stalls-the-sweet-tooth-cutout.webp"
+  },
+  {
+    "id": "quill-and-binding",
+    "name": "羽毛筆與裝訂",
+    "description": "一家文具店兼二手書商，很清楚學生負擔得起什麼。",
+    "icon": "book",
+    "locationId": "market",
+    "itemIds": [
+      "blank-ledger",
+      "trade-treatise",
+      "book-of-hymns",
+      "sketchbook",
+      "old-map",
+      "playing-cards",
+      "vesperan-romance",
+      "paint-set"
+    ],
+    "iconImage": "sprites/icons/stalls-quill-and-binding-cutout.webp"
+  },
+  {
+    "id": "tinkers-tray",
+    "name": "修補匠的託盤",
+    "description": "一張擺滿各種大小物品的摺疊桌，無論有用與否，還有一臺用膠帶黏在一起的占卜卡讀卡機。",
+    "icon": "necklace",
+    "locationId": "market",
+    "itemIds": [
+      "silk-ribbon",
+      "lace-choker",
+      "river-stone",
+      "whetstone",
+      "sword-belt",
+      "lockpicks",
+      "glass-vials",
+      "practice-blade",
+      "banded-agate",
+      "prayer-beads",
+      "match-ball"
+    ],
+    "iconImage": "sprites/icons/stalls-tinkers-tray-cutout.webp"
+  },
+  {
+    "id": "second-circuit",
+    "name": "第二迴路",
+    "description": "翻新手機、舊遊戲機和一箱箱零件，由一位只要聽聽聲音就能診斷故障的女性經營。",
+    "icon": "key",
+    "locationId": "market",
+    "itemIds": [
+      "game-cartridge",
+      "hobby-kit",
+      "earbuds",
+      "charm-case"
+    ],
+    "iconImage": "sprites/icons/stalls-second-circuit-cutout.webp"
+  },
+  {
+    "id": "seven-petals",
+    "name": "七瓣花",
+    "description": "遍佈全國街角的便利商店，24 小時營業：在明亮的燈光下販售零食、充電器、避孕用品、驗孕棒、樂透卡和廉價護身符。",
+    "icon": "sweet",
+    "locationId": "lantern-row",
+    "itemIds": [
+      "instant-ramen",
+      "energy-drink",
+      "scratchcard",
+      "phone-charger",
+      "lantern-row-whisper",
+      "arena-program"
+    ],
+    "iconImage": "sprites/icons/stalls-seven-petals-cutout.webp"
+  },
+  {
+    "id": "petal-and-pill",
+    "name": "花瓣與藥丸",
+    "description": "連鎖藥局：一邊是常備藥，另一邊是花期與懷孕用品，還有一位對任何事都已見怪不怪的藥劑師。",
+    "icon": "vial",
+    "locationId": "lantern-row",
+    "itemIds": [
+      "bath-salts",
+      "chamomile-tea",
+      "study-tonic"
+    ],
+    "iconImage": "sprites/icons/stalls-petal-and-pill-cutout.webp"
+  },
+  {
+    "id": "byte-and-bloom",
+    "name": "位元與繁茂",
+    "description": "販售手機、電腦、零件與維修服務。店員會主動告訴你，如果你自己施了魔法，那可不是他們的錯。",
+    "icon": "key",
+    "locationId": "lantern-row",
+    "itemIds": [
+      "pocket-speaker",
+      "game-controller",
+      "smart-lamp"
+    ],
+    "iconImage": "sprites/icons/stalls-byte-and-bloom-cutout.webp"
+  },
+  {
+    "id": "arcana",
+    "name": "阿卡納",
+    "description": "就在「位元與繁茂」隔壁的魔法用品店：魔杖、水晶、咒語材料和小型附魔物品。男人可以在這裡買東西，只是大部分東西他都用不了。",
+    "icon": "stone",
+    "locationId": "lantern-row",
+    "itemIds": [
+      "quartz-point",
+      "component-pouch",
+      "charm-bracelet",
+      "tarot-deck",
+      "ward-candles",
+      "first-rain"
+    ],
+    "iconImage": "sprites/icons/stalls-arcana-cutout.webp"
+  },
+  {
+    "id": "forbidden-shelf",
+    "name": "禁忌之架",
+    "description": "位於 Book Nook 旁的神秘學書店：魔法理論、影印版魔法書、沒人被要求閱讀的歷史書，以及一個裝著可疑文物的鎖櫃。",
+    "icon": "book",
+    "locationId": "lantern-row",
+    "itemIds": [
+      "grimoire",
+      "heretics-history",
+      "antique-atlas",
+      "curio"
+    ],
+    "iconImage": "sprites/icons/stalls-forbidden-shelf-cutout.webp"
+  },
+  {
+    "id": "second-bloom",
+    "name": "二次綻放",
+    "description": "二手店，名字取自舊衣的重生，以及五十歲以上的女性對「花期過後」歲月的稱呼。由三位女性經營。",
+    "icon": "ribbon",
+    "locationId": "lantern-row",
+    "itemIds": [
+      "vintage-scarf",
+      "band-tee",
+      "worn-leather-jacket",
+      "paperback",
+      "veyran-mask"
+    ],
+    "iconImage": "sprites/icons/stalls-second-bloom-cutout.webp"
+  },
+  {
+    "id": "spell-and-sip-counter",
+    "name": "咒語與啜飲櫃檯",
+    "description": "外帶咖啡與糕點，由離收銀臺最近的人負責結帳。",
+    "icon": "bottle",
+    "locationId": "spell-and-sip",
+    "itemIds": [
+      "coffee-to-go",
+      "almond-croissant"
+    ],
+    "iconImage": "sprites/icons/stalls-spell-and-sip-counter-cutout.webp"
+  }
+]

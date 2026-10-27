@@ -1,0 +1,617 @@
+{
+  "energyPerHour": 5,
+  "strikes": 3,
+  "missedStrike": 1,
+  "excusedStrike": 0.5,
+  "bonusPerPoint": 0.04,
+  "bonusCap": 0.4,
+  "jobs": [
+    {
+      "id": "market-stallhand",
+      "title": "攤位助手",
+      "icon": "crate",
+      "description": "搬運板箱、照看刷卡機，並為攤主討價還價。",
+      "locationId": "market",
+      "bossId": "odile",
+      "hourlyRate": 8,
+      "trains": "strength",
+      "requirements": {},
+      "shifts": [
+        {
+          "weekday": "Saturday",
+          "startHour": 8,
+          "hours": 6
+        },
+        {
+          "weekday": "Sunday",
+          "startHour": 8,
+          "hours": 6
+        }
+      ],
+      "iconImage": "sprites/icons/jobs-market-stallhand-cutout.webp"
+    },
+    {
+      "id": "commons-kitchen",
+      "title": "廚房助手",
+      "icon": "pot",
+      "description": "在尖峰時段負責洗碗、端盤子，並在熱食櫃檯服務。",
+      "locationId": "commons",
+      "bossId": "dorrit",
+      "hourlyRate": 8,
+      "trains": "endurance",
+      "requirements": {},
+      "shifts": [
+        {
+          "weekday": "Tuesday",
+          "startHour": 18,
+          "hours": 4
+        },
+        {
+          "weekday": "Friday",
+          "startHour": 18,
+          "hours": 4
+        },
+        {
+          "weekday": "Sunday",
+          "startHour": 8,
+          "hours": 4
+        }
+      ],
+      "iconImage": "sprites/icons/jobs-commons-kitchen-cutout.webp"
+    },
+    {
+      "id": "halls-desk",
+      "title": "前臺",
+      "icon": "bell",
+      "description": "在 Cloister Halls 的前臺值班：簽收包裹、讓被鎖在門外的學生進來，並維持秩序。",
+      "locationId": "dormitories",
+      "bossId": "helga",
+      "hourlyRate": 9,
+      "trains": "charisma",
+      "requirements": {},
+      "shifts": [
+        {
+          "weekday": "Monday",
+          "startHour": 18,
+          "hours": 4
+        },
+        {
+          "weekday": "Thursday",
+          "startHour": 18,
+          "hours": 3
+        },
+        {
+          "weekday": "Sunday",
+          "startHour": 18,
+          "hours": 3
+        }
+      ],
+      "iconImage": "sprites/icons/jobs-halls-desk-cutout.webp"
+    },
+    {
+      "id": "store-tills",
+      "title": "收銀助理",
+      "icon": "bag",
+      "description": "在標語下負責收銀並整理貨架。",
+      "locationId": "bloom-and-co",
+      "bossId": "pernille",
+      "hourlyRate": 8,
+      "trains": "charisma",
+      "requirements": {},
+      "shifts": [
+        {
+          "weekday": "Wednesday",
+          "startHour": 18,
+          "hours": 4
+        },
+        {
+          "weekday": "Friday",
+          "startHour": 18,
+          "hours": 4
+        },
+        {
+          "weekday": "Saturday",
+          "startHour": 13,
+          "hours": 4
+        },
+        {
+          "weekday": "Sunday",
+          "startHour": 13,
+          "hours": 4
+        }
+      ],
+      "iconImage": "sprites/icons/jobs-store-tills-cutout.webp"
+    },
+    {
+      "id": "lumen-usher",
+      "title": "引導員",
+      "icon": "ticket",
+      "description": "撕票、引導觀眾入座，並在場次之間清掃爆米花。",
+      "locationId": "lumen",
+      "bossId": "coralie",
+      "hourlyRate": 9,
+      "trains": "charisma",
+      "requirements": {},
+      "shifts": [
+        {
+          "weekday": "Monday",
+          "startHour": 18,
+          "hours": 4
+        },
+        {
+          "weekday": "Tuesday",
+          "startHour": 18,
+          "hours": 4
+        },
+        {
+          "weekday": "Thursday",
+          "startHour": 18,
+          "hours": 4
+        }
+      ],
+      "iconImage": "sprites/icons/jobs-lumen-usher-cutout.webp"
+    },
+    {
+      "id": "bathhouse-attendant",
+      "title": "浴場服務員",
+      "icon": "droplet",
+      "description": "發放毛巾、拖地，並留意泳池熱水區的情況。",
+      "locationId": "bathhouse",
+      "bossId": "sunna",
+      "hourlyRate": 10,
+      "trains": "endurance",
+      "requirements": {
+        "endurance": 12
+      },
+      "shifts": [
+        {
+          "weekday": "Monday",
+          "startHour": 18,
+          "hours": 3
+        },
+        {
+          "weekday": "Tuesday",
+          "startHour": 18,
+          "hours": 3
+        },
+        {
+          "weekday": "Saturday",
+          "startHour": 8,
+          "hours": 4
+        }
+      ],
+      "iconImage": "sprites/icons/jobs-bathhouse-attendant-cutout.webp"
+    },
+    {
+      "id": "boba-maker",
+      "title": "茶飲製作員",
+      "icon": "boba",
+      "description": "搖勻、封口並供應珍珠奶茶，並對排隊的人們微笑。",
+      "locationId": "boba-blossom",
+      "bossId": "mimi",
+      "hourlyRate": 10,
+      "trains": "dexterity",
+      "requirements": {
+        "charisma": 12
+      },
+      "shifts": [
+        {
+          "weekday": "Tuesday",
+          "startHour": 18,
+          "hours": 4
+        },
+        {
+          "weekday": "Thursday",
+          "startHour": 18,
+          "hours": 4
+        },
+        {
+          "weekday": "Friday",
+          "startHour": 18,
+          "hours": 4
+        }
+      ],
+      "iconImage": "sprites/icons/jobs-boba-maker-cutout.webp"
+    },
+    {
+      "id": "garden-hand",
+      "title": "園藝助手",
+      "icon": "leaf",
+      "description": "在教學花園裡挖土、除草、澆水和搬運，不論天氣如何。",
+      "locationId": "physic-garden",
+      "bossId": "rowena",
+      "hourlyRate": 11,
+      "trains": "endurance",
+      "requirements": {
+        "endurance": 13
+      },
+      "shifts": [
+        {
+          "weekday": "Saturday",
+          "startHour": 8,
+          "hours": 5
+        },
+        {
+          "weekday": "Sunday",
+          "startHour": 8,
+          "hours": 5
+        }
+      ],
+      "iconImage": "sprites/icons/jobs-garden-hand-cutout.webp"
+    },
+    {
+      "id": "library-page",
+      "title": "圖書館助理",
+      "icon": "book",
+      "description": "整理歸還的書籍、從書架取書，並保持閱覽室安靜。",
+      "locationId": "library",
+      "bossId": "agnes",
+      "hourlyRate": 11,
+      "trains": "intelligence",
+      "requirements": {
+        "intelligence": 13
+      },
+      "shifts": [
+        {
+          "weekday": "Thursday",
+          "startHour": 18,
+          "hours": 3
+        },
+        {
+          "weekday": "Friday",
+          "startHour": 18,
+          "hours": 3
+        },
+        {
+          "weekday": "Saturday",
+          "startHour": 9,
+          "hours": 3
+        },
+        {
+          "weekday": "Sunday",
+          "startHour": 9,
+          "hours": 3
+        }
+      ],
+      "iconImage": "sprites/icons/jobs-library-page-cutout.webp"
+    },
+    {
+      "id": "arcade-floor",
+      "title": "遊戲場工作人員",
+      "icon": "gamepad",
+      "description": "找零、排除卡機、重置機臺，並擔任氣墊曲棍球裁判。",
+      "locationId": "pixel-and-rune",
+      "bossId": "jax",
+      "hourlyRate": 10,
+      "trains": "dexterity",
+      "requirements": {
+        "dexterity": 13
+      },
+      "shifts": [
+        {
+          "weekday": "Wednesday",
+          "startHour": 18,
+          "hours": 3
+        },
+        {
+          "weekday": "Friday",
+          "startHour": 18,
+          "hours": 4
+        },
+        {
+          "weekday": "Saturday",
+          "startHour": 18,
+          "hours": 3
+        },
+        {
+          "weekday": "Sunday",
+          "startHour": 18,
+          "hours": 4
+        }
+      ],
+      "iconImage": "sprites/icons/jobs-arcade-floor-cutout.webp"
+    },
+    {
+      "id": "barista",
+      "title": "咖啡師",
+      "icon": "coffee",
+      "description": "萃取濃縮咖啡、供應糕點，並防止讀書區被施咒。",
+      "locationId": "spell-and-sip",
+      "bossId": "wren",
+      "hourlyRate": 11,
+      "trains": "charisma",
+      "requirements": {
+        "charisma": 13,
+        "dexterity": 12
+      },
+      "shifts": [
+        {
+          "weekday": "Tuesday",
+          "startHour": 18,
+          "hours": 4
+        },
+        {
+          "weekday": "Wednesday",
+          "startHour": 18,
+          "hours": 4
+        },
+        {
+          "weekday": "Thursday",
+          "startHour": 18,
+          "hours": 4
+        },
+        {
+          "weekday": "Sunday",
+          "startHour": 8,
+          "hours": 4
+        }
+      ],
+      "iconImage": "sprites/icons/jobs-barista-cutout.webp"
+    },
+    {
+      "id": "armoury-assistant",
+      "title": "盔甲庫助理",
+      "icon": "sword",
+      "description": "在 Tiltyard 工作坊搬運裝備、架放刀劍並操作風箱。",
+      "locationId": "tiltyard",
+      "bossId": "bryn",
+      "hourlyRate": 13,
+      "trains": "strength",
+      "requirements": {
+        "strength": 14
+      },
+      "shifts": [
+        {
+          "weekday": "Saturday",
+          "startHour": 8,
+          "hours": 6
+        },
+        {
+          "weekday": "Sunday",
+          "startHour": 13,
+          "hours": 6
+        }
+      ],
+      "iconImage": "sprites/icons/jobs-armoury-assistant-cutout.webp"
+    },
+    {
+      "id": "bar-staff",
+      "title": "酒吧工作人員",
+      "icon": "glass",
+      "description": "倒酒、收杯子，並操作問答之夜的計分板。",
+      "locationId": "honeyed-bee-inn",
+      "bossId": "marda",
+      "hourlyRate": 13,
+      "trains": "charisma",
+      "requirements": {
+        "charisma": 14,
+        "endurance": 13
+      },
+      "shifts": [
+        {
+          "weekday": "Tuesday",
+          "startHour": 18,
+          "hours": 4
+        },
+        {
+          "weekday": "Friday",
+          "startHour": 18,
+          "hours": 4
+        },
+        {
+          "weekday": "Saturday",
+          "startHour": 18,
+          "hours": 4
+        },
+        {
+          "weekday": "Sunday",
+          "startHour": 18,
+          "hours": 4
+        }
+      ],
+      "iconImage": "sprites/icons/jobs-bar-staff-cutout.webp"
+    },
+    {
+      "id": "clinic-reception",
+      "title": "診所櫃檯人員",
+      "icon": "cross",
+      "description": "預約掛號、發放處方箋，並且對任何人保持緘默。",
+      "locationId": "health-centre",
+      "bossId": "ilse",
+      "hourlyRate": 15,
+      "trains": "wisdom",
+      "requirements": {
+        "wisdom": 16,
+        "charisma": 13
+      },
+      "shifts": [
+        {
+          "weekday": "Monday",
+          "startHour": 18,
+          "hours": 2
+        },
+        {
+          "weekday": "Wednesday",
+          "startHour": 18,
+          "hours": 2
+        },
+        {
+          "weekday": "Saturday",
+          "startHour": 9,
+          "hours": 4
+        },
+        {
+          "weekday": "Sunday",
+          "startHour": 9,
+          "hours": 4
+        }
+      ],
+      "iconImage": "sprites/icons/jobs-clinic-reception-cutout.webp"
+    },
+    {
+      "id": "gym-floor",
+      "title": "健身房場地人員",
+      "icon": "dumbbell",
+      "description": "協助舉重、整理器材，並帶領初學者進行迴圈訓練。",
+      "locationId": "ironroot",
+      "bossId": "kessa",
+      "hourlyRate": 16,
+      "trains": "strength",
+      "requirements": {
+        "strength": 18,
+        "endurance": 16
+      },
+      "shifts": [
+        {
+          "weekday": "Tuesday",
+          "startHour": 18,
+          "hours": 4
+        },
+        {
+          "weekday": "Wednesday",
+          "startHour": 18,
+          "hours": 3
+        },
+        {
+          "weekday": "Friday",
+          "startHour": 18,
+          "hours": 4
+        },
+        {
+          "weekday": "Saturday",
+          "startHour": 8,
+          "hours": 3
+        }
+      ],
+      "iconImage": "sprites/icons/jobs-gym-floor-cutout.webp"
+    },
+    {
+      "id": "club-door",
+      "title": "夜店門衛與場地人員",
+      "icon": "door",
+      "description": "負責夜店的門口與場內工作，並引導客人前往安靜室。",
+      "locationId": "undergrowth",
+      "bossId": "nyx",
+      "hourlyRate": 18,
+      "trains": "strength",
+      "requirements": {
+        "strength": 16,
+        "charisma": 16
+      },
+      "shifts": [
+        {
+          "weekday": "Thursday",
+          "startHour": 20,
+          "hours": 4
+        },
+        {
+          "weekday": "Friday",
+          "startHour": 20,
+          "hours": 4
+        },
+        {
+          "weekday": "Sunday",
+          "startHour": 20,
+          "hours": 4
+        }
+      ],
+      "iconImage": "sprites/icons/jobs-club-door-cutout.webp"
+    },
+    {
+      "id": "waiter",
+      "title": "服務生",
+      "icon": "cloche",
+      "description": "端出著火、冰封或發出嗡嗡聲的菜餚，且不能掉落任何一盤。",
+      "locationId": "cauldron",
+      "bossId": "yann",
+      "hourlyRate": 17,
+      "trains": "dexterity",
+      "requirements": {
+        "charisma": 18,
+        "dexterity": 18
+      },
+      "shifts": [
+        {
+          "weekday": "Thursday",
+          "startHour": 18,
+          "hours": 4
+        },
+        {
+          "weekday": "Friday",
+          "startHour": 18,
+          "hours": 4
+        },
+        {
+          "weekday": "Saturday",
+          "startHour": 12,
+          "hours": 4
+        },
+        {
+          "weekday": "Sunday",
+          "startHour": 18,
+          "hours": 4
+        }
+      ],
+      "iconImage": "sprites/icons/jobs-waiter-cutout.webp"
+    },
+    {
+      "id": "foundry-technician",
+      "title": "實驗室技術員",
+      "icon": "flask",
+      "description": "校準工作臺、為護盾充能，並阻止一年級生炸掉測試室。",
+      "locationId": "foundry",
+      "bossId": "halla",
+      "hourlyRate": 20,
+      "trains": "intelligence",
+      "requirements": {
+        "intelligence": 20,
+        "dexterity": 18
+      },
+      "shifts": [
+        {
+          "weekday": "Tuesday",
+          "startHour": 18,
+          "hours": 4
+        },
+        {
+          "weekday": "Wednesday",
+          "startHour": 18,
+          "hours": 4
+        },
+        {
+          "weekday": "Friday",
+          "startHour": 18,
+          "hours": 4
+        }
+      ],
+      "iconImage": "sprites/icons/jobs-foundry-technician-cutout.webp"
+    },
+    {
+      "id": "research-assistant",
+      "title": "研究助理",
+      "icon": "scroll",
+      "description": "為教授關於「始祖登記冊」的著作閱讀、分類並摘要檔案箱內容。",
+      "locationId": "lecture-halls",
+      "bossId": "edda",
+      "hourlyRate": 24,
+      "trains": "wisdom",
+      "requirements": {
+        "intelligence": 22,
+        "wisdom": 18
+      },
+      "shifts": [
+        {
+          "weekday": "Saturday",
+          "startHour": 9,
+          "hours": 4
+        },
+        {
+          "weekday": "Sunday",
+          "startHour": 9,
+          "hours": 4
+        }
+      ],
+      "iconImage": "sprites/icons/jobs-research-assistant-cutout.webp"
+    }
+  ]
+}

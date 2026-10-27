@@ -1,0 +1,89 @@
+{
+  "locationId": "honeyed-bee-inn",
+  "name": "後方桌上的牌局",
+  "description": "小額固定限額德州撲克：盲注為 1 美元和 2 美元，每手牌投入不超過 10 美元。",
+  "table": "generated/backgrounds/poker/table.webp",
+  "smallBlind": 1,
+  "bigBlind": 2,
+  "smallBet": 2,
+  "bigBet": 4,
+  "maxBets": 3,
+  "handCap": 10,
+  "seats": 5,
+  "maxLoveInterests": 4,
+  "hours": 1,
+  "regulars": [
+    {
+      "id": "old-marta",
+      "name": "老瑪塔",
+      "style": {
+        "tight": 0.8,
+        "aggressive": 0.3,
+        "bluff": 0.05
+      }
+    },
+    {
+      "id": "nessa-crane",
+      "name": "內莎",
+      "style": {
+        "tight": 0.3,
+        "aggressive": 0.8,
+        "bluff": 0.25
+      }
+    },
+    {
+      "id": "juno-ashby",
+      "name": "茱諾",
+      "style": {
+        "tight": 0.5,
+        "aggressive": 0.5,
+        "bluff": 0.1
+      }
+    },
+    {
+      "id": "big-tova",
+      "name": "大託娃",
+      "style": {
+        "tight": 0.2,
+        "aggressive": 0.6,
+        "bluff": 0.15
+      }
+    },
+    {
+      "id": "sister-brannagh",
+      "name": "布蘭納修修女",
+      "style": {
+        "tight": 0.7,
+        "aggressive": 0.2,
+        "bluff": 0.02
+      }
+    },
+    {
+      "id": "dace",
+      "name": "戴斯",
+      "style": {
+        "tight": 0.4,
+        "aggressive": 0.7,
+        "bluff": 0.2
+      }
+    },
+    {
+      "id": "professor-holm",
+      "name": "霍姆教授",
+      "style": {
+        "tight": 0.9,
+        "aggressive": 0.6,
+        "bluff": 0.05
+      }
+    },
+    {
+      "id": "kit-ferrow",
+      "name": "凱特",
+      "style": {
+        "tight": 0.3,
+        "aggressive": 0.3,
+        "bluff": 0.1
+      }
+    }
+  ]
+}

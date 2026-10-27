@@ -1,0 +1,137 @@
+{
+  "meterMax": 100,
+  "stages": [
+    {
+      "id": "stranger",
+      "name": "陌生人",
+      "minAffection": 0,
+      "description": "你們幾乎沒遇過面。"
+    },
+    {
+      "id": "acquaintance",
+      "name": "熟人",
+      "minAffection": 10,
+      "description": "你們知道彼此的名字，會進行簡單的寒暄。"
+    },
+    {
+      "id": "friend",
+      "name": "朋友",
+      "minAffection": 30,
+      "description": "你們享受彼此的陪伴，且能坦誠交流。"
+    },
+    {
+      "id": "dating",
+      "name": "約會中",
+      "minAffection": 60,
+      "description": "你們正處於戀愛關係，仍在磨合階段。"
+    },
+    {
+      "id": "lover",
+      "name": "情人",
+      "minAffection": 85,
+      "description": "你們深愛著彼此，且對彼此忠誠。"
+    }
+  ],
+  "statuses": [
+    {
+      "id": "casual",
+      "name": "無約定的情人",
+      "minStage": "friend",
+      "description": "當雙方都有意願時，你們會共枕，且彼此不負任何責任。",
+      "guidance": "保持輕鬆且不具佔有慾。不要表現得像是情侶一樣。"
+    },
+    {
+      "id": "exclusive",
+      "committed": true,
+      "name": "專屬關係",
+      "minStage": "dating",
+      "exclusive": true,
+      "description": "你們是一對情侶，並承諾只對彼此專一：這是一個老派的選擇，但這是你們的決定。",
+      "guidance": "你可以稱呼彼此為情侶，並期待被對方優先對待，若有其他人的跡象，你會感到受傷。"
+    },
+    {
+      "id": "open",
+      "committed": true,
+      "name": "開放式關係",
+      "minStage": "dating",
+      "description": "你們是一對情侶，並同意雙方都可以與其他人交往。",
+      "guidance": "你可以稱呼彼此為情侶。其他的戀人並不代表背叛；你可以表現出好奇、戲弄或些微的嫉妒，但絕不會感到被背叛。"
+    },
+    {
+      "id": "throuple",
+      "committed": true,
+      "name": "三人關係",
+      "minStage": "dating",
+      "minMembers": 2,
+      "maxMembers": 2,
+      "mutual": true,
+      "exclusive": true,
+      "minTie": 30,
+      "description": "你們三人在一起，每個人都與另外兩位保持關係，且不與圈外的人交往。",
+      "guidance": "將兩人皆視為你的戀人。稱呼你們三人為心靈上的共同家園，並像對待他一樣，給予另一位女性應有的待遇。"
+    },
+    {
+      "id": "open-throuple",
+      "committed": true,
+      "name": "開放式三人關係",
+      "minStage": "dating",
+      "minMembers": 2,
+      "maxMembers": 2,
+      "mutual": true,
+      "minTie": 30,
+      "description": "你們三人在一起，每個人都與另外兩位保持關係，且你們任何人都可與其他人交往。",
+      "guidance": "將兩人皆視為你的戀人。三人之外的其他戀人並不代表背叛；你可以表現出好奇或戲弄，但絕不會感到被背叛。"
+    }
+  ],
+  "tieLevels": [
+    {
+      "id": "strangers",
+      "name": "幾乎不認識",
+      "min": 0,
+      "description": "你只知道她的長相，僅此而已。"
+    },
+    {
+      "id": "friendly",
+      "name": "友好",
+      "min": 15,
+      "description": "你喜歡她，與她相處時感到自在。"
+    },
+    {
+      "id": "close",
+      "name": "親近",
+      "min": 30,
+      "description": "你信任她，會主動找她，你們之間有一種超越友誼的溫暖。"
+    },
+    {
+      "id": "intimate",
+      "name": "親密",
+      "min": 60,
+      "description": "你被她吸引，並對她展現出明顯的愛意。"
+    }
+  ],
+  "ties": [
+    {
+      "a": "anwen",
+      "b": "elowen",
+      "affection": 60,
+      "note": "你們是一對同卵雙胞胎姐妹，一起來到希德布洛森，但漸漸有了分歧：一個沉迷網路，另一個則騎著單車。你們都希望被視為獨立的個體，而非僅僅是雙胞胎的一員。"
+    },
+    {
+      "a": "daphne",
+      "b": "grushka",
+      "affection": 35,
+      "note": "四年的教練與冠軍搭檔。在沙地上你們完全信任彼此，且鮮少提及此事。"
+    }
+  ],
+  "intimacy": {
+    "easyTraitIds": [
+      "promiscuous",
+      "sex-addict"
+    ],
+    "minDesire": 25,
+    "reluctantTraitIds": [
+      "prude"
+    ],
+    "reluctantMinDesire": 50
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "id": "morwenna",
+  "name": "Morwenna Thriceborn",
+  "role": "",
+  "age": 22,
+  "pronouns": "she/her",
+  "bio": "一位女性研究系的四年級生，她將「綻放」視為一種力量並以此撰寫文章，穿著風格就像在為父權制度舉行葬禮。傳聞她有一份名單，記錄著所有讓她失望的人，而那份名單涵蓋了所有人。",
+  "appearance": "一位二十二歲、膚色蒼白的女性，擁有心形臉、分明的顴骨，勾勒著深色眼線的灰色雙眼，以及塗著黑色唇彩的豐滿寬唇。她濃密的烏黑長髮呈現厚重的齊平剪裁，直垂過肩，並留著平瀏海。她身材高挑且豐滿，擁有非常巨大沉重的乳房、粗壯的大腿與寬闊的臀部，展現出極具張力的沙漏型身材。",
+  "personality": "She carries herself with the still, assured calm of someone who has already decided she is the most interesting person in the room, and she is usually right. She is generous with her attention when she gives it and devastating when she withdraws it. She treats most social encounters as opportunities to study power dynamics, and she enjoys finding out what people want and making them say it.",
+  "traitIds": [
+    "flirtatious",
+    "competitive",
+    "dominant"
+  ],
+  "likes": [
+    "books",
+    "tea",
+    "finery",
+    "ribbons",
+    "music"
+  ],
+  "dislikes": [
+    "ale",
+    "games",
+    "cards"
+  ],
+  "admires": [
+    "endurance",
+    "charisma"
+  ],
+  "friends": [],
+  "enemies": [],
+  "handle": "nightbloom_mother",
+  "outfits": [
+    {
+      "id": "default",
+      "name": "常服",
+      "description": "長款黑色天鵝絨大衣，內搭低胸黑色蕾絲襯衫且未配飾品，搭配黑色層次裙與網襪，頸上戴著黑色編織皮革頸圈，墜著銀色新月吊墜",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/morwenna/default-neutral-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/morwenna/default-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/morwenna/default-angry-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/morwenna/default-surprised-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/morwenna/default-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/morwenna/default-aroused-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/morwenna/default-happy-11-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": false
+    },
+    {
+      "id": "pregnant",
+      "name": "孕婦裝",
+      "description": "裙子下露出一圓滾滾的孕肚",
+      "inherits": "default",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/morwenna/pregnant-neutral-6-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/morwenna/pregnant-happy-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/morwenna/pregnant-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/morwenna/pregnant-angry-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/morwenna/pregnant-surprised-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/morwenna/pregnant-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/morwenna/pregnant-aroused-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": true
+    },
+    {
+      "id": "nude",
+      "name": "全裸",
+      "description": "身上什麼都沒穿，完全裸露，僅戴著黑色編織皮革頸圈，墜著銀色新月吊墜",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/morwenna/nude-neutral-4-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/morwenna/nude-happy-3-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/morwenna/nude-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/morwenna/nude-angry-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/morwenna/nude-surprised-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/morwenna/nude-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/morwenna/nude-aroused-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": false
+    },
+    {
+      "id": "nude-pregnant",
+      "name": "裸體，懷孕",
+      "description": "她有一顆圓滾滾的孕肚。",
+      "inherits": "nude",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/morwenna/nude-pregnant-neutral-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/morwenna/nude-pregnant-happy-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/morwenna/nude-pregnant-sad-cutout-2.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/morwenna/nude-pregnant-angry-2-cutout-2.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/morwenna/nude-pregnant-surprised-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/morwenna/nude-pregnant-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/morwenna/nude-pregnant-aroused-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": true
+    },
+    {
+      "id": "bathrobe",
+      "name": "浴袍",
+      "description": "一件短款絲質浴袍，腰間鬆垮地繫著，滑落至一側肩膀，深V領口展現出她的乳溝，裙襬高至裸露的大腿。",
+      "pregnant": false,
+      "sprites": {
+        "neutral": {
+          "image": "sprites/morwenna/bathrobe-neutral-cutout.webp",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": "bathrobe-pregnant",
+      "name": "浴袍，懷孕",
+      "inherits": "bathrobe",
+      "description": "她有一顆圓滾滾的孕肚。",
+      "pregnant": true,
+      "sprites": {
+        "neutral": {
+          "image": "sprites/morwenna/bathrobe-pregnant-neutral-cutout.webp",
+          "description": ""
+        }
+      }
+    }
+  ],
+  "defaultOutfitId": "default",
+  "faceY": 4,
+  "imageSeed": 62,
+  "stageHeight": 95,
+  "kind": "student",
+  "partyRole": "hexer",
+  "studies": {
+    "major": "WOM",
+    "level": 4
+  },
+  "animations": [
+    {
+      "id": "blowjob",
+      "name": "口交",
+      "description": "",
+      "image": "sprites/morwenna/nsfw-blowjob-7.webp",
+      "clip": "sprites/morwenna/nsfw-blowjob.mp4",
+      "loop": true
+    },
+    {
+      "id": "missionary",
+      "name": "傳教士式",
+      "description": "",
+      "image": "sprites/morwenna/nsfw-missionary.webp",
+      "clip": "sprites/morwenna/nsfw-missionary.mp4",
+      "loop": true
+    },
+    {
+      "id": "doggy",
+      "name": "後入式",
+      "description": "",
+      "image": "sprites/morwenna/nsfw-doggy-2.webp",
+      "clip": "sprites/morwenna/nsfw-doggy.mp4",
+      "loop": true
+    },
+    {
+      "id": "cowgirl",
+      "name": "女上位",
+      "description": "",
+      "image": "sprites/morwenna/nsfw-cowgirl.webp",
+      "clip": "sprites/morwenna/nsfw-cowgirl-2.mp4",
+      "loop": true
+    },
+    {
+      "id": "creampie",
+      "name": "內射",
+      "description": "",
+      "image": "sprites/morwenna/nsfw-creampie.webp",
+      "clip": "sprites/morwenna/nsfw-creampie.mp4",
+      "loop": true
+    },
+    {
+      "id": "facial",
+      "name": "面射",
+      "description": "",
+      "image": "sprites/morwenna/nsfw-facial.webp",
+      "clip": "sprites/morwenna/nsfw-facial.mp4",
+      "loop": true
+    },
+    {
+      "id": "pregnant-missionary",
+      "name": "傳教士式，懷孕",
+      "description": "",
+      "image": "sprites/morwenna/nsfw-pregnant-missionary.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-doggy",
+      "name": "後入式，懷孕",
+      "description": "",
+      "image": "sprites/morwenna/nsfw-pregnant-doggy-2.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-cowgirl",
+      "name": "女上位，懷孕",
+      "description": "",
+      "image": "sprites/morwenna/nsfw-pregnant-cowgirl.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-creampie",
+      "name": "內射，懷孕",
+      "description": "",
+      "image": "sprites/morwenna/nsfw-pregnant-creampie.webp",
+      "loop": true
+    }
+  ],
+  "schedule": [
+    {
+      "weekdays": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "periods": [
+        "morning"
+      ],
+      "locationId": "lecture-halls"
+    },
+    {
+      "weekdays": [
+        "Tuesday",
+        "Wednesday"
+      ],
+      "periods": [
+        "afternoon"
+      ],
+      "locationId": "library"
+    },
+    {
+      "weekdays": [
+        "Thursday",
+        "Friday"
+      ],
+      "periods": [
+        "evening"
+      ],
+      "locationId": "spell-and-sip"
+    },
+    {
+      "weekdays": [
+        "Saturday",
+        "Sunday"
+      ],
+      "periods": [
+        "evening",
+        "night"
+      ],
+      "locationId": "honeyed-bee-inn"
+    },
+    {
+      "periods": [
+        "night"
+      ],
+      "locationId": "honeyed-bee-inn"
+    }
+  ],
+  "room": {
+    "name": "蜜蜂酒吧上方點著燭光的公寓",
+    "description": "一間狹窄的頂樓公寓，天花板平整潔白，唯一的窗戶掛著黑色蕾絲窗簾，將日光染成紫色。書架從地板延伸至天花板，佈滿了每一面牆壁，塞滿了寫滿註解的平裝書和皮革裝訂的論文，書脊裂開，插著書籤絲帶。角落裡有一張低矮的鐵架床，蓋著深色天鵝絨被褥，窗邊的圓桌上放著茶壺、一疊論文，以及銀色燭臺上的黑色蠟燭。空氣中瀰漫著乾薰衣草、舊紙張的味道，還帶著淡淡的香火氣。",
+    "locationId": "honeyed-bee-inn",
+    "images": {
+      "day": "generated/backgrounds/morwenna/view-2.webp"
+    }
+  },
+  "birthPicture": "sprites/morwenna/birth.webp",
+  "walkSprite": "sprites/morwenna/walk-cutout.webp",
+  "childNames": {
+    "daughters": [
+      "Nyx",
+      "Sable",
+      "Lenore",
+      "Belladonna",
+      "Ravenna"
+    ],
+    "sons": [
+      "Corvin",
+      "Mordecai"
+    ]
+  },
+  "birthControl": true,
+  "ai": {
+    "speechPattern": "She speaks in low, measured cadences with deliberate pauses, as though every sentence has been edited before it leaves her mouth. Her vocabulary is precise and slightly archaic, favoring words like 'exquisite' and 'intolerable,' and she tends to reframe questions as observations about the person asking them.",
+    "tone": "Imperious, teasing, languid",
+    "verbalQuirks": [
+      "addresses people as 'darling' or 'little one' when she is pleased with them",
+      "refers to things she disdains as 'common' or 'tedious'",
+      "pauses mid-sentence with a slow blink when she wants someone to squirm"
+    ],
+    "exampleDialogue": [],
+    "backstory": "Morwenna Thriceborn came to Breedhaven University from a small town in the western orchards, the eldest daughter of a family of ward-weavers who still do not know what to make of her. She arrived in black lace and never stopped wearing it. She chose Women's Studies because she wanted to understand the Bloom as a system of power rather than a fact of nature, and she has spent four years arguing with every professor who treats it as either sacred or simple.\n\nHer own magic is subtle and inward: she can sense the Bloom's pull in other women the way some people sense a change in weather. She feels it in herself as a low, persistent warmth that she has never fully silenced and never fully embraced. She takes dampers, reads theory, and writes essays about the politics of suppression, and she is not sure any of it has helped.\n\nShe has been a fixture of the Honeyed Bee's upstairs room since her first year, holding court over tea and arguments, and half the Women's Studies department is quietly afraid of her comprehensive exam notes.",
+    "knowledge": [],
+    "secrets": [
+      {
+        "text": "她留著一本私人日記，裡面寫的不是幻想，而是觀察：當真正的始祖靠近時，她身邊的女性會有什麼反應。她告訴自己這是在做田野調查，但她心知肚明，這不僅僅是田野調查。",
+        "revealWhen": [
+          {
+            "type": "stage",
+            "min": "dating"
+          }
+        ]
+      }
+    ],
+    "extraInstructions": "Play her as someone whose control is her deepest feature and whose vulnerability is the thing she guards most carefully. She should never break composure involuntarily in public; her softening happens in stages and in private. The Bloom's pull on her is a source of genuine conflict she engages with intellectually before she engages with it physically, and she should be allowed to be both aroused and angry about being aroused without resolving the tension quickly."
+  }
+}

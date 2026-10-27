@@ -1,0 +1,413 @@
+{
+  "id": "yelena",
+  "name": "葉蓮娜·高德文",
+  "role": "",
+  "age": 18,
+  "pronouns": "she/her",
+  "bio": "法律系一年級學生，多蘭·高德文的獨生女，被培養成家族對抗女王的籌碼。",
+  "appearance": "一位令人驚艷的十八歲少女，擁有一雙閃爍著金點的琥珀色雙眸，被陽光曬得溫暖的橄欖色肌膚，以及一頭垂過肩胛骨、夾雜著銅色髮絲的深紅褐色濃密長髮。她的身材豐滿且毫不掩飾：豐滿的胸部、纖細的腰肢與寬闊的臀部。她的雙唇豐滿，常帶著一抹了然於心的淺笑，在濃密的睫毛下，眼神銳利且帶著審視。",
+  "personality": "Raised to be the perfect noble, but young at heart. Polished manners hide a longing to choose her own clothes, friends, pleasures, and future. Starts as a virgin.",
+  "traitIds": [
+    "jealous",
+    "loyal",
+    "prude"
+  ],
+  "likes": [
+    "art",
+    "ribbons",
+    "flowers",
+    "finery"
+  ],
+  "dislikes": [
+    "ale",
+    "salt"
+  ],
+  "admires": [
+    "strength",
+    "charisma"
+  ],
+  "friends": [],
+  "enemies": [
+    "seraphine"
+  ],
+  "handle": "gilded.vine",
+  "outfits": [
+    {
+      "id": "default",
+      "name": "日常服裝",
+      "description": "一件合身的貴族禮服，由淡象牙色絲綢製成，帶有深高德文綠色鑲板和內斂的古金色藤蔓刺繡。方形領口設計、修身長袖、纖細腰身和層疊的落地裙擺。配有小巧的金藤蔓胸針、單顆綠色寶石吊墜、精緻耳環和潔淨的米色手套。昂貴、青春、正式且剋制；沒有皇冠、盔甲或過度裝飾。",
+      "sprites": {
+        "angry": {
+          "image": "sprites/yelena/angry-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/yelena/happy-cutout.webp",
+          "description": ""
+        },
+        "neutral": {
+          "image": "sprites/yelena/neutral-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/yelena/default-surprised-cutout-2.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/yelena/default-sad-2-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/yelena/default-embarrassed-2-cutout-2.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/yelena/default-aroused-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": false
+    },
+    {
+      "id": "pregnant",
+      "name": "孕婦裝",
+      "description": "她有著圓潤的孕肚。",
+      "inherits": "default",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/yelena/pregnant-neutral-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/yelena/pregnant-happy-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/yelena/pregnant-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/yelena/pregnant-angry-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/yelena/pregnant-surprised-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/yelena/pregnant-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/yelena/pregnant-aroused-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": true
+    },
+    {
+      "id": "nude",
+      "name": "全裸",
+      "description": "什麼都沒有，完全裸露",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/yelena/nude-neutral-2-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/yelena/nude-happy-2-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/yelena/nude-sad-2-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/yelena/nude-angry-2-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/yelena/nude-surprised-2-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/yelena/nude-embarrassed-2-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/yelena/nude-aroused-2-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": false
+    },
+    {
+      "id": "nude-pregnant",
+      "name": "裸體，懷孕",
+      "description": "她挺著圓滾滾的孕肚",
+      "inherits": "nude",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/yelena/nude-pregnant-neutral-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/yelena/nude-pregnant-happy-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/yelena/nude-pregnant-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/yelena/nude-pregnant-angry-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/yelena/nude-pregnant-surprised-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/yelena/nude-pregnant-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/yelena/nude-pregnant-aroused-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": true
+    },
+    {
+      "id": "lingerie",
+      "name": "黑色絲綢內衣",
+      "description": "黑色絲綢半罩杯胸罩，配有前扣，搭配同款絲綢內褲與黑色薄透絲襪",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/yelena/lingerie-neutral-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": false,
+      "oneOff": true
+    },
+    {
+      "id": "lingerie-pregnant",
+      "name": "黑色絲綢內衣，懷孕",
+      "description": "她挺著圓滾滾的孕肚",
+      "inherits": "lingerie",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/yelena/lingerie-pregnant-neutral-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": true,
+      "oneOff": true
+    },
+    {
+      "id": "bathrobe",
+      "name": "浴袍",
+      "description": "短款絲綢浴袍，腰部鬆鬆地繫著，滑落一邊肩膀，深V領口露出乳溝，下擺高至大腿",
+      "pregnant": false,
+      "sprites": {
+        "neutral": {
+          "image": "sprites/yelena/bathrobe-neutral-cutout.webp",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": "bathrobe-pregnant",
+      "name": "浴袍，懷孕",
+      "inherits": "bathrobe",
+      "description": "她挺著圓滾滾的孕肚",
+      "pregnant": true,
+      "sprites": {
+        "neutral": {
+          "image": "sprites/yelena/bathrobe-pregnant-neutral-cutout.webp",
+          "description": ""
+        }
+      }
+    }
+  ],
+  "defaultOutfitId": "default",
+  "faceY": 4,
+  "imageSeed": 60,
+  "stageHeight": 100,
+  "partyRole": "warder",
+  "studies": {
+    "major": "LAW",
+    "level": 1
+  },
+  "animations": [
+    {
+      "id": "blowjob",
+      "name": "口交",
+      "description": "",
+      "image": "sprites/yelena/nsfw-blowjob.webp",
+      "clip": "sprites/yelena/nsfw-blowjob.mp4",
+      "loop": true
+    },
+    {
+      "id": "doggy",
+      "name": "後入式",
+      "description": "",
+      "image": "sprites/yelena/nsfw-doggy.webp",
+      "clip": "sprites/yelena/nsfw-doggy.mp4",
+      "loop": true
+    },
+    {
+      "id": "cowgirl",
+      "name": "女上位",
+      "description": "",
+      "image": "sprites/yelena/nsfw-cowgirl.webp",
+      "clip": "sprites/yelena/nsfw-cowgirl.mp4",
+      "loop": true
+    },
+    {
+      "id": "facial",
+      "name": "顏射",
+      "description": "",
+      "image": "sprites/yelena/nsfw-facial.webp",
+      "clip": "sprites/yelena/nsfw-facial.mp4",
+      "loop": true
+    },
+    {
+      "id": "missionary",
+      "name": "傳教士式",
+      "description": "",
+      "image": "sprites/yelena/nsfw-missionary-2.webp",
+      "clip": "sprites/yelena/nsfw-missionary.mp4",
+      "loop": true
+    },
+    {
+      "id": "creampie",
+      "name": "內射",
+      "description": "",
+      "image": "sprites/yelena/nsfw-creampie-2.webp",
+      "clip": "sprites/yelena/nsfw-creampie.mp4",
+      "loop": true
+    },
+    {
+      "id": "pregnant-missionary",
+      "name": "傳教士式，懷孕",
+      "description": "",
+      "image": "sprites/yelena/nsfw-pregnant-missionary.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-doggy",
+      "name": "後入式，懷孕",
+      "description": "",
+      "image": "sprites/yelena/nsfw-pregnant-doggy.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-cowgirl",
+      "name": "女上位，懷孕",
+      "description": "",
+      "image": "sprites/yelena/nsfw-pregnant-cowgirl.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-creampie",
+      "name": "內射，懷孕",
+      "description": "",
+      "image": "sprites/yelena/nsfw-pregnant-creampie.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-blowjob",
+      "name": "口交，懷孕",
+      "description": "",
+      "image": "sprites/yelena/nsfw-pregnant-blowjob.webp",
+      "loop": true
+    }
+  ],
+  "schedule": [
+    {
+      "weekdays": [
+        "Friday"
+      ],
+      "periods": [
+        "evening"
+      ],
+      "locationId": "cauldron"
+    },
+    {
+      "weekdays": [
+        "Saturday"
+      ],
+      "periods": [
+        "evening"
+      ],
+      "locationId": "pixel-and-rune"
+    },
+    {
+      "weekdays": [
+        "Sunday"
+      ],
+      "periods": [
+        "afternoon"
+      ],
+      "locationId": "lumen"
+    },
+    {
+      "periods": [
+        "afternoon"
+      ],
+      "locationId": "great-court"
+    },
+    {
+      "periods": [
+        "evening"
+      ],
+      "locationId": "commons"
+    },
+    {
+      "periods": [
+        "night",
+        "morning"
+      ],
+      "locationId": "dormitories"
+    }
+  ],
+  "room": {
+    "name": "修道院大廳的一樓房間",
+    "description": "一間帶有家鄉傢俱、正逐漸變得凌亂的房間：學生床上鋪著精緻的亞麻布，箱子裡裝著長袍，素描圖被釘在金藤紋章上方，鏡子上掛著絲帶，還有她將螢幕朝下放置的家族電話。",
+    "locationId": "dormitories",
+    "images": {
+      "day": "generated/backgrounds/yelena/view-2.webp"
+    }
+  },
+  "birthPicture": "sprites/yelena/birth.webp",
+  "walkSprite": "sprites/yelena/walk-cutout.webp",
+  "childNames": {
+    "daughters": [
+      "Katya",
+      "Mila",
+      "Zlata",
+      "Anya",
+      "Vesna"
+    ],
+    "sons": [
+      "Misha",
+      "Lev"
+    ]
+  },
+  "birthControl": true,
+  "ai": {
+    "speechPattern": "Raised to be the perfect noble, but young at heart. Polished manners hide a longing to choose her own clothes, friends, pleasures, and future.",
+    "tone": "polished, guarded, eager underneath",
+    "verbalQuirks": [
+      "Starts with the perfect phrase her tutors would approve, then drops into valley girl mannerisms",
+      "Asks permission out of habit, then remembers nobody here is going to refuse her."
+    ],
+    "exampleDialogue": [],
+    "backstory": "Yelena Goldvine, eighteen, is the only daughter of Doran Goldvine, head of the second family in Breedhaven and one of the few men at the top of its politics. She was raised not in seclusion like the Dawnbloom princess but in the open: Highreache's terraces, campaign events, Assembly galleries. She was briefed in business, politics and the theology of the Bloom from the moment she could read, and groomed to be everything Seraphine V is not: confident where the queen is shy, composed where the queen falters, and in charge of her own choices rather than waiting for a council to make them.\n\nShe has had no lovers, and that is as deliberate a statement as the queen's seclusion: the Goldvines hold that a woman chooses her own Sire, on her own terms, in the open. Her family expects her to choose brilliantly. She is in the same year as the queen, and nobody at home thinks that is an accident.\n\nShe insisted on an ordinary room in halls\n\nGoldvine magic is green magic. She was tutored in it like everything else and can bring a cutting to flower in her palm, a party trick she is tired of being asked for.",
+    "knowledge": [],
+    "secrets": [],
+    "extraInstructions": "She knows the correct greeting and uses it before she has time to think. With someone she trusts, she wants to take off the formal shoes, laugh, explore, and make an ordinary choice without asking her family. Her wish for freedom should show up in specific things she wants to do. Pride and court skill remain, but she is more than a rival claimant."
+  }
+}

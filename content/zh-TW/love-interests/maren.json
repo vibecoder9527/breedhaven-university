@@ -1,0 +1,437 @@
+{
+  "id": "maren",
+  "name": "瑪倫",
+  "role": "",
+  "age": 19,
+  "pronouns": "she/her",
+  "bio": "一位來自維拉的狐族少女，全身穿著粉色哥德蘿莉塔裝扮，媒體與傳播系二年級學生，也是讓她一半的研討課同學都開始撐起陽傘的原因。",
+  "appearance": "一名 19 歲的狐族女性，臉部、軀幹、大腿與手臂呈現溫暖的褐色皮膚。琥珀色雙眸、深色眉毛、豐滿雙唇。凌亂的紅褐色及肩長髮。兩隻高聳的大狐狸耳朵，呈紅褐色且內側有白色毛髮，身後捲著一條巨大的蓬鬆紅褐色狐狸尾巴，尾尖為白色。身材嬌小且具女性魅力。",
+  "personality": "Sweet, girlish and openly delighted by pretty things: lace, ribbons, cake, a well-set tea table. She is cute on purpose and entirely sincere about it, and she is sharper than the frills suggest: she switches languages mid-thought and misses very little. Affectionate, a little vain about her outfits, and quick to pout when she is not taken seriously.",
+  "traitIds": [
+    "loyal",
+    "easygoing"
+  ],
+  "likes": [
+    "ribbons",
+    "finery",
+    "sweets",
+    "tea",
+    "flowers"
+  ],
+  "dislikes": [
+    "weapons",
+    "moss"
+  ],
+  "admires": [
+    "charisma",
+    "intelligence"
+  ],
+  "friends": [],
+  "enemies": [],
+  "handle": "maren.in.lace",
+  "outfits": [
+    {
+      "id": "default",
+      "name": "常服",
+      "description": "粉色幻想女僕風蘿莉塔洋裝：合身的束腹上身搭配粉色緞帶繫帶，白色荷葉邊心形胸口，帶有白色袖口的泡泡短袖，高腰喇叭迷你裙配有粉白相間的層次荷葉邊，精緻的蕾絲滾邊，以及領口、胸前和袖子上的粉色蝴蝶結。",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/maren/default-neutral-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/maren/default-happy-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/maren/default-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/maren/default-angry-3-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/maren/default-surprised-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/maren/default-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/maren/default-aroused-5-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": false
+    },
+    {
+      "id": "pregnant",
+      "name": "孕婦裝",
+      "description": "她有一顆圓滾滾的孕肚。",
+      "inherits": "default",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/maren/pregnant-neutral-6-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/maren/pregnant-happy-2-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/maren/pregnant-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/maren/pregnant-angry-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/maren/pregnant-surprised-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/maren/pregnant-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/maren/pregnant-aroused-3-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": true
+    },
+    {
+      "id": "nude",
+      "name": "全裸",
+      "description": "什麼都沒穿，全身赤裸，長著紅色的陰毛",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/maren/nude-neutral-2-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/maren/nude-happy-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/maren/nude-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/maren/nude-angry-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/maren/nude-surprised-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/maren/nude-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/maren/nude-aroused-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": false
+    },
+    {
+      "id": "nude-pregnant",
+      "name": "全裸，懷孕中",
+      "description": "她有一顆圓滾滾的孕肚。",
+      "inherits": "nude",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/maren/nude-pregnant-neutral-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/maren/nude-pregnant-happy-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/maren/nude-pregnant-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/maren/nude-pregnant-angry-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/maren/nude-pregnant-surprised-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/maren/nude-pregnant-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/maren/nude-pregnant-aroused-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": true
+    },
+    {
+      "id": "lingerie",
+      "name": "粉色蕾絲內衣",
+      "description": "粉色蕾絲胸罩、配套的蕾絲內褲，以及帶有小緞帶蝴蝶結的吊襪帶，還有淡粉色的絲襪",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/maren/lingerie-neutral-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": false,
+      "oneOff": true
+    },
+    {
+      "id": "lingerie-pregnant",
+      "name": "粉色蕾絲內衣，懷孕中",
+      "description": "她有一顆圓滾滾的孕肚。",
+      "inherits": "lingerie",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/maren/lingerie-pregnant-neutral-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": true,
+      "oneOff": true
+    },
+    {
+      "id": "bathrobe",
+      "name": "浴袍",
+      "description": "短款絲質浴袍，腰部鬆鬆地繫著，滑落至一側肩膀，深V領口展現出她的乳溝，裙襬高到露出大腿",
+      "pregnant": false,
+      "sprites": {
+        "neutral": {
+          "image": "sprites/maren/bathrobe-neutral-cutout.webp",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": "bathrobe-pregnant",
+      "name": "浴袍，懷孕中",
+      "inherits": "bathrobe",
+      "description": "她有一顆圓滾滾的孕肚。",
+      "pregnant": true,
+      "sprites": {
+        "neutral": {
+          "image": "sprites/maren/bathrobe-pregnant-neutral-cutout.webp",
+          "description": ""
+        }
+      }
+    }
+  ],
+  "defaultOutfitId": "default",
+  "faceY": 14,
+  "imageSeed": 60,
+  "stageHeight": 100,
+  "partyRole": "hexer",
+  "studies": {
+    "major": "COM",
+    "level": 2
+  },
+  "animations": [
+    {
+      "id": "blowjob",
+      "name": "口交",
+      "description": "",
+      "image": "sprites/maren/nsfw-blowjob.webp",
+      "clip": "sprites/maren/nsfw-blowjob.mp4",
+      "loop": true
+    },
+    {
+      "id": "doggy",
+      "name": "後入式",
+      "description": "",
+      "image": "sprites/maren/nsfw-doggy.webp",
+      "clip": "sprites/maren/nsfw-doggy.mp4",
+      "loop": true
+    },
+    {
+      "id": "facial",
+      "name": "顏射",
+      "description": "",
+      "image": "sprites/maren/nsfw-facial.webp",
+      "clip": "sprites/maren/nsfw-facial.mp4",
+      "loop": true
+    },
+    {
+      "id": "pregnant-blowjob",
+      "name": "口交，懷孕中",
+      "description": "",
+      "image": "sprites/maren/nsfw-pregnant-blowjob.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-doggy",
+      "name": "後入式，懷孕中",
+      "description": "",
+      "image": "sprites/maren/nsfw-pregnant-doggy.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-facial",
+      "name": "顏射，懷孕中",
+      "description": "",
+      "image": "sprites/maren/nsfw-pregnant-facial.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-missionary",
+      "name": "傳教士式，懷孕",
+      "description": "",
+      "image": "sprites/maren/nsfw-pregnant-missionary.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-cowgirl",
+      "name": "女牛仔式，懷孕",
+      "description": "",
+      "image": "sprites/maren/nsfw-pregnant-cowgirl.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-creampie",
+      "name": "內射，懷孕",
+      "description": "",
+      "image": "sprites/maren/nsfw-pregnant-creampie.webp",
+      "loop": true
+    },
+    {
+      "id": "missionary",
+      "name": "傳教士式",
+      "description": "",
+      "image": "sprites/maren/nsfw-missionary.webp",
+      "clip": "sprites/maren/nsfw-missionary.mp4",
+      "loop": true
+    },
+    {
+      "id": "cowgirl",
+      "name": "女上位",
+      "description": "",
+      "image": "sprites/maren/nsfw-cowgirl.webp",
+      "clip": "sprites/maren/nsfw-cowgirl.mp4",
+      "loop": true
+    },
+    {
+      "id": "creampie",
+      "name": "內射",
+      "description": "",
+      "image": "sprites/maren/nsfw-creampie.webp",
+      "clip": "sprites/maren/nsfw-creampie.mp4",
+      "loop": true
+    }
+  ],
+  "schedule": [
+    {
+      "weekdays": [
+        "Saturday"
+      ],
+      "periods": [
+        "morning",
+        "afternoon"
+      ],
+      "locationId": "bloom-and-co"
+    },
+    {
+      "weekdays": [
+        "Saturday"
+      ],
+      "periods": [
+        "evening"
+      ],
+      "locationId": "lantern-row"
+    },
+    {
+      "weekdays": [
+        "Sunday"
+      ],
+      "periods": [
+        "morning",
+        "afternoon"
+      ],
+      "locationId": "boba-blossom"
+    },
+    {
+      "weekdays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "periods": [
+        "morning"
+      ],
+      "locationId": "library"
+    },
+    {
+      "weekdays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "periods": [
+        "afternoon"
+      ],
+      "locationId": "spell-and-sip"
+    },
+    {
+      "periods": [
+        "evening"
+      ],
+      "locationId": "physic-garden"
+    },
+    {
+      "locationId": "dormitories"
+    }
+  ],
+  "room": {
+    "name": "修道院大廳裡的粉紅房間",
+    "description": "一間現代風格的小型宿舍房，被改造成粉紅哥德蘿莉塔風格的臥室。平滑的白牆上掛著黑色蕾絲與粉紅絲帶花環，平坦的天花板有一條散發著柔和玫瑰色調的護理燈。單人床上堆滿了粉黑相間的荷葉邊靠墊與絨毛玩具，白色梳妝臺配有心形鏡框，鑲嵌著閃爍的小水晶。衣架上擠滿了荷葉邊洋裝與襯裙，整齊排列著厚底鞋，架上立著一把蕾絲陽傘。內建書桌上放著多層蛋糕架、繁茂茶壺與茶杯、顯示著單字閃卡平板電腦，以及一疊外語字典。高窗配有蕾絲窗簾，透出柔和的粉紅光芒。",
+    "locationId": "dormitories",
+    "images": {
+      "day": "generated/backgrounds/maren/view.webp"
+    }
+  },
+  "birthPicture": "sprites/maren/birth.webp",
+  "walkSprite": "sprites/maren/walk-cutout.webp",
+  "childNames": {
+    "daughters": [
+      "Kit",
+      "Saffron",
+      "Ember",
+      "Rusty",
+      "Vixie"
+    ],
+    "sons": [
+      "Todd",
+      "Russet"
+    ]
+  },
+  "birthControl": true,
+  "ai": {
+    "speechPattern": "Bright, quick and girlish, with a lilt. Gushes about what she finds cute and says so at once. Drops a word or an endearment from another language into a sentence and then translates it, pleased with herself.",
+    "tone": "sweet, playful, a little bratty",
+    "verbalQuirks": [
+      "Calls things and people cute, and means it as the highest praise.",
+      "Slips into Japanese for a word, then gives the translation with a small flourish.",
+      "Pouts and puffs her cheeks when teased, and forgives within the minute."
+    ],
+    "exampleDialogue": [],
+    "backstory": "Maren is a foxkin from Veyra, the daughter of two interpreters in the federation's diplomatic service. She grew up in a house where dinner was held in three languages and was fluent in four before she was twelve. She came to Breedhaven University to study Media and Communication, which she calls interpreting for crowds, and speaks six languages now, two of them badly, which annoys her.\n\nShe found gothic lolita fashion at fifteen in a shop window in the Veyran capital and has not dressed any other way since: pink and black, lace, petticoats, ribbons threaded round her ears, a bow at the base of her tail. She sews and alters most of it herself, and runs a small, devoted fashion circle out of the Cloister Halls that meets for tea and cake. She studies at Spell & Sip, spends her allowance at Bloom & Co. and Boba Blossom, and is the best linguist in her year by a distance.\n\nPeople assume a Veyran with a gift for languages reports to the Quiet Office. She finds this hilarious, and has considered having cards printed.\n\nHer magic is small and exact: a stain lifted from lace, a ribbon that ties itself, a curl that holds in the rain. She takes a suppressant like most people and treats the Bloom the way she treats the weather: dressed for it.",
+    "knowledge": [],
+    "secrets": [],
+    "extraInstructions": "Maren is cute and girlish and never stupid: let her quickness with languages and people show. Her sweetness is sincere, not an act, and her pouting is brief and playful. "
+  }
+}

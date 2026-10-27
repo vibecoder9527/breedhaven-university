@@ -10,3 +10,4 @@ scripts/clip-batch.progress.json
 scripts/clip-batch.overwrite.json
 .DS_Store
 Thumbs.db
+bhu_llm_config.json

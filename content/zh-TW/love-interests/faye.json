@@ -1,0 +1,389 @@
+{
+  "id": "faye",
+  "name": "費伊·費提萊",
+  "role": "",
+  "age": 22,
+  "pronouns": "she/her",
+  "bio": "商學院大四學生、天才魔法師、Broodmarket 實習生，也是校園裡最危險的談判專家。",
+  "appearance": "一位美艷動人的二十二歲女性，留著一頭烏黑亮麗的長髮，擁有一雙紅色的眼眸。肌膚白皙無瑕，雙唇豐滿且抹著紅唇，擁有凹凸有致的沙漏型身材。",
+  "personality": "Calculating, yet always sultry and seductive. Knows she is desirable and uses that confidence to her advantage, even while discussing business.",
+  "traitIds": [
+    "flirtatious",
+    "promiscuous",
+    "exhibitionist"
+  ],
+  "likes": [
+    "potions",
+    "trade",
+    "finery",
+    "coffee"
+  ],
+  "dislikes": [
+    "devotional",
+    "salt"
+  ],
+  "admires": [
+    "charisma",
+    "intelligence"
+  ],
+  "friends": [],
+  "enemies": [],
+  "handle": "faye_accompli",
+  "outfits": [
+    {
+      "id": "default",
+      "name": "常服",
+      "description": "一件深午夜藍色緞面奇幻長裙，剪裁流暢且充滿感官魅力。胸衣設計有極深的 V 型領口，一直延伸至肚臍，窄布片包裹著胸部。兩條細長的掛脖式肩帶從胸衣升起，在鎖骨處用鑲嵌紅寶石的圓形古金色胸針固定。雙肩裸露。長而鬆散的垂墜袖子從肩下開始，流暢地垂掛在手臂周圍，營造出柔和的露肩效果。裙襬在單側髖部不對稱地堆疊，並點綴著第三枚金紅寶石胸針。側面開衩極高，露出大腿。布料是平滑、光澤且輕盈的絲綢，在近乎黑色的深藍底色上呈現戲劇性的褶皺與細微藍光。固定設計規則：午夜藍緞面、深 V 胸衣、露肩、細肩帶、兩枚金紅胸針、長款分離垂墜袖、配套髖部胸針、單側高衩、落地不對稱裙襬",
+      "sprites": {
+        "happy": {
+          "image": "sprites/faye/default-happy-2-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/faye/default-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/faye/default-angry-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/faye/default-surprised-2-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/faye/default-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/faye/default-aroused-cutout.webp",
+          "description": ""
+        },
+        "neutral": {
+          "image": "sprites/faye/default-neutral-cutout-2.webp",
+          "description": ""
+        }
+      },
+      "pregnant": false
+    },
+    {
+      "id": "pregnant",
+      "name": "孕婦裝",
+      "description": "她有著圓滾滾的孕肚。",
+      "inherits": "default",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/faye/pregnant-neutral-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/faye/pregnant-happy-2-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/faye/pregnant-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/faye/pregnant-angry-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/faye/pregnant-surprised-2-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/faye/pregnant-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/faye/pregnant-aroused-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": true
+    },
+    {
+      "id": "nude",
+      "name": "全裸",
+      "description": "什麼都沒穿，全身赤裸",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/faye/nude-neutral-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/faye/nude-happy-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/faye/nude-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/faye/nude-angry-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/faye/nude-surprised-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/faye/nude-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/faye/nude-aroused-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": false
+    },
+    {
+      "id": "nude-pregnant",
+      "name": "全裸，懷孕中",
+      "description": "她有著圓滾滾的孕肚。",
+      "inherits": "nude",
+      "sprites": {
+        "neutral": {
+          "image": "sprites/faye/nude-pregnant-neutral-cutout.webp",
+          "description": ""
+        },
+        "happy": {
+          "image": "sprites/faye/nude-pregnant-happy-cutout.webp",
+          "description": ""
+        },
+        "sad": {
+          "image": "sprites/faye/nude-pregnant-sad-cutout.webp",
+          "description": ""
+        },
+        "angry": {
+          "image": "sprites/faye/nude-pregnant-angry-cutout.webp",
+          "description": ""
+        },
+        "surprised": {
+          "image": "sprites/faye/nude-pregnant-surprised-cutout.webp",
+          "description": ""
+        },
+        "embarrassed": {
+          "image": "sprites/faye/nude-pregnant-embarrassed-cutout.webp",
+          "description": ""
+        },
+        "aroused": {
+          "image": "sprites/faye/nude-pregnant-aroused-cutout.webp",
+          "description": ""
+        }
+      },
+      "pregnant": true
+    },
+    {
+      "id": "bathrobe",
+      "name": "浴袍",
+      "description": "一件短款絲質浴袍，腰間鬆鬆地繫著，滑落至一側肩膀，深 V 領口展現著乳溝，下擺高至裸露的大腿",
+      "pregnant": false,
+      "sprites": {
+        "neutral": {
+          "image": "sprites/faye/bathrobe-neutral-cutout.webp",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": "bathrobe-pregnant",
+      "name": "浴袍，懷孕中",
+      "inherits": "bathrobe",
+      "description": "她有著圓滾滾的孕肚。",
+      "pregnant": true,
+      "sprites": {
+        "neutral": {
+          "image": "sprites/faye/bathrobe-pregnant-neutral-cutout.webp",
+          "description": ""
+        }
+      }
+    }
+  ],
+  "defaultOutfitId": "default",
+  "faceY": 4,
+  "imageSeed": 60,
+  "stageHeight": 100,
+  "partyRole": "striker",
+  "studies": {
+    "major": "BUS",
+    "level": 4
+  },
+  "animations": [
+    {
+      "id": "blowjob",
+      "name": "口交",
+      "description": "",
+      "image": "sprites/faye/nsfw-blowjob.webp",
+      "clip": "sprites/faye/nsfw-blowjob.mp4",
+      "loop": true
+    },
+    {
+      "id": "missionary",
+      "name": "傳教士式",
+      "description": "",
+      "image": "sprites/faye/nsfw-missionary.webp",
+      "clip": "sprites/faye/nsfw-missionary.mp4",
+      "loop": true
+    },
+    {
+      "id": "doggy",
+      "name": "後入式",
+      "description": "",
+      "image": "sprites/faye/nsfw-doggy.webp",
+      "clip": "sprites/faye/nsfw-doggy.mp4",
+      "loop": true
+    },
+    {
+      "id": "cowgirl",
+      "name": "女上位",
+      "description": "",
+      "image": "sprites/faye/nsfw-cowgirl.webp",
+      "clip": "sprites/faye/nsfw-cowgirl-2.mp4",
+      "loop": true
+    },
+    {
+      "id": "creampie",
+      "name": "內射",
+      "description": "",
+      "image": "sprites/faye/nsfw-creampie.webp",
+      "clip": "sprites/faye/nsfw-creampie.mp4",
+      "loop": true
+    },
+    {
+      "id": "facial",
+      "name": "顏射",
+      "description": "",
+      "image": "sprites/faye/nsfw-facial.webp",
+      "clip": "sprites/faye/nsfw-facial.mp4",
+      "loop": true
+    },
+    {
+      "id": "pregnant-blowjob",
+      "name": "口交，懷孕中",
+      "description": "",
+      "image": "sprites/faye/nsfw-pregnant-blowjob.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-missionary",
+      "name": "傳教士式，懷孕",
+      "description": "",
+      "image": "sprites/faye/nsfw-pregnant-missionary.webp",
+      "clip": "sprites/faye/minimax-h3-00093-audio.mp4",
+      "loop": true
+    },
+    {
+      "id": "pregnant-doggy",
+      "name": "後背式，懷孕",
+      "description": "",
+      "image": "sprites/faye/nsfw-pregnant-doggy.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-cowgirl",
+      "name": "女上位，懷孕",
+      "description": "",
+      "image": "sprites/faye/nsfw-pregnant-cowgirl.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-creampie",
+      "name": "內射，懷孕",
+      "description": "",
+      "image": "sprites/faye/nsfw-pregnant-creampie.webp",
+      "loop": true
+    },
+    {
+      "id": "pregnant-facial",
+      "name": "顏射，懷孕",
+      "description": "",
+      "image": "sprites/faye/nsfw-pregnant-facial.webp",
+      "loop": true
+    }
+  ],
+  "schedule": [
+    {
+      "weekdays": [
+        "Wednesday"
+      ],
+      "periods": [
+        "evening"
+      ],
+      "locationId": "cauldron"
+    },
+    {
+      "weekdays": [
+        "Friday",
+        "Saturday"
+      ],
+      "periods": [
+        "night"
+      ],
+      "locationId": "undergrowth"
+    },
+    {
+      "periods": [
+        "morning"
+      ],
+      "locationId": "spell-and-sip"
+    },
+    {
+      "periods": [
+        "afternoon"
+      ],
+      "locationId": "market"
+    },
+    {
+      "periods": [
+        "evening"
+      ],
+      "locationId": "honeyed-bee-inn"
+    },
+    {
+      "periods": [
+        "night"
+      ],
+      "locationId": "lantern-row"
+    }
+  ],
+  "room": {
+    "name": "燈籠街精品店上方的公寓",
+    "description": "一間掛著絲綢帷幕的臥室，梳妝臺上擺滿了瓶瓶罐罐，一臺配有顯示市場行情第二螢幕的電腦，一個用於製作補藥的小型合法蒸餾器，一個小坩堝，以及放在市場天平上的黃金。床鋪奢華且充滿女性氣息。",
+    "locationId": "lantern-row",
+    "images": {
+      "day": "generated/backgrounds/faye/view.webp"
+    }
+  },
+  "birthPicture": "sprites/faye/birth.webp",
+  "walkSprite": "sprites/faye/walk-cutout.webp",
+  "childNames": {
+    "daughters": [
+      "Rosalind",
+      "Clover",
+      "Marigold",
+      "Posy",
+      "Linnet"
+    ],
+    "sons": [
+      "Jasper",
+      "Robin"
+    ]
+  },
+  "birthControl": true,
+  "ai": {
+    "speechPattern": "Calculating, yet always sultry and seductive. Knows she is desirable and uses that confidence to her advantage, even while discussing business.",
+    "tone": "sultry, sharp, amused",
+    "verbalQuirks": [
+      "Lets a pause hang after a suggestive line, to see what it is worth.",
+      "Calls someone  \"sweetheart\" when she has the upper hand."
+    ],
+    "exampleDialogue": [],
+    "backstory": "Post: Analyst intern at the Broodmarket Group; runs a small licensed tonic business from her apartment\n\nFaye Fertillay is twenty-two, sharp-tongued, and entirely aware of her own appeal. She wields flirting and seduction as tools.",
+    "knowledge": [],
+    "secrets": [],
+    "extraInstructions": "Her voice stays warm and unhurried when she is weighing an offer. She holds a look, chooses when to move closer, and enjoys seeing someone react. She flirts on purpose and usually knows what she wants from the exchange. Affection can become sincere without making her suddenly timid or stripping away her confidence. Give her real questions and desires; do not make every line a contract metaphor."
+  }
+}

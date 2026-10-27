@@ -1,0 +1,771 @@
+{
+  "name": "地下密室",
+  "moneyImage": "sprites/items/gold-pouch-cutout.webp",
+  "restImage": "sprites/items/campfire-cutout.webp",
+  "endingImages": {
+    "saved": "generated/backgrounds/epilogue/saved.webp",
+    "overrun": "generated/backgrounds/epilogue/overrun.webp"
+  },
+  "entryLocationId": "bathhouse",
+  "opensOnDay": 8,
+  "guideId": "vespera",
+  "intro": {
+    "hours": 1,
+    "text": "別問我是怎麼知道的，也別寫下來。在 {place} 下方有件你必須親眼看看的事，只有站在那裡你才會明白。{date} 在那見面。獨自前來。一小時後。",
+    "missedText": "你沒出現在 {place}。我不能一直獨自下去，我也沒辦法在這裡解釋。再說一次：{date}，地點不變。一定要到場。",
+    "cutscene": {
+      "speakerId": "vespera",
+      "scenes": [
+        {
+          "locationId": "bathhouse",
+          "castIds": [
+            "vespera"
+          ],
+          "lines": [
+            "*Vespera 穿著一件深色長外套，壓低帽簷，在溫泉池旁等著。她在微笑前，先兩次確認了你身後的門口。*",
+            "Vespera：你來了。很好。別露出那種擔心的表情，甜心。沒人會因為泡個澡就被開除的。",
+            "*她領著你繞過冒著熱氣的池畔，來到一扇你從未注意過的窄門。門後是一段通往黑暗深處的老舊樓梯。*",
+            "Vespera：這所大學是建立在某種東西之上的。排水溝、地窖、第一批石匠刻劃防護符咒的長廊，而在最底部，則是「綻放」湧出的泉源。",
+            "Vespera：七百年的防護線都錨定在那下面。它們支撐著你睡過的每一間大廳的防護術。而現在，它們正在鬆動。",
+            "Vespera：防護線鬆動的地方，原始的「綻放」會匯聚並成形。沒有意識的黏液、會抓人的根鬚、脫落並開始遊走的舊防護術。在你想問之前，它們跟 Lira 完全不同。",
+            "Vespera：如果你不小心，它們會把你打得落花流水。沒做好準備就下去，你回來時只會滿身瘀青，口袋空空。",
+            "Vespera：現在是你會喜歡的部分了。「綻放」會聚集在一位「真嗣」身邊。錨點只會在你手中成形。不是我，也不是委員會，而是你。",
+            "薇絲佩拉：你沒有魔法，所以不能獨自前往。你要帶上擁有魔法的女性，一次兩名，而且她們得足夠信任你，才願意跟隨你進入黑暗。",
+            "薇絲佩拉：而且懷著你孩子的女性在那下面會強大得多。隨你怎麼解讀。",
+            "薇絲佩拉：何必費事？因為如果結界消失，大學也會隨之毀滅。而且錨點旁總是有東西：金錢、奇特的古物，還有遺物。",
+            "薇絲佩拉：遺物才是真正的獎賞，甜心。每一件都是擁有自我意志的古老魔法，且沒有兩件的功能相同。有些會改變這裡每個女性在你身邊的舉止。有些會在瞬間做出我甚至不敢在教堂裡說出口的事。",
+            "薇絲佩拉：跟你一起下去的女性也會記得。沒有什麼比在下水道裡打一場更能拉近兩人的距離了。",
+            "薇絲佩拉：還有一件事。未經秘法委員會許可觸碰結界線是違法的。我一直都是獨自且悄悄地在做。請保持現狀。",
+            "薇絲佩拉：現在，讓我教你這要怎麼運作，免得你跑出去被吃掉。"
+          ]
+        }
+      ]
+    }
+  },
+  "hours": 3,
+  "partySize": 2,
+  "trustNeeded": 30,
+  "playerFooting": 20,
+  "footingPerEndurance": 3,
+  "anchorEnergy": 8,
+  "groundEnergy": 6,
+  "anchorPower": 1.5,
+  "checkpointRest": 0.4,
+  "critAffection": 100,
+  "critChance": 0.25,
+  "pregnancyPower": {
+    "early": 1.2,
+    "showing": 1.6,
+    "heavy": 2.2
+  },
+  "surgePerAction": 1,
+  "surgeLimit": 4,
+  "misfire": 4,
+  "grounds": 2,
+  "trustWon": 2,
+  "trustLost": 2,
+  "roles": [
+    {
+      "id": "guard",
+      "name": "地靈術士",
+      "footing": 34,
+      "actions": [
+        {
+          "id": "bash",
+          "name": "石刺",
+          "kind": "attack",
+          "power": 4
+        },
+        {
+          "id": "hold",
+          "name": "重力井",
+          "kind": "taunt",
+          "cooldown": 1
+        },
+        {
+          "id": "guard",
+          "name": "石膚術",
+          "kind": "guard"
+        }
+      ]
+    },
+    {
+      "id": "striker",
+      "name": "火術士",
+      "footing": 22,
+      "actions": [
+        {
+          "id": "strike",
+          "name": "火彈",
+          "kind": "attack",
+          "power": 6
+        },
+        {
+          "id": "all-in",
+          "name": "火球",
+          "kind": "attack",
+          "power": 12,
+          "cooldown": 2
+        },
+        {
+          "id": "guard",
+          "name": "火焰護盾",
+          "kind": "guard"
+        }
+      ]
+    },
+    {
+      "id": "hexer",
+      "name": "咒術師",
+      "footing": 20,
+      "actions": [
+        {
+          "id": "hex",
+          "name": "施咒",
+          "kind": "weaken",
+          "power": 5
+        },
+        {
+          "id": "unravel",
+          "name": "暗影箭",
+          "kind": "attack",
+          "power": 10,
+          "cooldown": 2
+        },
+        {
+          "id": "guard",
+          "name": "暗影帷幕",
+          "kind": "guard"
+        }
+      ]
+    },
+    {
+      "id": "warder",
+      "name": "守護者",
+      "footing": 22,
+      "actions": [
+        {
+          "id": "ward",
+          "name": "守護",
+          "kind": "shield",
+          "power": 6
+        },
+        {
+          "id": "push",
+          "name": "力場箭",
+          "kind": "attack",
+          "power": 4
+        },
+        {
+          "id": "great-ward",
+          "name": "高階護盾",
+          "kind": "shield",
+          "power": 14,
+          "cooldown": 3
+        }
+      ]
+    },
+    {
+      "id": "healer",
+      "name": "治療者",
+      "footing": 20,
+      "actions": [
+        {
+          "id": "mend",
+          "name": "治療",
+          "kind": "heal",
+          "power": 7
+        },
+        {
+          "id": "jolt",
+          "name": "懲戒",
+          "kind": "attack",
+          "power": 4
+        },
+        {
+          "id": "deep-mend",
+          "name": "強力治療",
+          "kind": "heal",
+          "power": 15,
+          "cooldown": 3
+        }
+      ]
+    }
+  ],
+  "enemies": [
+    {
+      "id": "wild-slime",
+      "name": "野生史萊姆",
+      "appearance": "一個腰高的無形半透明綠色活水球，閃閃發光，中心有更亮的發光核心，沒有臉或四肢。它會滴水並留下濕漉漉的痕跡。",
+      "footing": 14,
+      "attack": 3,
+      "weakTo": "striker",
+      "image": "sprites/undercroft/wild-slime-cutout.webp"
+    },
+    {
+      "id": "root-tangle",
+      "name": "根鬚糾結",
+      "appearance": "一團蠕動的蒼白樹根結，駝著身子，靠四條粗壯的樹根腿行走，佈滿尖刺，肢體上有細小的紫色發光芽苞，沒有臉。",
+      "footing": 18,
+      "attack": 4,
+      "hexes": true,
+      "weakTo": "hexer",
+      "image": "sprites/undercroft/root-tangle-cutout.webp"
+    },
+    {
+      "id": "pipe-wight",
+      "name": "管路小妖",
+      "appearance": "一個由生鏽銅管、肘部和閥門組成的駝揹人形，關節處冒出蒸汽，管狀肋骨內透出熔爐般的橘光。沒有臉，只有一個圓形的壓力表當作頭部。",
+      "footing": 24,
+      "attack": 5,
+      "weakTo": "warder",
+      "image": "sprites/undercroft/pipe-wight-cutout.webp"
+    },
+    {
+      "id": "loose-ward",
+      "name": "鬆動守衛",
+      "appearance": "一個沒有實體的漂浮魔法構造：破碎的藍色發光符文同心圓相互旋轉，周圍有鋸齒狀的藍光碎片在軌道上執行並拖曳著火花。",
+      "footing": 20,
+      "attack": 4,
+      "sweeps": true,
+      "weakTo": "hexer",
+      "image": "sprites/undercroft/loose-ward-cutout.webp"
+    },
+    {
+      "id": "steam-shade",
+      "name": "蒸汽幽影",
+      "appearance": "一縷高瘦的白色蒸汽，隱約呈現披著兜帽長袍的人形，下半身消散成水汽，雙眼是兩個細小的餘燼橘色光點。",
+      "footing": 16,
+      "attack": 7,
+      "weakTo": "guard",
+      "image": "sprites/undercroft/steam-shade-cutout.webp"
+    },
+    {
+      "id": "drowned-valve",
+      "name": "溺水閥門",
+      "appearance": "一個巨大的鏽蝕鐵製閥門輪，覆蓋著水垢與河藻，矗立在深色水流構成的扭曲柱狀物上。兩條彎曲的鉛管手臂垂掛其上，正傾瀉著水。輪輻後方透出綠光。",
+      "footing": 42,
+      "attack": 5,
+      "weakTo": "striker",
+      "image": "sprites/undercroft/drowned-valve-cutout.webp"
+    },
+    {
+      "id": "root-mother",
+      "name": "根源之母",
+      "appearance": "一個巨大的根部球體，形似倒置的樹樁，高度與門框相當，許多沉重的根鬚向外擴張。中心處有一個凹陷，內含一顆發光的紫色心臟，種子莢果如燈籠般懸掛其上。",
+      "footing": 58,
+      "attack": 6,
+      "hexes": true,
+      "weakTo": "hexer",
+      "image": "sprites/undercroft/root-mother-cutout.webp"
+    },
+    {
+      "id": "broken-lattice",
+      "name": "破碎格柵",
+      "appearance": "一個巨大的破碎藍色護符線陣，宛如懸浮在空中的破碎彩色玻璃窗，窗格已失，周圍環繞著閃爍光芒的鋸齒狀碎片。",
+      "footing": 70,
+      "attack": 6,
+      "sweeps": true,
+      "weakTo": "warder",
+      "image": "sprites/undercroft/broken-lattice-cutout.webp"
+    },
+    {
+      "id": "boiler-saint",
+      "name": "鍋爐聖者",
+      "appearance": "一個由直立銅製鍋爐構成的高大身影，鉚接板宛如長袍垂下，胸口處是燃燒著橘光的爐門，手臂是短粗的管狀物，頭部位置後方扇形展開著一圈黃銅管光環。",
+      "footing": 88,
+      "attack": 8,
+      "weakTo": "guard",
+      "image": "sprites/undercroft/boiler-saint-cutout.webp"
+    },
+    {
+      "id": "chained-stack",
+      "name": "鎖鏈煙囪",
+      "appearance": "一個被翻轉並直立起來的書架，被鐵鍊層層纏繞，書本像翅膀般拍動，散落的頁面在周圍旋轉，書架間透出紫色光芒。",
+      "footing": 92,
+      "attack": 7,
+      "hexes": true,
+      "weakTo": "hexer",
+      "image": "sprites/undercroft/chained-stack-cutout.webp"
+    },
+    {
+      "id": "stillwater",
+      "name": "靜水",
+      "appearance": "一個由完美靜止的黑色鏡面水構成的高大無面身影，站在一片同樣的水盤上，邊緣泛著淡藍色光芒，無面且對稱。",
+      "footing": 100,
+      "attack": 8,
+      "sweeps": true,
+      "weakTo": "striker",
+      "image": "sprites/undercroft/stillwater-cutout.webp"
+    },
+    {
+      "id": "first-ward",
+      "name": "第一守衛",
+      "appearance": "一個巨大的古代石環，如輪盤般直立，周身刻滿深邃的符文，中心充滿金光，破碎的石塊在周圍緩慢旋轉。",
+      "footing": 120,
+      "attack": 9,
+      "weakTo": "warder",
+      "image": "sprites/undercroft/first-ward-cutout.webp"
+    },
+    {
+      "id": "wellspring",
+      "name": "源泉",
+      "appearance": "一個巨大的發光金綠色噴泉，水流交織成一個模糊的女性輪廓，沒有面孔，雙臂張開，噴湧著霧氣。",
+      "footing": 140,
+      "attack": 9,
+      "sweeps": true,
+      "hexes": true,
+      "image": "sprites/undercroft/wellspring-cutout.webp"
+    }
+  ],
+  "depths": [
+    {
+      "name": "古老排水管",
+      "appearance": "古老澡堂下的拱頂磚造排水道。溫熱的水沒過腳踝，在長滿苔蘚的石徑間蒸騰。牆上有鏽蝕的鐵柵欄、滴水的銅管與水垢。淡綠色的光在水中匯聚，從下方照亮磚拱。",
+      "nodes": [
+        {
+          "kind": "fight",
+          "name": "被淹沒的涵洞",
+          "enemyIds": [
+            "wild-slime",
+            "wild-slime"
+          ],
+          "finds": {
+            "money": 15
+          }
+        },
+        {
+          "kind": "find",
+          "name": "掉落的小包",
+          "finds": {
+            "money": 10,
+            "items": {
+              "stillwater": 1
+            }
+          }
+        },
+        {
+          "kind": "checkpoint"
+        },
+        {
+          "kind": "guardian",
+          "name": "閥門室",
+          "enemyIds": [
+            "drowned-valve"
+          ],
+          "finds": {
+            "money": 30
+          }
+        }
+      ],
+      "relic": {
+        "id": "silver-tongue",
+        "name": "銀舌",
+        "icon": "necklace",
+        "description": "掛在精美鍊條上的護身符，能讓所有女性變得口無遮攔。佩戴時，她們都會說些下流話。",
+        "appearance": "一個形狀如捲曲舌頭的小銀飾，掛在細銀鍊上，拋光後閃閃發亮。",
+        "traitIds": [
+          "dirty-talk"
+        ],
+        "image": "sprites/undercroft/relic-silver-tongue-cutout.webp"
+      },
+      "image": "generated/backgrounds/undercroft/the-old-drains.webp"
+    },
+    {
+      "name": "根部地窖",
+      "appearance": "低矮的石製地窖，被巨大的淡色樹根貫穿，樹根從天花板垂下並在泥土地面上盤繞。架子上堆滿了被遺忘且落滿灰塵的罐子。樹根裂開磚石處透出微弱紫光。陰暗、狹窄、潮濕。",
+      "nodes": [
+        {
+          "kind": "fight",
+          "name": "穿透磚牆的根系",
+          "enemyIds": [
+            "root-tangle",
+            "wild-slime"
+          ],
+          "finds": {
+            "money": 20
+          }
+        },
+        {
+          "kind": "find",
+          "name": "園丁的藏匿處",
+          "finds": {
+            "money": 10,
+            "items": {
+              "grounding-salt": 1
+            }
+          }
+        },
+        {
+          "kind": "checkpoint"
+        },
+        {
+          "kind": "guardian",
+          "name": "母根",
+          "enemyIds": [
+            "root-mother",
+            "root-tangle"
+          ],
+          "finds": {
+            "money": 40
+          }
+        }
+      ],
+      "relic": {
+        "id": "exhibitionists-lantern",
+        "name": "露體狂之燈",
+        "icon": "lantern",
+        "description": "散發玫瑰色光芒的燈籠，讓被注視的感覺變得美妙無比。開啟時，所有女性都會渴望被注視。",
+        "appearance": "一個裝飾華麗的小型黃銅燈籠，配有玫瑰色玻璃窗，內部燃燒著溫暖的粉紅火焰。",
+        "traitIds": [
+          "exhibitionist"
+        ],
+        "image": "sprites/undercroft/relic-exhibitionists-lantern-cutout.webp"
+      },
+      "image": "generated/backgrounds/undercroft/the-root-cellars.webp"
+    },
+    {
+      "name": "護符畫廊",
+      "appearance": "一條長長的地下石廊，帶有桶狀拱頂與沉重的柱子。牆上刻著巨大的同心圓與發藍光的符文帶；部分符文已裂開並閃爍，像霧氣般洩露光芒。地面有鬆動的鋪路石，藍色光點漂浮其間。",
+      "nodes": [
+        {
+          "kind": "fight",
+          "name": "移位的護符走廊",
+          "enemyIds": [
+            "loose-ward",
+            "pipe-wight"
+          ],
+          "finds": {
+            "money": 25
+          }
+        },
+        {
+          "kind": "fight",
+          "name": "仍在行走的護符",
+          "enemyIds": [
+            "loose-ward",
+            "loose-ward"
+          ],
+          "finds": {
+            "money": 25,
+            "items": {
+              "stillwater": 1
+            }
+          }
+        },
+        {
+          "kind": "checkpoint"
+        },
+        {
+          "kind": "guardian",
+          "name": "格柵",
+          "enemyIds": [
+            "broken-lattice"
+          ],
+          "finds": {
+            "money": 50
+          }
+        }
+      ],
+      "relic": {
+        "id": "apple-of-discord",
+        "name": "不和之果",
+        "icon": "stone",
+        "description": "一顆被咬了一口的金蘋果。裝備時，嫉妒心會燃燒：戲劇性加倍，幹擾也加倍。",
+        "appearance": "一顆閃亮的金蘋果，被咬了一口，咬過的果肉發出微光。",
+        "modifier": {
+          "kind": "drama",
+          "amount": 2
+        },
+        "image": "sprites/undercroft/relic-apple-of-discord-cutout.webp"
+      },
+      "image": "generated/backgrounds/undercroft/the-ward-gallery.webp"
+    },
+    {
+      "name": "鍋爐地窖",
+      "appearance": "一個巨大的拱頂空間，圍繞著一座巨大的、因年代久遠而泛綠的鉚接銅鍋爐。黃銅管如樹幹般粗壯，配有閥門輪、壓力表與鐵格柵走道。蒸汽瀰漫在空氣中，被鍋爐縫隙透出的爐火橘光照亮。",
+      "nodes": [
+        {
+          "kind": "fight",
+          "name": "黑暗中的蒸汽",
+          "enemyIds": [
+            "steam-shade",
+            "pipe-wight"
+          ],
+          "finds": {
+            "money": 30
+          }
+        },
+        {
+          "kind": "find",
+          "name": "密封的儲物櫃",
+          "finds": {
+            "money": 30,
+            "items": {
+              "spring-tonic": 1
+            }
+          }
+        },
+        {
+          "kind": "checkpoint"
+        },
+        {
+          "kind": "guardian",
+          "name": "巨型鍋爐",
+          "enemyIds": [
+            "boiler-saint",
+            "steam-shade"
+          ],
+          "finds": {
+            "money": 60
+          }
+        }
+      ],
+      "relic": {
+        "id": "unraveling",
+        "name": "解構之線",
+        "icon": "stone",
+        "description": "一捲閃爍著光芒的線軸。在場景中使用時，現場所有人的衣物會瞬間消失。",
+        "appearance": "一個裝著閃爍銀線的小木製線軸，線頭在空中自行解開，形成閃亮的捲圈。",
+        "use": "unravel",
+        "image": "sprites/undercroft/relic-unraveling-cutout.webp"
+      },
+      "image": "generated/backgrounds/undercroft/the-boiler-vaults.webp"
+    },
+    {
+      "name": "鎖鏈書堆",
+      "appearance": "深埋地底的圖書館大廳。高聳的深色書架傾斜在陰暗中，每本書都用小鎖鏈鎖住，較長的鎖鏈從天花板鬆垮地垂下。灰塵厚重，梯子倒塌，書架間透出一盞冰冷的紫色燈籠光芒。",
+      "nodes": [
+        {
+          "kind": "fight",
+          "name": "不該出現在此的書架",
+          "enemyIds": [
+            "root-tangle",
+            "loose-ward",
+            "steam-shade"
+          ],
+          "finds": {
+            "money": 35
+          }
+        },
+        {
+          "kind": "fight",
+          "name": "書籍被鎖鏈束縛的原因",
+          "enemyIds": [
+            "pipe-wight",
+            "pipe-wight"
+          ],
+          "finds": {
+            "money": 35,
+            "items": {
+              "grounding-salt": 1
+            }
+          }
+        },
+        {
+          "kind": "checkpoint"
+        },
+        {
+          "kind": "guardian",
+          "name": "書堆",
+          "enemyIds": [
+            "chained-stack",
+            "loose-ward"
+          ],
+          "finds": {
+            "money": 70
+          }
+        }
+      ],
+      "relic": {
+        "id": "hourglass-of-stillness",
+        "name": "靜止沙漏",
+        "icon": "stone",
+        "description": "沙漏中的細沙靜止不動。在場景中使用時，除了你與同伴外，所有人的時間都會停止。",
+        "appearance": "一個小黃銅沙漏，金色的沙粒在下落途中靜止不動，凍結在玻璃之中。",
+        "use": "stillness",
+        "image": "sprites/undercroft/relic-hourglass-of-stillness-cutout.webp"
+      },
+      "image": "generated/backgrounds/undercroft/the-chained-stacks.webp"
+    },
+    {
+      "name": "靜謐之池",
+      "appearance": "一個天然石灰岩洞穴，擁有如鏡面般平靜的黑色水池，由磨損的踏腳石相連。鐘乳石與其完美的倒影。水線邊散發著淡藍色的生物光。極其平靜，沒有漣漪，陰影深邃。",
+      "nodes": [
+        {
+          "kind": "fight",
+          "name": "注視之水",
+          "enemyIds": [
+            "wild-slime",
+            "wild-slime",
+            "steam-shade"
+          ],
+          "finds": {
+            "money": 40
+          }
+        },
+        {
+          "kind": "find",
+          "name": "巖架上的祭品",
+          "finds": {
+            "money": 40,
+            "items": {
+              "stillwater": 2
+            }
+          }
+        },
+        {
+          "kind": "checkpoint"
+        },
+        {
+          "kind": "guardian",
+          "name": "靜水之地",
+          "enemyIds": [
+            "stillwater",
+            "wild-slime"
+          ],
+          "finds": {
+            "money": 80
+          }
+        }
+      ],
+      "relic": {
+        "id": "sapphic-charm",
+        "name": "薩福之魅",
+        "icon": "necklace",
+        "description": "兩輪新月交疊。在場景中使用時，那裡的女性會互相吸引並想要親吻。",
+        "appearance": "一個由淡粉色薔薇石英雕刻而成的雙新月交疊吊墜，掛在細金鍊上。",
+        "use": "sapphic",
+        "image": "sprites/undercroft/relic-sapphic-charm-cutout.webp"
+      },
+      "image": "generated/backgrounds/undercroft/the-still-pools.webp"
+    },
+    {
+      "name": "最初基石",
+      "appearance": "大學地底最古老的石造建築：由巨石般的粗糙石塊堆疊而成，未用砂漿，上面刻有石匠記號。圓形密室的地板上刻著一個巨大的結界環，散發著微弱的金光。工具破損，石粉飛揚，頭頂上方有著巨大的重量感。",
+      "nodes": [
+        {
+          "kind": "fight",
+          "name": "最古老的石頭",
+          "enemyIds": [
+            "pipe-wight",
+            "loose-ward",
+            "root-tangle"
+          ],
+          "finds": {
+            "money": 45
+          }
+        },
+        {
+          "kind": "fight",
+          "name": "石匠的守護",
+          "enemyIds": [
+            "loose-ward",
+            "loose-ward",
+            "steam-shade"
+          ],
+          "finds": {
+            "money": 45,
+            "items": {
+              "spring-tonic": 1
+            }
+          }
+        },
+        {
+          "kind": "checkpoint"
+        },
+        {
+          "kind": "guardian",
+          "name": "第一守護",
+          "enemyIds": [
+            "first-ward",
+            "pipe-wight"
+          ],
+          "finds": {
+            "money": 90
+          }
+        }
+      ],
+      "relic": {
+        "id": "minds-eye",
+        "name": "心靈之眼",
+        "icon": "stone",
+        "description": "一顆紫色的水晶眼球。在場景中使用時，你能聽到那裡的女性內心真正的想法。",
+        "appearance": "一顆深紫色水晶製成的玻璃眼球，帶有金色虹膜，內部透出柔和的光芒。",
+        "use": "minds-eye",
+        "image": "sprites/undercroft/relic-minds-eye-cutout.webp"
+      },
+      "image": "generated/backgrounds/undercroft/the-first-foundations.webp"
+    },
+    {
+      "name": "源泉",
+      "appearance": "位於萬物底部的巨大洞穴，規模如大教堂般宏偉。溫泉在寬闊的石盆中湧出，散發著綠金色的光芒，穿透升騰的霧氣。巨大的根鬚與古老的銅管從四面八方匯聚於此。中心矗立著一根刻有符文的風化石製錨柱。",
+      "nodes": [
+        {
+          "kind": "fight",
+          "name": "最後一級階梯",
+          "enemyIds": [
+            "steam-shade",
+            "steam-shade",
+            "root-tangle"
+          ],
+          "finds": {
+            "money": 50
+          }
+        },
+        {
+          "kind": "find",
+          "name": "水邊",
+          "finds": {
+            "money": 60,
+            "items": {
+              "stillwater": 1,
+              "grounding-salt": 1
+            }
+          }
+        },
+        {
+          "kind": "checkpoint"
+        },
+        {
+          "kind": "guardian",
+          "name": "源泉",
+          "enemyIds": [
+            "wellspring",
+            "loose-ward"
+          ],
+          "finds": {
+            "money": 100
+          }
+        }
+      ],
+      "relic": {
+        "id": "seed-of-the-first-bloom",
+        "name": "初綻之種",
+        "icon": "seed",
+        "description": "這顆種子是大學建立之初便要守護的。在特定場景中使用時，那裡的女性對「綻放」所做的任何抵抗都無濟於事。",
+        "appearance": "一顆巨大的金色種子，內部散發著溫暖的光芒，頂端捲曲著一抹綠色的嫩芽。",
+        "use": "first-seed",
+        "image": "sprites/undercroft/relic-seed-of-the-first-bloom-cutout.webp"
+      },
+      "image": "generated/backgrounds/undercroft/the-wellspring.webp"
+    }
+  ],
+  "effects": {
+    "firebolt": "sprites/fx/firebolt.webp",
+    "explosion": "sprites/fx/explosion.webp",
+    "shadow-orb": "sprites/fx/shadow-orb.webp",
+    "hex-sigil": "sprites/fx/hex-sigil.webp",
+    "force-orb": "sprites/fx/force-orb.webp",
+    "smite": "sprites/fx/smite.webp",
+    "heal": "sprites/fx/heal.webp",
+    "ward": "sprites/fx/ward.webp",
+    "stone-spikes": "sprites/fx/stone-spikes.webp"
+  },
+  "stopImages": {
+    "fight": "sprites/icons/stops-fight-cutout.webp",
+    "find": "sprites/icons/stops-find-cutout.webp",
+    "checkpoint": "sprites/icons/stops-checkpoint-cutout.webp",
+    "guardian": "sprites/icons/stops-guardian-cutout.webp"
+  }
+}
