@@ -44,8 +44,7 @@ left unsigned.
 - `src/preload/` – Context-isolated bridge exposing `window.api` to the renderer.
 - `src/renderer/` – React UI. `styles.css` holds the design system (colour and type
   tokens, buttons, translucent "glass" panels, the double-rule frame); `ui/` holds the
-  day view, scene view and dialogs. Features the design calls for that don't exist yet
-  show a "To be implemented" note.
+  day view, scene view and dialogs.
 
 ## Game concepts
 
@@ -260,7 +259,13 @@ asked to write. The choice is kept in `settings.json` with the LLM profiles.
 ## AI
 
 - **Settings** (the Settings button) hold two OpenAI-compatible endpoints: the **Main LLM**
-  and the **NSFW LLM**, each with base URL, API key, model, temperature, max reply tokens
+  and the **NSFW LLM**, each with base URL, API key, model, temperature, max reply tokens,
+  a timeout (two minutes by default; drafting a character or subject waits at least three),
+  and under Advanced: how hard a thinking model thinks (sent as `reasoning_effort`, OpenRouter's
+  `reasoning`, or a local chat template's `enable_thinking`, by default going by the address),
+  the samplers (top P, min P, top K, repetition, frequency and presence penalties, each sent
+  only when set), and OpenRouter's provider order, providers to avoid and fallbacks
+  (`extraParameters` in `src/main/ai/openai.ts`)
   and extra instructions. They are saved to `settings.json` in Electron's user-data folder,
   with keys encrypted by the OS keychain where available. Keys never reach the renderer.
 - **Scenes** start with an activity shared with a love interest. The character ends the
@@ -380,11 +385,11 @@ asked to write. The choice is kept in `settings.json` with the LLM profiles.
   (`src/shared/model/stats.ts`), on the usual scale of ability scores (10 is ordinary). A new game
   starts every stat at 8 and gives the player 27 points to raise them with as he likes, up
   to 15: a point buys a point up to 13, and the two above that cost two each. From there they are built by work, up to a cap of 30. Whatever works on a stat (a class,
-  a session from the Stats menu, a shift at a job that builds it, an activity) earns
-  **training points**, about one an hour, banked until there are enough for the next
+  a drill from the Stats menu, a shift at a job that builds it, focus) earns
+  **training points**, about one an hour (up to three in a drill played well), banked until there are enough for the next
   point: two at an ordinary score and two more for each step of its modifier, so 12 points
   from 10 to 14, 60 to 20 and 220 to 30. A day's work on one stat counts in full for the
-  first two points, for half for the next two and not at all after, so a stat is built
+  first six points, for half for the next six and not at all after, so a stat is built
   over weeks (`trainStat` in `src/shared/game/stats.ts`). Stats never fall. 14 is good, 18
   impressive, 22 exceptional and 26 legendary: what love interests notice and what jobs
   ask for. Each score has a
@@ -571,11 +576,14 @@ asked to write. The choice is kept in `settings.json` with the LLM profiles.
   exchange are put into the prompt of every scene with that love interest.
 - **Bloomr** (`src/shared/game/feed.ts`) is the photo feed: pictures with a caption. It needs
   both the Main LLM (captions) and ComfyUI (pictures) set up; without both there are no
-  posts. As each day begins the day is planned by rule (`feedRound`): one to three of the
-  love interests whose contact the player has, one or two posts each, at hours of their
-  own between 08:00 and 22:00, where each of them will be at that hour, and, four times in
-  ten when another love interest will be there too, that friend in the picture. One LLM
-  request then writes every caption, whether its picture is a selfie or a candid (`shot`),
+  posts. As each day begins the day is planned by rule (`feedRound`): some of the love
+  interests whose contact the player has post, each once at most (`postersToday`: at least
+  two, or the one there is, about a quarter of them once there are many, 5 of 20, and up
+  to a quarter of the rest more by luck), every post at an hour of its own between 08:00
+  and 22:00 so that no two go up together, with where each of them will be at that hour
+  and who could be in the picture with her: whoever will be there too, and her friends.
+  One LLM request then writes every caption, picks who if anyone is in the picture with
+  her from those (`with`), whether its picture is a selfie or a candid (`shot`),
   and a line of what it shows, and each picture is drawn in the background on ComfyUI, one
   at a time, with the Photo workflow, size and framing (`postPrompt` in
   `src/shared/comfy.ts`: one paragraph saying what kind of picture it is, her appearance,
@@ -587,6 +595,15 @@ asked to write. The choice is kept in `settings.json` with the LLM profiles.
   five more each time the reader scrolls to the end. The player can like a post or
   message its author. Her two latest posts that have gone up, and whether he liked them,
   are put into her prompt.
+- **The player's own posts**: "Take a picture" in a scene's way-out menu (beside the send arrow,
+  with the leave or end-of-class action and "Say goodbye", which says "Gotta go, goodbye!" and sums
+  the scene up at once) has the LLM that writes the scene write a caption and a line of what the
+  picture shows from its last lines, and ComfyUI draw it with the Photo workflow: of whoever is in
+  the scene with him, as they are dressed in it, never of the player (`scenePhotoPrompt`). It is
+  drawn in the background while the scene goes on, and goes on the feed as his, from
+  `@2Sire2Serious` (`PLAYER_HANDLE`), at the hour he took it. The same request has each of
+  those in it comment on the post in her own voice; the comments go up with it, and one by
+  anyone who was not in the scene is dropped (`parseScenePhoto`).
 - **Your own activity**: the "Something else?" box on the day view takes anything the
   player types ("invite Seraphine and Faye out for dinner"). The Main LLM turns it into an
   outing: a title, an opening line, who is invited (up to three), where, and for how long
@@ -710,8 +727,10 @@ asked to write. The choice is kept in `settings.json` with the LLM profiles.
 - **The Undercroft** (`expedition.json`, `src/shared/model/expedition.ts`,
   `src/shared/game/expedition.ts`, `ExpeditionView.tsx`, `PartyDialog.tsx`): a turn-based
   adventure with no LLM in its fights. From `opensOnDay` the `guideId` character sets an hour
-  to show him the way down (`scheduleDescent` in `descent.ts`, put where his day is free and
-  put down again when he misses it, as the house viewing is). Keeping it reads `intro.cutscene`,
+  to show him the way down (`scheduleDescent` in `descent.ts`, at the first free hour from
+  06:00, which is before his classes on almost every day, and put down again when he misses it,
+  as the house viewing is). While it is due it holds the day, and the day view always offers it
+  to go to, even when a class is on at the same hour. Keeping it reads `intro.cutscene`,
   her telling him what is below, its dangers and why it must be him (`attendDescent`), and
   then `BelowTour.tsx`: she has him open the Go below window and points out its parts, then
   puts him in a practice fight (`practiceRun`, a run made in memory on its own state, never
@@ -751,16 +770,30 @@ asked to write. The choice is kept in `settings.json` with the LLM profiles.
   (`src/main/content/expedition.test.ts`).
 - **Raising a stat**: each location lists what can be done there for a stat (`drills` in
   `locations.json`: a stat, a title and an opening line; edited under Locations). The day
-  view's **Stats** option opens into one suggestion for each of the six stats, picked from
-  every place that has one for it, preferring those open when he would arrive, and
-  changing from hour to hour. Taking one is a two-hour outing that is always two hours of work on that
-  stat, for energy. With love interests at the place when he arrives it is a scene: he
-  runs into one or two of them, picked at random, and the scene's summary lists what the
-  work did. With none there he is alone, whoever works at the place: no scene, and a toast
-  says what it did. Studying for a course works the same way. The confirmation says
+  view's **Stats** option opens into one drill for each of the six stats. Each stat has its
+  game at one place, the one that suits it: strength at Ironroot, dexterity and intelligence
+  at the Foundry, endurance by the river, wisdom in the chapel and charisma on the Great Court
+  steps. Those places are always open, so every drill can be had at any hour he is awake. Taking one is an outing of two hours or more, for energy, done
+  alone whoever is there: it is never a scene. When he gets there the hours are spent and
+  the drill waits in the save (`drill`) on its game (`src/shared/game/minigames.ts`,
+  `MiniGameView.tsx`), one for each stat: a power meter for strength, tracing a wire for
+  dexterity, a run along a side-scrolling river path for endurance, seen through his eyes
+  (tapping holds his pace level with the trainer, `pacerId` in `minigames.json`, Grushka, who
+  runs at the pace to hold; slower and she pulls ahead, harder and she drops back), turning tiles of a ward circuit for
+  intelligence, repeating the order a row of coloured candles flared in for wisdom (one
+  longer each round, over at a wrong candle), and reading strangers' faces for charisma
+  (each face is happy, bored, sad or annoyed, and is answered with a compliment, a joke,
+  comfort or space before her patience runs out). Each scores 0 to 1 and the drill trains `hours × (1 + 2 × score)`
+  points (`DRILL_PER_HOUR`): skipping the game is a score of 0, the same as an hour of focus.
+  A game is harder the higher the stat, and a timed one runs from 20 seconds to 30 at the cap
+  (`roundSeconds`). What the games are drawn with, and the strangers' faces in each mood, are in
+  `minigames.json`; `npm run icons -- pieces faces runners scenery` paints them, each stranger
+  from her own seed so that her four faces are the same woman, and the pacer from her own
+  character file (her appearance and usual clothes), in one running frame that the game bobs and
+  sways, gliding to where she should be rather than jumping. Nothing typed raises a stat: a typed outing only rests him
+  or does nothing for him. Studying for a course is an outing as before. The confirmation says
   first what he would miss by going, a class he is taking or a shift at his job, as it now
-  does for anything the player sets out to do. The stats a place has drills for are also
-  what it counts as a good place to work on.
+  does for anything the player sets out to do.
 - **Jobs** (`jobs.json`, `src/shared/game/jobs.ts`): a job is a place, a boss (an NPC), an
   hourly rate, the stats it asks for and its weekly shifts, 8 to 16 hours of them, which are
   written in the content so that a job is the same in every game. The phone has a Jobs
@@ -820,8 +853,9 @@ asked to write. The choice is kept in `settings.json` with the LLM profiles.
 - **Focus** (`src/shared/game/focus.ts`): under the Here bar on the day screen he picks one
   stat, or one course he is taking, as his focus (`focus` in the save). When he skips ahead
   to the next thing on his timetable, the hours that go by are spent on it
-  (`spendOnFocus`): `FOCUS_SHARE` (half) of what the same hours of a session would earn,
-  for no energy. A toast says what came of it as the next thing begins.
+  (`spendOnFocus`), for no energy: a stat at a training point an hour, what a drill whose
+  game is skipped gives; a course at `FOCUS_SHARE` (half) of what the same hours of study
+  would earn. A toast says what came of it as the next thing begins.
 - **What is next** (`src/shared/game/upcoming.ts`): the day screen puts the next thing on
   the player's timetable today at the head of what he can do: the soonest of the classes
   he takes, his shift, and the plans he has made (`nextUp`). Taking it skips the hours
@@ -854,11 +888,13 @@ asked to write. The choice is kept in `settings.json` with the LLM profiles.
 - **How she feels afterwards** (`src/shared/game/memory.ts`): affection, trust and desire
   are not earned by the hour. When a scene ends, the same request that writes each love
   interest's memory of it asks how the scene changed what she feels for the player: a
-  change in each of the three from -10 to 10, and a sentence of why, as one JSON object.
-  She is asked to judge as herself, and is given her personality and traits, what she
-  admires and whether he has it, where the two of them stand, her last comfort reading,
-  whether she walked out, any gifts, and the whole conversation; nothing is owed for
-  turning up, and a scene that left no mark is 0. The changes are applied when the scene
+  a sentence of why, then a word for the change in each of the three (`much less` through
+  `unchanged` to `much more`), as one JSON object. The words are worth what
+  `relationships.json`'s `sceneChange` says (-8 to 8), so pacing is tuned there and not in
+  the prompt. She is asked to judge as herself, and is given her personality and traits,
+  what she admires and whether he has it, where the two of them stand, her last comfort
+  reading, whether she walked out, any gifts, and the whole conversation; nothing is owed
+  for turning up, and a scene that left no mark is `unchanged`. The changes are applied when the scene
   closes and the reason is shown on the summary. Nothing else moves the three but a gift,
   which keeps its own effect: sitting a class together, keeping a plan, an invitation,
   orientation and the activities that are scenes no longer hand out fixed amounts. An NPC
@@ -1041,8 +1077,8 @@ directly: nothing in a scene ever calls it, and it talks only to the address you
 - **Using a picture**: "Use as the sprite" puts it on the outfit under that expression in
   the editor's draft; saving the character keeps it, like any other edit.
 - **Locations** (Edit game content, Locations): each of the game's places can be changed
-  there: its name, its two texts, opening hours, whether it is indoors or private, what it
-  is a good place to work on, and its pictures. `description` is what the LLM is told in a
+  there: its name, its two texts, opening hours, whether it is indoors or private, the drill
+  played there, and its pictures. `description` is what the LLM is told in a
   scene there (what the place is and what goes on in it); `appearance` is only what can be
   seen, and is sent to the image model and nothing else. A place has views, as a character has
   outfits (the first is shown unless the player picks another), and each view is drawn
@@ -1209,3 +1245,9 @@ outing. Classes, orientation and talks with NPCs are left alone.
   memory for everyone who was there.
 - The engine decides who, as what and when. It keeps no record of who has found out about
   whom and changes no meters itself; what comes of it is the LLM's to play.
+
+## License
+
+Copyright (C) 2026 Potatoman760.
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 3. It is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See [LICENSE](LICENSE) for the full terms.

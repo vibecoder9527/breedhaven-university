@@ -48,6 +48,8 @@ export interface MeetingRequest {
   timeOfDay?: string
   /** Ids of other love interests to bring along, up to two. */
   with?: string[]
+  /** Others are there to hear it: who is to suggest it is said by name, and not as "you". */
+  named?: boolean
 }
 
 /** The others asked along who exist, without the proposer or repeats, up to the scene limit. */
@@ -130,6 +132,11 @@ export function proposeMeeting(
   }
   const group = companionIds.length > 0
   const everyone = [loveInterestId, ...companionIds]
+  // A plan she has with him already, so that one is not made twice, nor taken for something else that is in the way.
+  const already = upcomingAppointments(state).filter((plan) => plan.kind === undefined && attendees(plan).includes(loveInterestId))
+  // One there already is that plan, talked of again: nothing is offered for it, or a second would be booked at the next free time.
+  const same = already.find((plan) => plan.locationId === location.id)
+  if (same) return { message: t('game.appointments.same', { player: state.player.name, title: same.title, when: describeWhen(content, same.time), place: location.name }) }
   const time = findMeetingTime(content, state, loveInterestId, request)
   // A time that fits what was asked and was passed over is said, with what is in the way, so that nobody makes up why.
   const asked = findMeetingTime(content, state, loveInterestId, request, false)
@@ -137,8 +144,6 @@ export function proposeMeeting(
     asked !== undefined && asked !== time
       ? t('game.appointments.taken', { when: describeWhen(content, asked), busy: busyWith(content, state, everyone, asked, MEETING_HOURS).join('; ') })
       : ''
-  // A plan she has with him already, so that one is not made twice, nor taken for something else that is in the way.
-  const already = upcomingAppointments(state).filter((plan) => plan.kind === undefined && attendees(plan).includes(loveInterestId))
   const booked =
     already.length > 0
       ? t('game.appointments.booked', { player: state.player.name, plans: already.map((plan) => t('game.appointments.bookedPlan', { title: plan.title, when: describeWhen(content, plan.time) })).join('; ') })
@@ -159,7 +164,17 @@ export function proposeMeeting(
     proposal: { loveInterestId, companionIds, title, time, hours: MEETING_HOURS, locationId: location.id },
     message:
       note +
-      t('game.appointments.found', { group, player: state.player.name, names: firstNames(content, companionIds), when: describeWhen(content, time), off, place: location.name, earliest: 'earliest', weekday: 'weekday' })
+      t(request.named ? 'game.appointments.foundFor' : 'game.appointments.found', {
+        group,
+        who: firstNames(content, [loveInterestId]),
+        player: state.player.name,
+        names: firstNames(content, companionIds),
+        when: describeWhen(content, time),
+        off,
+        place: location.name,
+        earliest: 'earliest',
+        weekday: 'weekday'
+      })
   }
 }
 

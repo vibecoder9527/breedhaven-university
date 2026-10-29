@@ -1,13 +1,13 @@
 import { z } from 'zod'
 
-/** A post that is going to be made: who by, when, where she will be, and who is in the picture with her. */
+/** A post that is going to be made: who by, when, where she will be, and who could be in the picture with her. */
 export const PostPlanSchema = z.object({
   authorId: z.string(),
   /** Game time (hours since start) at which it goes up. */
   time: z.number().int().min(0),
   locationId: z.string().optional(),
-  /** The friend in the selfie with her, when it is not of her alone. */
-  withId: z.string().optional()
+  /** Those who could be in the picture with her: whoever is there at that hour, and her friends. The LLM writing the post picks one, or nobody. */
+  company: z.array(z.string()).default([])
 })
 export type PostPlan = z.infer<typeof PostPlanSchema>
 
@@ -25,6 +25,8 @@ export const PostSchema = z.object({
   /** The player has liked it. */
   liked: z.boolean().default(false),
   /** His like has warmed her to him: the first like of a post does, once, however often it is taken back and given again. */
-  likeCounted: z.boolean().default(false)
+  likeCounted: z.boolean().default(false),
+  /** What was said under it: on a picture he took, by each of those in it. */
+  comments: z.array(z.object({ authorId: z.string(), text: z.string() })).default([])
 })
 export type Post = z.infer<typeof PostSchema>

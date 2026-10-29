@@ -1,0 +1,216 @@
+{
+  "pieces": [
+    {
+      "id": "barbell",
+      "name": "Barbell",
+      "iconImage": "sprites/icons/pieces-barbell-cutout.webp"
+    },
+    {
+      "id": "iron",
+      "name": "Soldering iron",
+      "iconImage": "sprites/icons/pieces-iron-cutout.webp"
+    },
+    {
+      "id": "heart",
+      "name": "Heart",
+      "iconImage": "sprites/icons/pieces-heart-cutout.webp"
+    },
+    {
+      "id": "tile",
+      "name": "Circuit tile",
+      "iconImage": "sprites/icons/pieces-tile-cutout.webp"
+    },
+    {
+      "id": "spark",
+      "name": "Spark",
+      "iconImage": "sprites/icons/pieces-spark-cutout.webp"
+    },
+    {
+      "id": "lamp",
+      "name": "Ward lamp",
+      "iconImage": "sprites/icons/pieces-lamp-cutout.webp"
+    },
+    {
+      "id": "candle",
+      "name": "Candle",
+      "iconImage": "sprites/icons/pieces-candle-cutout.webp"
+    },
+    {
+      "id": "flame-red",
+      "name": "Red flame",
+      "iconImage": "sprites/icons/pieces-flame-red-cutout.webp"
+    },
+    {
+      "id": "flame-orange",
+      "name": "Orange flame",
+      "iconImage": "sprites/icons/pieces-flame-orange-cutout.webp"
+    },
+    {
+      "id": "flame-gold",
+      "name": "Gold flame",
+      "iconImage": "sprites/icons/pieces-flame-gold-cutout.webp"
+    },
+    {
+      "id": "flame-green",
+      "name": "Green flame",
+      "iconImage": "sprites/icons/pieces-flame-green-cutout.webp"
+    },
+    {
+      "id": "flame-blue",
+      "name": "Blue flame",
+      "iconImage": "sprites/icons/pieces-flame-blue-cutout.webp"
+    },
+    {
+      "id": "flame-violet",
+      "name": "Violet flame",
+      "iconImage": "sprites/icons/pieces-flame-violet-cutout.webp"
+    },
+    {
+      "id": "compliment",
+      "name": "Compliment",
+      "iconImage": "sprites/icons/pieces-compliment-cutout.webp"
+    },
+    {
+      "id": "joke",
+      "name": "Joke",
+      "iconImage": "sprites/icons/pieces-joke-cutout.webp"
+    },
+    {
+      "id": "comfort",
+      "name": "Comfort",
+      "iconImage": "sprites/icons/pieces-comfort-cutout.webp"
+    },
+    {
+      "id": "space",
+      "name": "Give her space",
+      "iconImage": "sprites/icons/pieces-space-cutout.webp"
+    },
+    {
+      "id": "stopwatch",
+      "name": "Stopwatch",
+      "iconImage": "sprites/icons/pieces-stopwatch-cutout.webp"
+    },
+    {
+      "id": "finish-flag",
+      "name": "Finish flag",
+      "iconImage": "sprites/icons/pieces-finish-flag-cutout.webp"
+    },
+    {
+      "id": "run-progress",
+      "name": "Runner, the way to go",
+      "iconImage": "sprites/icons/pieces-run-progress-cutout.webp"
+    },
+    {
+      "id": "run-pace",
+      "name": "Runner, keeping pace",
+      "iconImage": "sprites/icons/pieces-run-pace-cutout.webp"
+    },
+    {
+      "id": "run-behind",
+      "name": "Runner, falling behind",
+      "iconImage": "sprites/icons/pieces-run-behind-cutout.webp"
+    },
+    {
+      "id": "run-fast",
+      "name": "Runner, too fast",
+      "iconImage": "sprites/icons/pieces-run-fast-cutout.webp"
+    }
+  ],
+  "runners": [
+    {
+      "id": "pacer",
+      "name": "The pacer, running",
+      "iconImage": "sprites/icons/runners-pacer-cutout.webp"
+    }
+  ],
+  "pacerId": "grushka",
+  "scenery": [
+    {
+      "id": "river-path",
+      "name": "The river path",
+      "iconImage": "generated/backgrounds/icons/scenery-river-path.webp"
+    }
+  ],
+  "listeners": [
+    {
+      "id": "bookworm",
+      "name": "Bookworm",
+      "faces": {
+        "happy": "sprites/icons/faces-bookworm-happy-cutout.webp",
+        "bored": "sprites/icons/faces-bookworm-bored-cutout.webp",
+        "sad": "sprites/icons/faces-bookworm-sad-cutout.webp",
+        "annoyed": "sprites/icons/faces-bookworm-annoyed-cutout.webp"
+      }
+    },
+    {
+      "id": "athlete",
+      "name": "Athlete",
+      "faces": {
+        "happy": "sprites/icons/faces-athlete-happy-cutout.webp",
+        "bored": "sprites/icons/faces-athlete-bored-cutout.webp",
+        "sad": "sprites/icons/faces-athlete-sad-cutout.webp",
+        "annoyed": "sprites/icons/faces-athlete-annoyed-cutout.webp"
+      }
+    },
+    {
+      "id": "gossip",
+      "name": "Gossip",
+      "faces": {
+        "happy": "sprites/icons/faces-gossip-happy-cutout.webp",
+        "bored": "sprites/icons/faces-gossip-bored-cutout.webp",
+        "sad": "sprites/icons/faces-gossip-sad-cutout.webp",
+        "annoyed": "sprites/icons/faces-gossip-annoyed-cutout.webp"
+      }
+    },
+    {
+      "id": "musician",
+      "name": "Musician",
+      "faces": {
+        "happy": "sprites/icons/faces-musician-happy-cutout.webp",
+        "bored": "sprites/icons/faces-musician-bored-cutout.webp",
+        "sad": "sprites/icons/faces-musician-sad-cutout.webp",
+        "annoyed": "sprites/icons/faces-musician-annoyed-cutout.webp"
+      }
+    },
+    {
+      "id": "cook",
+      "name": "Cook",
+      "faces": {
+        "happy": "sprites/icons/faces-cook-happy-cutout.webp",
+        "bored": "sprites/icons/faces-cook-bored-cutout.webp",
+        "sad": "sprites/icons/faces-cook-sad-cutout.webp",
+        "annoyed": "sprites/icons/faces-cook-annoyed-cutout.webp"
+      }
+    },
+    {
+      "id": "witch",
+      "name": "Witch",
+      "faces": {
+        "happy": "sprites/icons/faces-witch-happy-2-cutout.webp",
+        "bored": "sprites/icons/faces-witch-bored-2-cutout.webp",
+        "sad": "sprites/icons/faces-witch-sad-2-cutout.webp",
+        "annoyed": "sprites/icons/faces-witch-annoyed-2-cutout.webp"
+      }
+    },
+    {
+      "id": "wanderer",
+      "name": "Wanderer",
+      "faces": {
+        "happy": "sprites/icons/faces-wanderer-happy-cutout.webp",
+        "bored": "sprites/icons/faces-wanderer-bored-cutout.webp",
+        "sad": "sprites/icons/faces-wanderer-sad-cutout.webp",
+        "annoyed": "sprites/icons/faces-wanderer-annoyed-cutout.webp"
+      }
+    },
+    {
+      "id": "wit",
+      "name": "Wit",
+      "faces": {
+        "happy": "sprites/icons/faces-wit-happy-cutout.webp",
+        "bored": "sprites/icons/faces-wit-bored-cutout.webp",
+        "sad": "sprites/icons/faces-wit-sad-cutout.webp",
+        "annoyed": "sprites/icons/faces-wit-annoyed-cutout.webp"
+      }
+    }
+  ]
+}
